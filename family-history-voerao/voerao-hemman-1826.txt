@@ -1,5 +1,5 @@
 vörå komunionbok 1826-1832 vol 1/2 A and 2/2 B, listed second, images at
-https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9SZX-J?i=723&cat=2575868
+https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9SZX-J?cc=2805467&cat=2575868&i=723
 This long film combines two books, but in reverse order; page 1 is in the middle.
 Some farms are listed as newname-oldname-oldname...
 
@@ -239,7 +239,7 @@ image pg  by        hem
 
 
 vörå komunionbok 1826-1832 vol 2/2 B listed first, images at
-https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9S8V-C?i=348&cat=2575868
+https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9S8V-C?cc=2805467&cat=2575868&i=348
 This should be a duplicate of the first half of the 2-part film above,
 but it was reimaged; seems to have the same page numbers, maybe lighter images.
 
