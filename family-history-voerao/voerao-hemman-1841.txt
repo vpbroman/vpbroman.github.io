@@ -1,0 +1,238 @@
+vörå komunionbok 1841-1848 vol 1/2 A, images at
+https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9SKF-B?i=407&cat=2575868
+farms are listed newname-oldname-oldname...
+
+image pg  by        hem
+  1    0  familjenamn
+  4    0  innehål
+  7    1  rekipeldo jåfs
+ 12    6  rekipeldo smeds
+ 19   13  rekipeldo swens-björn-storkarhu
+ 25   19  rekipeldo kastus
+ 30   24  rekipeldo wäst
+ 38   32  rekipeldo peth
+ 41   35  rekipeldo grannas-karhu-lillkarhu
+ 46   40  rekipeldo simons
+ 51   45  rekipeldo omars
+ 66   60  rekipeldo klemets
+ 70   64  rekipeldo israëls
+ 74   68  rekipeldo forss-jåskarhu
+ 82   75  rekipeldo kullas-korfvolain
+ 87   79  rekipeldo långs
+ 91   83  rekipeldo bengs
+ 96   88  rekipeldo ehrs
+103   95  rekipeldo bjons
+108  100  rekipeldo pörnull
+111  103  rekipeldo backa-badstubacka
+118  110  rekipeldo soldater, inhyses, m. fl.
+125  117  jörala hertull
+130  122  jörala jåfs
+135  127  jörala bondas-johans
+138  130  jörala bertills
+141  133  jörala heinull
+146  138  jörala katill
+149  141  jörala jakas-jacobs
+152  144  jörala nickull
+156  148  jörala tråsk-kaurajärwi
+160  152  jörala soldater, inhyses, m. fl.
+166  158  andiala ruths
+171  163  andiala mannil
+175  167  andiala grannas
+179  171  andiala nyby
+183  175  andiala hirsal
+186  178  andiala hertus
+189  181  andiala antill
+191  183  andiala soldater, inhyses m. fl.
+193  185  lomby martois
+197  189  lomby budd
+199  191  lomby kylkis-kylkinen
+202  194  lomby thors
+205  197  lomby rasmus
+209  201  lomby ohlis
+211  203  lomby jäppil
+214  206  lomby knuts
+219  211  lomby skrifwars
+222  214  lomby ingo
+225  217  lomby kulp
+227  219  lomby kaustinen
+231  223  lomby nissil
+233  225  lomby soldater, inhyses, m. fl.
+240  232  bergby jussil
+243  235  bergby kjerp
+247  239  bergby kjötar
+250  242  bergby ollil
+253  245  bergby smeds
+256  249  bergby thalus
+259  252  bergby konstig
+261  254  bergby juopers
+264  257  bergby soldater, inhyses, m. fl.
+266  259  koskeby dahlkarl
+270  263  koskeby gråbbil
+273  266  koskeby isakas-storknäck
+275  269  koskeby ollus-kråka
+277  271  koskeby sippus
+281  275  koskeby klemets
+283  277  koskeby råndman
+286  280  koskeby kaminen
+291  285  koskeby nikus-nikonen
+295  289  koskeby knubb
+299  293  koskeby kneck-lillkneck
+302  296  koskeby soldater, inhyses m. fl.
+306  300  miemois grannas
+308  302  miemois karlas-karjalain
+310  304  miemois grims
+312  306  miemois miemois
+315  309  miemois nygård-jufwas
+317  311  miemois tunis
+318  312  miemois krooks
+320  314  miemois grind-grims
+321  315  miemois soldater, inhyses, m. fl.
+326  320  mäkipää murkais
+331  325  mäkipää grägg
+334  328  mäkipää seppä
+337  331  mäkipää ohlis-antohlis
+339  333  mäkipää staffans-ohlis
+341  335  mäkipää wöråborg
+343  337  mäkipää lillund
+345  339  mäkipää storlund
+346  340  mäkipää gammals
+348  342  mäkipää soldater, inhyses, m. fl.
+351  345  rökiö smårus
+354  348  rökiö pytar
+356  350  rökiö holms
+359  353  rökiö påhls
+362  356  rökiö kullas
+363  357  rökiö höijers
+365  359  rökiö knuts
+368  362  rökiö gammal
+371  365  rökiö andtbrams
+373  367  rökiö nygård
+378  372  rökiö bagge
+382  376  rökiö rex
+384  378  rökiö swenns
+386  380  rökiö brams
+388  382  rökiö klerk
+390  384  rökiö antus
+391  385  rökiö soldater, inhyses
+398  392  rökiö myrbergslund
+402  396  prästegårds landbonde etc
+408  402  prästegårds torpare etc end
+
+vörå komunionbok 1841-1848 vol 2/2 B, images at
+https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9SLN-R?i=362&cat=2575868
+
+image pg  by        hem
+  1    i  innehåll
+  3  404  lålax jåfs
+  5  406  lålax forss-bredforss
+  8  409  lålax jåssis
+ 10  411  lålax måsa
+ 14  415  lålax ollus
+ 16  417  lålax haga
+ 18  419  lålax enges
+ 20  421  lålax dunck
+ 22  423  lålax norrgård-helsing
+ 23  424  lålax soldater, inhyses, m. fl.
+ 25  426  tuckur ehrs
+ 30  431  tuckur jåfs
+ 35  436  tuckur grind
+ 38  439  tuckur brors
+ 43  444  tuckur akers
+ 48  449  tuckur skått
+ 51  iii  metadata and a repeated slide
+ 53  452  tuckur skått continued
+ 58  457  tuckur back
+ 62  461  tuckur rex
+ 65  464  tuckur finne
+ 68  467  tuckur swäls
+ 71  470  tuckur jånt
+ 74  473  tuckur kåck
+ 76  475  tuckur soldater, inhyses, m. fl.
+ 80  479  kofjoki bertills
+ 84  483  kofjoki månsus
+ 88  487  kofjoki widd
+ 91  490  kofjoki smeds
+ 94  493  kofjoki ingå
+ 98  497  kofjoki soldater, inhyses, m. fl.
+ 99  498  karfsor herr
+103  502  karfsor håfman
+108  507  karfsor håf
+111  510  karfsor simons-kafvus
+115  514  karfsor antus
+119  518  karfsor tåss
+123  522  karfsor skarp
+127  526  karfsor pärus
+129  528  karfsor soldater, inhyses, m. fl.
+131  530  kajtsor kejsars
+133  532  kajtsor heikkins
+137  536  kajtsor finne
+142  541  kajtsor hannus
+146  545  kajtsor bertills
+150  549  kajtsor sigfrids
+153  552  kajtsor håkus
+156  555  kajtsor präst
+158  557  kajtsor soldater, inhyses, m. fl.
+161  560  karfvat ulfwis
+163  562  karfvat markus-peth
+166  565  karfvat rännars
+169  568  karfvat lassus
+172  571  karfvat eurs
+175  574  karfvat kåck
+178  577  karfvat soldater, inhyses, m. fl.
+179  578  oxkangar abrams
+183  582  oxkangar antus
+187  586  oxkangar sigfrids
+190  589  oxkangar ryss
+194  593  oxkangar nygård-fusius
+197  596  oxkangar nissus
+201  600  oxkangar lundbergs-skratars
+203  602  oxkangar skeppars
+205  604  oxkangar soldater, inhyses m. fl.
+207  606  lotlax blusi
+211  610  lotlax norken
+214  613  lotlax lassus
+216  615  lotlax backul
+220  619  lotlax kullas
+223  622  lotlax ohls
+227  626  lotlax krooks
+230  629  lotlax hellsing
+232  631  lotlax klafwus
+234  633  lotlax skata
+236  635  lotlax huggars
+239  638  lotlax rännars
+242  641  lotlax nytomt-slögs
+245  644  lotlax slögs
+247  646  lotlax åkers
+251  650  lotlax snickars
+253  652  lotlax soldater, inhyses, m. fl.
+259  658  palfvis skåtars
+264  663  palfvis lassus
+269  668  palfvis yrjas
+273  672  palfvis knuts
+277  676  palfvis ströms
+279  678  palfvis ehrs
+281  680  palfvis peth
+284  683  palfvis soldater, inhyses m. fl.
+289  688  bertby kålax
+294  693  bertby finne
+297  696  bertby ollus
+301  700  bertby toppar
+306  705  bertby zachris
+310  709  bertby lillkålax
+312  711  bertby pedars
+315  714  bertby strand
+319  718  bertby jåfs
+322  721  bertby thors
+326  725  bertby antus
+329  728  bertby mattus
+331  730  bertby trött
+333  732  bertby backils
+335  734  bertby gåll
+339  738  bertby swens
+341  740  bertby soldater, inhyses, m. fl.
+346  745  kimo kuckus
+355  754  komåsa keskis
+357  756  komåsa agnisbäck
+359  758  komåsa brännars
+362  761  komåsa soldater, inhyses m. fl.
+363  762  blank end
