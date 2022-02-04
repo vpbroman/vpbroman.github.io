@@ -1,7 +1,7 @@
 vörå komunionbok 1826-1832 vol 1/2 A and 2/2 B, listed second, images at
 https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9SZX-J?i=723&cat=2575868
 This long film combines two books, but in reverse order; page 1 is in the middle.
-farms are listed newname-oldname-oldname...
+Some farms are listed as newname-oldname-oldname...
 
 
 image pg  by        hem
@@ -120,8 +120,6 @@ image pg  by        hem
 345  702  kimo lillkeskis eller svedars
 346  703  kimo keskis
 349  706  kimo inhyses
-
-
 350   iv  title slide for first book
 351    v  metadata
 352   vi  innehål
@@ -242,8 +240,8 @@ image pg  by        hem
 
 vörå komunionbok 1826-1832 vol 2/2 B listed first, images at
 https://www.familysearch.org/ark:/61903/3:1:3Q9M-C95J-9S8V-C?i=348&cat=2575868
-this should be a duplicate of the first half of the 2-part film above,
-but it was reimaged; seems the same page numbers, maybe lighter image.
+This should be a duplicate of the first half of the 2-part film above,
+but it was reimaged; seems to have the same page numbers, maybe lighter images.
 
 image pg  by        hem
   1    i  metadata

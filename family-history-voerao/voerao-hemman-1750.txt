@@ -10,14 +10,14 @@ image   by hem
   6     rekipeldoby omars
   7     rekipeldoby clemets
   8     rekipeldoby israels
-  9     rekipeldoby jåskarhu
+  9     rekipeldoby joskarhu
  10     rekipeldoby wäst
  11     rekipeldoby korfwolain
  12     rekipeldoby långs
  13     rekipeldoby bängs
  14     rekipeldoby kastus
  15     rekipeldoby ehrs
- 16     rekipeldoby bions
+ 16     rekipeldoby bions+pörnull
  17     rekipeldoby soldater och inhyses folk
  18     rekipeldoby 
  19     jörala bertils
@@ -33,20 +33,20 @@ image   by hem
  29     jörala soldater och hus folk
  30     andiala hirsal+hertus
  31     andiala mannil
- 32     andiala nyby
+ 32     andiala nyby+antill
  33     andiala ruts
  34     andiala grannas
  35     andiala soldater och hys folk
- 36     lomby rasmus
+ 36     lomby rasmus+ohlis
  37     lomby budd
  38     lomby nissil
  39     lomby knus
  40     lomby skrifwars
  41     lomby kylkinen
- 42     lomby thors
+ 42     lomby thors+ingo
  43     lomby kaustinen
  44     lomby martois
- 45     lomby kulpas
+ 45     lomby kulpas+jäppel
  46     lomby lomby soldater och inhyses folk
  47     lomby [etc]
  48     bergby jussill
@@ -73,7 +73,7 @@ image   by hem
  69     kåskeby nickonen
  70     kåskeby soldater och inhyses folck
  71     kåskeby [etc]
- 72     miemosby jufvas
+ 72     miemosby jufvas+miemos
  73     miemosby tunis
  74     miemosby miemos
  75     miemosby kroks
@@ -132,14 +132,14 @@ image   by hem
 128     kåfjoki bertils
 129     kåfjoki bertils
 130     kåfjoki månsus
-131     kåfjoki smeds
+131     kåfjoki smedz
 132     kåfjoki ingo
 133     kåfjoki soldater och inhyses folck
 134     karfsor tåss
-135     karfsor pårus
+135     karfsor perus
 136     karfsor håfman
 137     karfsor herr
-138     karfsor kafvus
+138     karfsor kafvus och simons
 139     karfsor antus
 140     karfsor skarpar
 141     karfsor håf
@@ -147,7 +147,7 @@ image   by hem
 143     kaitsor håkus
 144     kaitsor bertils
 145     kaitsor bertils
-146     kaitsor prätt
+146     kaitsor präst
 147     kaitsor heikins
 148     kaitsor hannus
 149     kaitsor hannus
@@ -222,19 +222,19 @@ image   by hem
 218     oxgangar nissus
 219     oxgangar skratars
 220     oxgangar skieppars
-221     oxgangar sigfreds
+221     oxgangar sigfredz
 222     oxgangar ryssas
 223     oxgangar abrahams
 224     oxgangar fussius
 225     kimoby agnisbäck
-226     kimoby keskis
-227     kimoby brännars
-228     kimoby kucku
-229     kimoby kucku
+226     keskis -
+227     keski brännars
+228     kimoby kuckoi
+229     kimoby kuckoi
 230     prästegården -
 231     prästegården -
 232     prästegården [etc]+pållars
 233     prästegården dränghus
-234     prästegården saltpetterfindaren
-235     prästegården [etc]
+234     prästegården saltpetter siudaren
+235     prästegården skiär wachten på kocklot
 236     blank
