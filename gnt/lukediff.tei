@@ -1,0 +1,4193 @@
+<!DOCTYPE tei.2 PUBLIC "-//TEI//DTD TEI Lite 1.0//EN" [
+      <!ENTITY teieng system 'teien.wsd' NDATA wsd>
+      <!ENTITY teigrc system 'teigreek.wsd' NDATA wsd>
+      <!ENTITY teilat system 'teila.wsd' NDATA wsd>
+      <!ENTITY teifra system 'teifra.wsd' NDATA wsd>
+      <!ENTITY teiesp system 'teiesp.wsd' NDATA wsd>
+      <!ENTITY % symbols.ent system 'symbols.ent'> %symbols.ent;
+]>
+<tei.2>
+<teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title>
+	The support of internal text critical evidence for the
+	Alexandrian and Byzantine text types in Luke
+      </title>
+      <author><name> Vincent Broman </></author>
+    </titleStmt>
+    <editionStmt>
+      <edition>
+	Second draft, substantially revised from the
+	text first distributed electronically,
+	<date>11 May 1996</>
+      </edition>
+    </editionStmt>
+    <extent>Approximately 150k bytes uncompressed</>
+    <publicationStmt>
+      <publisher>
+	TC: a Journal of Biblical Textual Criticism
+      </publisher>
+      <pubPlace>The Global Internet</pubPlace>
+      <date>1996</date>
+      <availability>
+	<p>Copyright 1995 Vincent Broman
+	<p>Permission granted to make verbatim (unaltered) copies
+	for any noncommercial purpose.
+      </availability>
+    </publicationStmt>
+    <sourceDesc>
+    <p>The electronic text is the original form, not a transcription.
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <refsDecl>
+      <p>References are according to the TC Guidelines.
+    </refsDecl>
+  </encodingDesc>
+  <profileDesc>
+    <creation>
+      Originally a plain ASCII text available on the Internet,
+      then revised and marked up with TEI Lite for potential publication.
+    </creation>
+    <langUsage>
+      <language id=eng wsd=teieng> Modern American English </language>
+      <language id=grc wsd=teigrc> Koine Greek, TLG BETA coding </language>
+      <language id=lat wsd=teilat> Latin </language>
+      <language id=fra wsd=teifra> Modern French </language>
+      <language id=esp wsd=teiesp> Modern Spanish </language>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change>
+      <date>9 mar 1996</><respStmt><name>VPB</><resp>ed.</></>
+      <item>TEI markup</>
+    </change>
+    <change>
+      <date>11 May 1996</><respStmt><name>VPB</><resp>ed.</></>
+      <item>SGML parsing, corrections, LaTeX typesetting</>
+    </change>
+  </revisionDesc>
+</teiHeader>
+
+<text lang=eng>
+<front>
+  <titlePage>
+    <docTitle>
+      <titlePart type=main>
+	The support of internal text critical evidence for the
+	Alexandrian and Byzantine text types in Luke
+      </titlePart>
+    </docTitle>
+    <docAuthor> Vincent Broman </>
+    <docDate> 11 May 1996 </>
+  </titlePage>
+
+  <div type=abstract>
+    <head> Abstract </>
+    <p> This article evaluates, on the basis of Hort's
+    <term>internal evidence of groups</>,
+    the relative weight of authority that ought to be assigned to manuscripts
+    of the Byzantine and Alexandrian text types when they are compared
+    for the purpose of reconstructing the original text of Luke.
+    An averaged text representing each text type is constructed
+    in chapters 8-10 and 16-18 of Luke from the agreement of three of the four
+    manuscripts &aleph; B L 892 and three of the four manuscripts A W Y &Pi;.
+    All of the 179 differences between these averaged texts are individually
+    listed and discussed,
+    weighing the internal evidence for each reading being original
+    or secondary. The <term lang=lat>lectio brevior</>
+    canon of criticism was not used.
+    The weight of internal evidence favored the Alexandrian text
+    in 47 locations,
+    the Byzantine text in 69 locations, and in the remaining 63 locations
+    the evidence was balanced, indiscernible, or favorable to a third reading.
+    The commonly held view that the Alexandrian witnesses are superior
+    in textual character to the Byzantines was not confirmed.
+  </div>
+</front>
+
+<body>
+
+<div type=section><head> Background </>
+
+<p> 
+Most witnesses to the text of the New Testament, whether manuscripts, versions,
+or citations, can be classified into broad groups called text types.
+The members of a text type have texts that agree closely enough
+that their similarity in readings can probably be attributed to descent
+by copying or mixture from some common ancestor or ancestors,
+although similarities
+in editorial policy among the copyists involved may also play some role.
+Text types are not so closely knit as text families,
+for which a family archetype is either extant or reconstructible.
+
+<p>
+The earliest attested text type in most of the NT is called
+<soCalled rend=quoted>Western</>
+(or Delta or D) because some of the prominent witnesses to it are found
+in the western Roman empire.  Not everyone agrees that the
+<soCalled rend=quoted>Western</>
+witnesses are unified enough to be called a text type.
+Next oldest are the witnesses to the text type associated with Egypt,
+called Alexandrian (or Beta).  Hort distinguished the earliest
+Alexandrian witnesses available to him, &aleph;, B, and Origen, from the later
+witnesses by giving them the value-laden name of
+<soCalled rend=quoted>Neutral</> text type.
+(Or more precisely, the label <soCalled rend=quoted>Neutral</>
+describes a hypothetical text thought to lie behind these witnesses.)
+I follow Colwell in regarding the Neutrals and Alexandrians all as
+one broad stream stretching from p75 down to 1241.
+The great majority of Greek witnesses from the ninth century on,
+and some back to the fourth century, belong to the Byzantine
+(or Syrian or Antiochian or Alpha or Koine) text type.  Within this
+text type several chronological layers and numerous families and subgroups
+have been delineated.  A Caesarean (or Gamma) text type, named for its
+similarity to the Gospel quotations of Origen and Eusebius in Caesarea,
+has been detected in Mark, but its outlines are shadowy and dubitable.
+
+<p>
+About 100 years ago, Hort led the movement that dethroned the Textus Receptus,
+the most visible representative of the Syrian or Byzantine text type, and
+crowned in its stead Vaticanus and the other Neutral witnesses to the NT text.
+Since then, the received opinion has been that NT manuscripts of the
+Byzantine text type are of little or no value in recovering the original
+text of the NT.  This opinion persists today, even though Hort's
+genealogical theory explaining the origin of the Byzantines as a
+secondary development is no longer widely accepted.
+In particular, his Syrian text is not the
+result of an authoritatively promulgated recension.
+Nearly all modern editions of the Greek New Testament closely resemble
+the edition of Westcott-Hort.  This solidarity is attributable
+to several factors, but prominent among those factors is Hort's claim
+that <term>internal evidence of groups</> clearly favors Alexandrian witnesses
+over other kinds of witnesses, especially the Syrian or Byzantine witnesses.
+This claim is still very widely accepted and repeated.
+
+<p>
+The authority of "good manuscripts" rests partly on considerations
+of age and provenance, but also substantially on our judgement
+based on internal evidence about the quality of the text in that manuscript.
+The <term>internal evidence of readings</> includes a consideration of intrinsic
+probabilities, i.e. which reading is more likely to be what the original
+author would write, as well as transcriptional probabilities, i.e. which
+reading seems to arise from known causes of transcriptional corruption.
+The <term>internal evidence of documents</> evaluates whether a document
+predominantly exhibits readings favored or not favored by internal
+evidence of readings, wherever such evidence is clearly discernible.
+Hort's <term>internal evidence of groups</> evaluates the internal evidence of
+readings for or against the variants read in common by a group of witnesses,
+e.g., a group of witnesses that belong to a single text family or type.
+
+<p>
+Gordon Fee wrote an article [Fee79] patiently refuting the
+view of Pickering, Hodges, et al, that the Byzantine text was the
+Majority text of every century.  Fee (echoing others) suggested that
+long experience with comparing manuscripts supported the feeling
+that the Byzantines are overwhelmingly opposed by considerations
+of internal evidence.  He suggested: just open up Tischendorf and count!
+So, I accepted his challenge, hoping to experience some of that weight
+of accumulated examples by doing such an evaluation myself.
+
+<p>
+Since the results turned out rather different from
+many would have expected,
+readers should work through the mass of concrete particulars presented herein.
+This will allow the weight of evidence to erase uncritical prejudices
+and hearsay opinions, in favor of empirically defensible conclusions.
+By exposing this body of evidence to public, critical examination,
+I hope that errors due to my biases and blindspots can be overcome.
+
+</div>
+<div type=section><head> Approach </>
+
+<p>
+I want to methodically study the differences between the Alexandrian
+and Byzantine text types, in as objective a fashion as possible,
+in order to evaluate their collective authority as text types.
+
+<p>
+The process of weighing internal text critical evidence is unavoidably
+subjective in many respects, but we can still demand at least that the body
+of readings to be compared be objectively determined.  Also, we desire that
+the set of textual differences to be examined be chosen in such a way that
+conclusions about text types can be drawn, and so that text-type issues can be
+disentangled from related issues such as the age of the manuscripts involved,
+the number and distribution of extant witnesses and their lacunae,
+and the effects of translation seen in the versional witnesses.
+
+<p>
+First, then, we must take our evidence from the readings of manuscripts,
+not the texts of editions.  Even though NA26 is heavily Alexandrian
+and the Stephanus 1550 TR is quite Byzantine, we should not compare
+these two editions for this study just for convenience sake, because the
+text of NA26 depends on imponderable factors of editorial judgement,
+and the TR does not represent well the Byzantine tradition of any century
+before the sixteenth.  Representative coverage of the manuscript evidence
+from both the Alexandrian and Byzantine text types is not available in the
+Nestle-Aland apparatus, but it is available for the book of Luke
+in the apparatus of the International Greek New Testament Project [IGNTP].
+
+<p>
+Since we want to draw general conclusions about the value of whole
+groups of manuscripts, it may not be advisable to select one champion
+from each text type camp for a bout of single combat, because
+the results could depend on idiosyncracies of those single manuscripts
+and not generalize well to judgements about the whole tribe.
+This will be illustrated later in this paper by a concrete example.
+Vaticanus (B) and Petropolitanus (&Pi;) were collated against each other
+as representatives of the Alexandrian and Byzantine text types,
+and the variants found were evaluated
+to see how well they represent the difference between text types.
+It turns out, not well, as the details reported below suggest.
+
+<p>
+In order to avoid idiosyncrasies of individual MSS,
+some kind of averaged text must be
+constructed from more representative manuscripts than one.
+And if several manuscripts are referred to in constructing each averaged
+text, we must refer consistently to the same manuscripts
+throughout the whole study.  This means either that nonfragmentary
+manuscripts must be chosen, or else that the sections of text reconstructed
+be confined to those verses where all witnesses are extant.  Because of the
+small amount of common text which appears in any two fragmentary witnesses,
+I chose to work with generally nonfragmentary Greek manuscripts.
+
+<p>
+If we were to compare the value of &aleph; and B, say, against U and 045,
+one might well complain that we are not comparing text type against
+text type so much as we are comparing fourth century witnesses against
+ninth century witnesses.
+Accordingly, the set of witnesses chosen to represent each text type should be
+roughly equal in average age, to isolate the effect of age from the
+effect of text type.
+
+<p>
+When averaging together any three manuscripts, whether related or not,
+a 2/3 majority is very easy to muster, so I decided to choose four
+manuscripts to represent each text type and require a 3/4 majority vote
+to determine how each averaged text would read.  Wherever this 3/4
+majority cannot be mustered, the averaged text has a lacuna.
+
+<p>
+To represent the Alexandrians, &aleph;, B, and L are obvious choices, because they
+are the only nonfragmentary uncials of that text type in Luke.
+Wisse classifies C as <q>mixed</q> not <q>group B</q> in Luke.
+Among the Alexandrian miniscules, all but 892 and 1241 were
+either fragmentary or exhibited block mixture.  After a quick test
+of frequency of defections, 892 was chosen as the more loyal of these two.
+The symbol gB stands for the 3/4 consensus of (the first hand readings of)
+&aleph;&plus;B&plus;L&plus;892 in this study.
+
+<p>
+To represent the Byzantines in Luke, A and W are the obvious starting points.
+The text of W shows block mixture, with Luke 1:1-8:10 being non-Byzantine.
+Because of this, chapters 1-7 were excluded from consideration
+and the one unit of variation in 8:1-10 for which the reading of W
+was critical to the voting was omitted from the study.  There may
+be another block mixture boundary somewhere near chapter 18 or 19 in W,
+but it is less distinctive or significant.  This complicating factor of
+block mixture did not disqualify W from use in this study,
+because we needed an <emph>early</> Byzantine MS, and the next-best candidate
+available was the 7th century uncial 0211.  A wide range of choices
+was available for the other Byzantine manuscripts to be chosen.
+Silva Lake showed, in Mark at least, that the common parent
+of the closely related A and &Pi; was probably more similar to &Pi; than A.
+Because of this result, &Pi; was chosen for the third representative.
+I thought a witness which was related to A and &Pi;, but not descended
+from A or &Pi; would make the averaged text more like a real archetype,
+so I chose Y from what Wisse in [Wis] calls the &Pi;-b group of manuscripts.
+Y has a lacuna in 16:1-4, so one variant in those verses for which
+Y was critical to the voting was also omitted from the study.
+The symbol gA stands for the 3/4 consensus of (the first hand readings of)
+A&plus;W&plus;Y&plus;&Pi; in this study.
+
+<p>
+The IGNTP Luke [IGNTP] apparatus was carefully searched throughout
+chapters 8-10 and 16-18 for all variants where
+at least three of the four Alexandrians chosen differed from at
+least three of the four Byzantines.  This step should be repeatable
+with no great difficulty by anyone checking these results, except
+that deciding how much to include in one unit of variation occasionally
+required use of judgement.  Several readings first written up
+separately were later joined together when analysis showed they
+were closely coupled.
+
+</div>
+<div type=section><head> Internal Evidences Used </>
+
+<p>
+The types of internal evidences I examined are, with one major exception,
+essentially those named in the introduction to Metzger's commentary [Met].
+These are:
+<list type=bulleted>
+<item> parablepsis or hom, i.e. scribal leaps forward or backward,</>
+<item> scribal omission or alteration of material which seemed superfluous,
+harsh, impious, or contradicted liturgical or ascetic usages,</>
+<item> devotional expansion by scribes of references to deity or holy things,
+and filling out of confusing ellipses,</>
+<item> scribal harmonization of the text to parallels,</>
+<item> scribal harmonization of the text to the immediate context,</>
+<item> scribal substitution of more common expressions for rare expressions,
+and improved, refined, Attic usage for unrefined Koine usage,</>
+<item> the author's known style, usage, and preferred vocabulary,</>
+<item> harmony with the authorial intentions known by other means, and</>
+<item> style reflecting the Aramaic background of Jesus' teaching and the
+use of the Septuagint in citations and allusions.
+</list>
+I did not find any use for Metzger's rule mentioning the priority of Mark
+among the Gospels, granting that the hypothesis may be useful for
+inferring the intentions of the author.
+
+<p>
+I explicitly rejected from Metzger's list of canons of criticism
+the one often referred to as <term lang=lat>lectio brevior</>,
+that is, the preference for shorter readings over longer readings.
+Along with it I reject similar
+generalizations which are simply hypothetical rationales for this canon,
+e.g. the claim that scribes always tended to expand and fill out the text
+by adding pronouns, conjunctions, and expletives.
+
+<p>
+Royce in [Roy95] presents a good discussion of this <q>shorter reading</q>
+canon and finds it vaguely or inconsistently defined and applied.
+Various exceptions to the shorter reading rule have been seen
+as necessary, such as for instances of parablepsis or for the deletion of
+displeasing readings, but in particular an exception is often prescribed for
+the loss of inessential short words such as pronouns and articles.
+This one exception happens to cover a large subset of the variations
+between text types we examine in this paper.
+
+<p>
+Royce summarizes three studies by Colwell [Col], Hood [Hoo], and
+himself [Roy81] on the scribal habits of the copyists of the early NT papyri.
+These studies examine the text of pre-fourth-century NT papyri
+and critically analyze the singular readings to determine what
+kind of errors the copyists of those manuscripts tended to make.
+All these studies found that deletions of text occurred
+substantially more often than additions of text.
+This means that the oft-heard generalizations to the effect that
+scribes predominantly tended to expand the text simply do
+not apply to the early period of NT textual transmission.
+While these empirical results might well justify adopting a canon
+favoring the longer reading when dealing with NT texts of this early
+period, I do not revolutionize to that extent in this study.
+
+</div>
+<div type=section><head> Results predicted by theories like those of Hort </>
+
+<p>
+Since this study is an attempt to explicitly and formally test
+certain widespread opinions about New Testament text types,
+it is appropriate to review what current wisdom says
+about the quality of Alexandrian and Byzantine witnesses to the NT text.
+
+<p>
+Westcott and Hort on p. 116 of [] wrote about distinctively Syrian readings:
+<q>Often either the transcriptional or the intrinsic evidence
+is neutral or divided, and occasionally the two kinds of evidence
+appear to be in conflict.  But there are, we believe,
+no instances where both are clearly in favor of the Syrian reading,
+and innumerable where both are clearly adverse to it.</q>
+
+<p>
+And on p. 192, writing about &aleph;, B, C, D, L, and 33 as primary documents,
+Westcott and Hort say:
+<q>... all groups containing none of these primary documents are
+found so habitually to support the obviously wrong variants
+where internal evidence is tolerably clear,
+that they must lie under the strongest suspicion in doubtful variations.</q>
+
+<p>
+Fee on p411 of [Fee79] said, after discussing an example of a harder reading:
+<q>This example can be multiplied a thousand times over; and in the vast
+majority of cases the 'easier' reading (= the corruption) is that
+of the majority text.</q>
+
+<p>
+While Aland in [Ala] does not make a clear, explicit statement about
+the lack of authority he sees in the Byzantine witnesses, he
+makes perfectly clear from his examples of text criticism in
+action that Byzantine witnesses carry no weight in his estimation.
+This is also evident from the fourteen units of variation cited in the
+section on readings below
+where the Byzantine reading is favored by internal evidence
+over the Alexandrian reading, but the Nestle-Aland 26th edition
+does not even mention
+the reading in the apparatus, much less place it in the text.
+
+<p>
+From the cited comments, I would suppose that Hort, Aland, Fee,
+and most contemporary text critics would predict that among the textual
+variants examined in this paper, many more, perhaps twice as
+many more, would exhibit internal evidence favorable to the
+Alexandrian text type as would appear favorable to the Byzantine text type.
+
+</div>
+<div type=section>
+<head> Outline and format of data in the section on readings </>
+
+<p>
+Each of the 179 units of variation is listed separately below,
+each variant location labeled by a chapter number, a verse number,
+and a location number between 1 and 179.  After this heading
+comes the list of alternative readings followed by the summary verdict
+and the discussion.
+The differing readings in each text location are quoted
+with sufficient context to identify the unit of variation unambiguously.
+The gA reading is always listed first, followed by the gB reading second,
+followed by the other alternative readings, if any.
+The identifying sigla for the essential witnesses supporting each reading
+appear after the text of the reading.  The gA reading is usually that
+of the TR, but if not, another reading is labeled with "TR".
+The gB reading is usually that of NA26, but if not, another reading
+is labeled as "NA26".  If a unit of variation is not documented
+by any apparatus entry in NA26, then it is noted that
+<q rend=quoted>the variant is unmentioned in NA26.</q>
+
+<p>
+The summary verdict follows the keyword "Preference: ",
+and is encoded as
+<list type=gloss>
+<label>gA</><item> internal evidence definitely favoring A&plus;W&plus;Y&plus;&Pi;</>
+<label>gA?</><item> internal evidence slightly favoring A&plus;W&plus;Y&plus;&Pi;</>
+<label>none</><item> no preference, balanced preference,
+                     or preferring a third reading</>
+<label>gB?</><item> internal evidence slightly favoring &aleph;&plus;B&plus;L&plus;892</>
+<label>gB</><item> internal evidence definitely favoring &aleph;&plus;B&plus;L&plus;892</>
+</list>
+
+<p>
+The discussion lists the parallel passages considered as
+harmonization opportunities, mentions the considerations which
+make one or the other reading appear primary or secondary,
+and suggests the most likely explanation of the facts observed.
+The sources referred to by the author's name are those in the
+bibliography below.  The difference between "definitely" and
+"slightly" is intended to be at least suggestive, even though
+no clear empirical definition of these terms was ever attempted.
+
+</div>
+<div type=section><head> Section on readings with discussion </>
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:09, variant number 1 </head>
+<label lang=grc> LEGONTES TIS </>
+  <item> A Y &Pi; 892 </>
+<label lang=grc> TIS </>
+  <item> &aleph; B L W </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 13:9-10 and Mark 4:9-10, which caused no synoptic harmonization.
+<p>The extra <q lang=grc>LEGONTES</q> after <q lang=grc>EPHRWTWN</q>
+is superfluous, a semitism/LXXism, and so is Lukan.
+(This reading is also "distinctively Syrian", by the way.)
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:12, variant number 2 </head>
+<label lang=grc> AKOUONTES </>
+  <item> A W Y &Pi; </>
+<label lang=grc> AKOUSANTES </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Mark 4:15 and Mark 13:19, where the wording is only loosely similar
+to that in Luke, so that synoptic harmonization is not a strong likelihood.
+How about LXX Isaiah??  Preference divided??
+<p>
+The verse 10 quote of Isaiah reads <q lang=grc>AKOUONTES</q>,
+verse 12 has <q lang=grc>PISTEUANTES</q>,
+verse 14 has <q lang=grc>AKOUSANTES</q> in the same context,
+and verse 15 has <q lang=grc>AKOUSANTES</q>.
+The tense of gA might be a harmonization to verse 10,
+and gB might be harmonizing to verses 14 and 15.
+The context before <q lang=grc>EITA</q> seems to demand an aorist participle.
+Succeeding instances of <q lang=grc>AKOUSANTES</q> in fam. &Pi;, fam. 1675,
+and other scattered MSS are changed to present tense.
+Several singular readings harmonize to Matt, Mark, Isaiah.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:16, variant number 3 </head>
+<label lang=grc> LUXNIAS EPITIQHSIN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> LUXNIAS TIQHSIN </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> LUXNIAS </>
+  <item> 983 1241 2643 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Mark 4:21 <q lang=grc>EPI THN LUXNIAN EPITEQH</q>
+(gB <q lang=grc>TEQH</q>).
+<p>Cf. Matt 5:15 <q lang=grc>LUXNIAN</q> with verb implied.
+<p><q lang=grc> TIQHSIN</q> may be a harmonization to prior context.
+The gA compound verb is a Lukan preference.
+The extra <q lang=grc>EPI</q> may have seemed superfluous to a copyist.
+After the preceding <q lang=grc>UPOKATW KLINHS TIQHSIN</q>,
+Luke would likely repeat the verb with either a synonym or,
+at least, a variation in form.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:17, variant number 4 </head>
+<label lang=grc> O OU GNWSQHSETAI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> O OU MH GNWSQH </>
+  <item> &aleph; B Lc (L* omit <q lang=grc>MH</>) 892 </>
+<label lang=grc> ALLA INA GNWSQH </>
+  <item> D d </>
+</list>
+
+<p>Preference: none
+<p>Cf. Mark 4:22-23 <q lang=grc>FANERWQH</q>, the reading of D parallel
+only in the addition of <q lang=grc>INA</q>.
+<p>Cf. Matt 10:26 where the verb matches gA.
+<p>Cf. Luke 12:2 where the verb matches gA, also.
+<p>Synoptic harmonization is not highly likely: the wording is
+a very loose paraphrase.
+<!-- gA is fut pass ind.  gB is aor pass subj. -->
+The tense of gA matches the preceding <q lang=grc>GENHSETAI</q>.
+That of gB matches the following <q lang=grc>ELQH</q>.
+Note that the form of <q lang=grc>ELQH</q> nearby is firm,
+there is no urge to change it in the MSS.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:20, variant number 5 </head>
+<label lang=grc> KAI APHGGELH </>
+  <item> A (Y -<q lang=grc>ELEI</>) &Pi; </>
+<label lang=grc> APHGGELH DE </>
+  <item> &aleph; B 892 </>
+<label lang=grc> APHGGELLH DE </>
+  <item> L p75 </>
+<label lang=grc> APHGGEILAN DE </>
+  <item> X 213 Cs Cb </>
+<label lang=grc> KAI APHGGELQH </>
+  <item> W 372 </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 12:47 <q lang=grc>EIPE</q>.
+<p>Cf. Mark 3:32 which presents no significant parallel.
+No synoptic harmonization to be seen.
+An abundance of <q lang=grc>KAI</q> is more Koine in style,
+<q lang=grc>DE</q> Attic, according to Bauer p391.
+This suggests that gA is sooner attributable to the less lettered
+Evangelist than to an Atticistic copyist.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:20, variant number 6 </head>
+<label lang=grc> AUTW LEGONTWN </>
+  <item> A Y &Pi; </>
+<label lang=grc> AUTW OTI </>
+  <item> &aleph; L 892 </>
+<label lang=grc> AUTW </>
+  <item> B W	NA26 </>
+<label lang=grc> AUTW IDOU </>
+  <item> Cs Cb gat </>
+<label lang=grc> AUTW LEGONTWN OTI </>
+  <item> 4 1424 pc Sh </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 12:47 <q lang=grc>EIPE DE TIS AUTW</q>.
+<p>Cf. Mark 3:32 <q lang=grc>EIPON DE AUTW</q>, to which the Coptic
+here is parallel, no other harmonization being detectable.
+<p>
+Pleonastic <q lang=grc>LEGWN</q> like the gA reading
+is a Lukan LXXism, according to Fitzmyer.
+The shorter readings in gB and B&plus;W are adjustments to normal Greek usage.
+The reading of 4&plus;1424 is derived from gA, possibly conflated with gB.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:24, variant number 7 </head>
+<label lang=grc> EGERQEIS EPETIMHSE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> DIEGERQEIS EPETIMHSE </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 8:26, which reads like gA.
+<p>Cf. Mark 4:39 which resembles gB, the context matching Luke a bit
+more closely than Matthew does.
+The gB reading harmonizes to <q lang=grc>DIHGEIRAN</q> in the preceding context.
+Colwell says early scribes harmonized to the immediate context much more
+often than to synoptic parallels.
+<q lang=grc>DIEGERQEIS</q> is possibly more Lukan in isolation, but Luke might
+well prefer to vary his verb choice here.
+Cadbury [Cad] says that Luke likes to repeat, but varying the form in which
+the concept is expressed again.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:25, variant number 8 </head>
+<label lang=grc> FOBHQENTES DE </>
+  <item> A W Y &Pi; B	NA26 </>
+<label lang=grc> OI DE FOBHQENTES </>
+  <item> &aleph; L 892 </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 8:27 and Mark 4:41.
+Neither synoptic matches exactly, but Luke looks like a combination
+of Matt&plus;Mark.  If so, gB resembles Matthew, so that there is
+some chance of gB having harmonized to Matthew.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:27, variant number 9 </head>
+<label lang=grc> EK XRONWN IKANWN KAI </>
+  <item> A W Y &Pi; &aleph;C1 892 </>
+<label lang=grc> KAI XRONW IKANW </>
+  <item> &aleph;* &aleph;C2 B L </>
+<label lang=grc> APO XRONWN IKANWN OS </>
+  <item> D </>
+<label lang=grc> KAI XRONW POLLW </>
+  <item> 1 1582 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 8:28 and Mark 5:3-5, where there is no match.
+<p>Metzger p145 suggests a change was caused by a confusion in construing
+the phrase as "naked a long time" or "possessed a long time".
+The latter seems more reasonable in the story, so it is both more likely
+to be Luke's expression just as much as it is more likely to be copied.
+I have no other idea why one reading would change to the other preferentially.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:27, variant number 10 </head>
+<label lang=grc> IMATION OUK ENEDIDUSKETO </>
+  <item> A W Y &Pi; &aleph;C1 892 </>
+<label lang=grc> OUK ENEDUSATO IMATION </>
+  <item> &aleph;* &aleph;C2 B L </>
+<label lang=grc> IMATIA OUK ENEDIDUSKETO </>
+  <item> f Sp Sh(mg) Dta Dtp Go </>
+</list>
+
+<p>Preference: gA
+<p>Clothing is not mentioned in Mark 5 or Matt 8.
+The gB reading is due to harmonization to the immediate context:
+other verbs nearby are aorist in narrative, imperfect for his circumstances.
+gA has the only perfect.
+<!-- (Also, the perfect might possibly
+be misinterpreted as his not being dressed for the occasion.) -->
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:28, variant number 11 </head>
+<label lang=grc> KAI ANAKRACAS </>
+  <item> A Y &Pi; 892 </>
+<label lang=grc> ANAKRACAS </>
+  <item> &aleph; B L W </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 8:29, Mark 5:7, Mark 1:23-24, and Luke 4:34,
+where the wording is not parallel.
+The <q lang=grc> KAI</q> in gA connecting two circumstantial participles
+may not be good classical usage,
+particularly followed by the <q lang=grc>KAI FWNH MEGALH EIPE</q>. (true??)
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:29, variant number 12 </head>
+<label lang=grc> EDESMEITO </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EDESMEUETO </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 5:3-4 where the wording is not parallel.
+<p>Cf. Matt 8 where no chains are mentioned.
+<p>The <mentioned lang=grc>DESMEW</> entry in LSJM says that the word
+is equivalent to <mentioned lang=grc>DESMEUW</>, but the form was
+denigrated by Moeris as un-Attic.
+Judging also by the number of Bauer citations, the gA form is less usual.
+Accordingly, gB is a correction from a less common, unapproved, Koine spelling
+to a more common Attic form.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:30, variant number 13 </head>
+<label lang=grc> ESTIN ONOMA </>
+  <item> A W Y &Pi; </>
+<label lang=grc> ONOMA ESTIN </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Cf. the Mark 5:9 parallel, which reads without a verb.
+<p>Bauer p570 says that the copula is unusual with <q lang=grc>ONOMA</q>.
+The examples listed all had <q lang=grc>ONOMA</q> immediately next to
+the pronoun for the person named.
+Reading gB could be a correction of gA to a more usual word order.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:31, variant number 14 </head>
+<label lang=grc> KAI PAREKALEI AUTON </>
+  <item> A Y &Pi; </>
+<label lang=grc> KAI PAREKALOUN AUTON </>
+  <item> &aleph; B L 892 </>
+<label> omit </>
+  <item> W </>
+<label lang=grc> PAREKALOUN DE </>
+  <item> D d </>
+<label lang=grc> PAREKALEI OUN AUTON </>
+  <item> 22 1192 1210 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 8:31 <q lang=grc>PAREKALOUN</q>.
+<p>Cf. Mark 5:10,12 <q lang=grc>PAREKALEI</q>, <q lang=grc>PAREKALESAN</q>,
+with no reading exactly matching Luke.
+The Markan synoptic parallel is closer in form,
+but Matt in general is better known.
+<p>Matt has two men, Mark masculine plural.
+The form <q lang=grc>DAIMONIA</q> is neuter plural,
+but it later takes a plural verb.
+Reading gA could be a grammatical correction or a harmonization
+to match <q lang=grc>EISELQEN</q>.
+Reading gB could be a harmonization to all the nearby plurals.
+The singular is ambiguous as to whether the man or the daemons is meant.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:32, variant number 15 </head>
+<label lang=grc> PAREKALOUN </>
+  <item> A W Y &Pi; &aleph;* </>
+<label lang=grc> PAREKALESAN </>
+  <item> &aleph;C B L 892 </>
+<label lang=grc> PAREKALEI </>
+  <item> 5 27* 229* </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 8:31 <q lang=grc>PAREKALOUN</q>.
+<p>Cf. Mark 5:10,12 <q lang=grc>PAREKALEI</q>, <q lang=grc>PAREKALESAN</q>,
+and Luke 8:31 (see the entry for that other variant).
+The miniscules harmonized to prior context.
+The Markan synoptic parallel is closer in form,
+but Matt in general is better known.
+The aorist is better suited to the meaning,
+but the imperfect was used a verse back in many MSS.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:36, variant number 16 </head>
+<label lang=grc> KAI OI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> OI </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 8:34, which does not match closely.
+<p>Cf. Mark 5:16, which is similar without <q lang=grc>KAI</q>,
+but harmonization appears unlikely.
+<p>There are no strong reasons to prefer either reading.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:37, variant number 17 </head>
+<label lang=grc> EIS TO PLOION </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EIS PLOION </label>
+  <item> &aleph; B L 892 </>
+<label> omit </>
+  <item> D d l </>
+</list>
+
+<p>Preference: none
+<p>Cf. Mark 5:18 which has <q lang=grc>EIS TO PLOION</q>
+but no other matching wording in the context.
+A boat was mentioned in verses 22-26,
+which is so far distant that <q lang=grc>TO</q>
+might feel strange either present or absent.
+Could it be the same boat or a different one?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:38, variant number 18 </head>
+<label lang=grc> O IHSOUS LEGWN </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> LEGWN </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Mark 5:19, which is not close.
+<p> Th referent of <q lang=grc>AUTON</q> is less than obvious,
+if the reader is not attentive.
+The subject supplied by gA is inferrable from context with slight thought.
+The previous sentence has <q lang=grc>AUTOU</q> and <q lang=grc>AUTW</q>
+referring to the healed man.
+Variant gB is harder to read,
+but the subject supplied by gA might have seemed prolix to some copyists.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:39, variant number 19 </head>
+<label lang=grc> EPOIHSE SOI </>
+  <item> A Y &Pi; </>
+<label lang=grc> SOI EPOIHSE </>
+  <item> &aleph; B 892 W </>
+<label lang=grc> EPOIHSE SOU </>
+  <item> L L859 </>
+<label lang=grc> SOI PEPOIHKEN </>
+  <item> R 1342 Cyr </>
+<label lang=grc> SOU EPOIHSEN </>
+  <item> D (with trans.) </>
+<label lang=grc> PEPOIHKEN </>
+  <item> 579 </>
+<label lang=grc> EPOIHSE </>
+  <item> 1229 </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 5:19, where the word order is not very similar.
+The gA word order is a bit clearer, easier to read.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:45, variant number 20 </head>
+<label lang=grc> APOQLIBOUSI KAI LEGEIS TIS O AYAMENOS MOU </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> APOQLIBOUSI </>
+  <item> &aleph; B L </>
+<label lang=grc> APOQLIBOUSI KAI LEGEIS TIS MOU HYATO </>
+  <item> D &Psi; 28 it </>
+</list>
+
+<p>Preference: none
+<p>Metzger on p. 146 says omission of the clause could be due to stylistic
+pruning by Alexandrian copyists, and that addition of the clause
+with diverse wording could be a scribal assimilation to Mark 5:31.
+<p>The wording of D looks a lot like synoptic harmonization,
+especially seeing that <q lang=grc>HYATO</q> is the form in Mark,
+while a quotation from the start of verse 45 would read
+<q lang=grc>O AYAMENOS</q>.
+If gA is due to synoptic harmonization,
+it would require borrowing the thought from Mark and then
+accomodating the verb form to match that found earlier in the verse.
+The additional clause is not demanded by the context,
+it might even be regarded as disrespectful of Peter to say it.
+These considerations pro/con seem to be balanced.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:46, variant number 21 </head>
+<label lang=grc> ECELQOUSAN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> ECELHLUQUIAN </>
+  <item> &aleph; B (L 892 -QIAN) </>
+</list>
+
+<p>Preference: none
+<p>Cf. Mark 5:30, which has the word <q lang=grc>ECELQOUSAN</q>,
+but the surrounding context does not match up.
+<p>The context in Luke 8:47 has several -<q lang=grc>OUSA</q> participles,
+but in third-person narration, not quotation.
+Kilpatrick (ref?? check Sturz) says that the perfect tense was unusual
+in the first century,
+but was frequently an Attic refinement of early copyists.
+<p>The considerations of harmonization and style refinement are balanced.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:48, variant number 22 </head>
+<label lang=grc> QARSEI QUGATER </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> QUGATER </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 9:22, which is like gA.
+<p>Cf. Mark 5:34, which is like gB.
+<p>An omission by homoioarchon of one letter has a small probability.
+Matthew is usually more popular as a source for synoptic harmonization,
+but my impression is that gB harmonizes to Mark more often than gA does.
+The conflicting evidence makes no preference posible.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:49, variant number 23 </head>
+<label lang=grc> LEGWN AUTW </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> LEGWN </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA
+<p>The object <q lang=grc>AUTW</q> is confusing
+because the referent would seem to be Jesus
+judged from the preceding context,
+but <q lang=grc>SOU</q> makes you realize that
+it refers to Jairus, mentioned way back in verses 41-42.
+This confusing ambiguity was fixed by gB deleting it.
+<p>Kilpatrick (Kilpatrick 1963) points out reasons for preferring
+readings with more pronouns.
+<q type=displayed>
+Manuscripts vary considerably over the pronouns,
+especially <mentioned lang=grc>AUTOS</mentioned>.
+At the same point in the text the pronoun will be present
+in some witnesses and absent in others.
+Two considerations are in favour of the text with the pronoun.
+First, the suffixed pronouns of Semitic idiom
+are much commoner than the pronouns are in Classical Greek.
+Secondly, Hellenistic Greek, less terse and more explicit
+than Classical Greek, makes more use of the pronouns than
+the older language does.
+If the pronouns are original in the text,
+then the return to Attic brevity would encourage scribes
+rigourously to cut down on the generous use of the pronouns
+that their texts displayed.
+</q>
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:50, variant number 24 </head>
+<label lang=grc> AUTW LEGWN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> AUTW </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Mark 5:36, which is not relevant for harmonization.
+<p>Reading gA, the redundant <q lang=grc>LEGWN</q>, is a Lukan LXXism,
+corrected to greek style by gB.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:51, variant number 25 </head>
+<label lang=grc> IWANNHN KAI IAKWBON </>
+  <item> W Y &Pi; (B -ANHN)	NA26 </>
+<label lang=grc> IAKWBON KAI IWANNHN </>
+  <item> &aleph; L 892 A	TR </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Mark 5:37, which is like gB.
+<p>The usual order of names is Peter-James-John,
+so gB has harmonized the order to what is usual.
+One possible explanation for Luke's choice of the gA order of names
+is Fitzmyer's suggestion that Peter and John were closely
+associated in Acts, and Luke was aware that James had died, so Luke
+would naturally place James last.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:52, variant number 26 </head>
+<label lang=grc> OUK </>
+  <item> A Y &Pi; </>
+<label lang=grc> OU GAR </>
+  <item> &aleph; B L 892 W </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Mark 5:39, which is like gA.
+<p>Cf. Matt 9:24, which is like gB, Matthew being better-known than Mark.
+The added <q lang=grc>GAR</q> makes the reading smoother.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:54, variant number 27 </head>
+<label lang=grc> EKBALWN PANTAS ECW KAI KRATHSAS </>
+  <item> A W &Pi; 892 </>
+<label lang=grc> KRATHSAS </>
+  <item> &aleph; B L </>
+<label lang=grc> EKBALWN ECW PANTAS KAI KRATHSAS </>
+  <item> Y &Psi; f13 Maj TR </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Matt 9:25 and Mark 5:40-41.
+The concept of throwing everyone out, without the word <q lang=grc>ECW</q>,
+is found in Matthew and Mark, with Mark being the closer match.
+With the words in the context being paraphrased to this extent,
+there is just a weak likelihood of synoptic harmonization.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 8:54, variant number 28 </head>
+<label lang=grc> EGEIROU </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EGEIRE </>
+  <item> &aleph; B 892 </>
+<label lang=grc> EGEIRAI </>
+  <item> L min(10x) Chry(1/2) </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Matt 9:25, where there is no match for harmonization.
+<p>Cf. Mark 5:41 <q lang=grc>EGEIRE</> or <q lang=grc>EGEIRAI</q>,
+which is like gB or L, but the context is a loose match.
+<p>Cf. Luke 7:14 <q lang=grc>EGERQETI</q>.
+<p>Elsewhere in the NT <q lang=grc>EGEIRE</q> always causes variants
+with <q lang=grc>EGEIRAI</q> by itacism.
+Reading gA seems smoother, easier.
+<!-- why smoother?? what tenses are these?? -->
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:01, variant number 29 </head>
+<label lang=grc> DWDEKA </>
+  <item> A W Y &Pi; B	NA26 </>
+<label lang=grc> DWDEKA APOSTOLOUS </>
+  <item> &aleph; L 892 </>
+<label lang=grc> DWDEKA MAQHTAS AUTOU </>
+  <item> CC3 1010 it TR </>
+<label lang=grc> DWDEKA MAQHTAS </>
+  <item> &Omega;C Go </>
+<label lang=grc> DWDEKA AUTOU </>
+  <item> Ss Sc Sp </>
+</list>
+
+<p>Preference: gA
+<p>Metzger p146 draws vague parallels to Mark 6:7 (re: A W &Pi;)
+and Matt 10:1 (re: CC3 1010).
+The variety of wordings in the additions suggests vacuum filling.
+Could there be a concern in copyists minds
+that the twelve apostles weren't yet called apostles?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:03, variant number 30 </head>
+<label lang=grc> RABDOUS </>
+  <item> A Y &Pi; </>
+<label lang=grc> RABDON </>
+  <item> &aleph; B L 892 W </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 10:10, which exhibits the same variation as here.
+<p>Cf. Mark 6:8, which says: take only one staff.
+<p>The gB singular could be a harmonization to the immediate context of
+nearby singular nouns, if <q lang=grc>RABDOUS</q> was originally intended
+in a distributed sense, referring to one staff apiece.
+On the other hand, it is about equally likely that
+reading gA could be a harmonization to avoid a seeming contradiction with Mark.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:03, variant number 31 </head>
+<label lang=grc> ANA DUO </>
+  <item> A W Y &Pi; 892	[NA26] </>
+<label lang=grc> DUO </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA
+<p>Metzger p147 says that <q lang=grc>ANA</q> is implicit from the context,
+addable by a copyist,
+or that Alexandrian scribes deleted <q lang=grc>ANA</q> to harmonize
+to the synoptic Matt 10:10 and Mark 6:9.
+What is implicit and addable is just as well deletable as superfluous.
+<p>Fitzmyer said that gB is synoptic harmonization due to the inelegant greek
+of <q lang=grc>ANA DUO</q>.
+The variants with <q lang=grc>RABDOUS</q> suggest that distributive use
+is not clearly implicit in the phrasing.
+In the versions <q lang=grc> DUO</q> without express <q lang=grc>ANA</q>
+found in Lvt(10x) Lvg Sc Sp Sj sa bo arm geo.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:05, variant number 32 </head>
+<label lang=grc> KAI TON </>
+  <item> A Y &Pi; </>
+<label lang=grc> TON </>
+  <item> &aleph; B L 892 W </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 10:14 like gB, not close.
+<p>Cf. Mark 6:11 not very relevant.
+<p>Cf. Luke 10:10-11 like gA, not close.
+<p>Cf. Acts 13:51 not very relevant.
+<p>Synoptic harmonization is not very likely.
+<p>gA <q lang=grc>KAI</q> is grammatically superfluous
+(and therefore problematic) unless understood in the sense of "even".
+Is gB a misunderstanding correction?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:07, variant number 33 </head>
+<label lang=grc> GINOMENA UP AUTOU </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> GINOMENA </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Mark 6:14 and Matt 14:1, which do not match as potential causes of
+harmonization.
+Reading gA seems to be an explanatory clarification of gB.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:07, variant number 34 </head>
+<label lang=grc> EGHGERTAI EK NEKRWN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> HGERQH EK NEKRWN </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> EK NEKRWN ANESTH </>
+  <item> D c e </>
+<label lang=grc> HGERQH APO TWN NEKRWN </>
+  <item> f13 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 14:2 <q lang=grc>HGERQH APO</q>, where the verb is like gB,
+but the whole is like f13.
+<p>Cf. Mark 6:14, where different text groupings exhibit many readings
+like the first three listed above.
+<p>The perfect tense in gA differs from the surrounding context,
+but seems to be reasonable.
+Kilpatrick thought the perfect tense was often an Atticizing refinement.
+Is this a refined usage?
+<p>f13 seems like a synoptic harmonization.
+<p>gB looks like a harmonization to the surrounding context of aorist verbs.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:08, variant number 35 </head>
+<label lang=grc> PROFHTHS EIS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> PROFHTHS TIS </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> PROFHTHS </>
+  <item> D pc a e d Sp Sj Dta </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Mark 6:15, which has a slight resemblance to gA.
+<p>gD might be due to homoioteleuton.
+<p>gB is a more Lukan expression.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:09, variant number 36 </head>
+<label lang=grc> KAI EIPEN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EIPEN DE </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 6:16 not relevant.
+<p>The expression in gA is more Koine, less Attic.
+But, is gB more Lukan?
+The other gospel writers strongly prefer to express <q>and he said</q>
+by means of <q lang=grc>KAI EIPEN</q> or <q lang=grc>KAI LEGEI</q>,
+instead of <q lang=grc>EIPEN DE</q>,
+but Luke is distinguished in his using <q lang=grc>EIPEN DE</q>
+a little bit more frequently than <q lang=grc>KAI EIPEN</q>.
+Does than mean that copyists should be expected to alter a Lukan
+<q lang=grc>EIPEN DE</q> to a <q lang=grc>KAI EIPEN</q> commonly seen
+in the other gospels?  It seems not.
+<p>
+In the book of Luke, there are about 57 units of variation where
+the text reads one form of <q>and he said</q> which is firm,
+but a singular or subsingular variant reading has a different form.
+Analyzing these cases,
+where the copyist is caught red-handed making a stylistic change,
+helps us diagnose what corruptions are most popular among copyists.
+These variant renderings of the sense <q>and he said</q>
+include instances of <q lang=grc>EIPEN</q>,
+<q lang=grc>ELEGEN</q>, <q lang=grc>LEGEI</q>,
+<q lang=grc>EFH</q>, or <q lang=grc>FHSI</q>,
+combined with either <q lang=grc>KAI</q>, <q lang=grc>DE</q>,
+or <q lang=grc>O DE</q>.
+While in nine units of variation an expression with <q lang=grc>DE</q>
+was altered to one with <q lang=grc>KAI</q>, in ten instances the reverse
+occurred, approximately balanced.
+Similarly, <q lang=grc>DE</q> expressions were changed to <q lang=grc>O DE</q>
+in nine place, and the reverse in seven places.
+Expression using <q lang=grc>O DE</q> were altered
+by scribes to use <q lang=grc>KAI</q> in five cases, and the reverse
+occurred in four cases.  No one-sided trend is visible here,
+and it seems reasonable to conclude that even if Luke is the only Gospel
+writer to frequently write <q lang=grc>EIPEN DE</q>,
+copyists were fairly evenly divided in their preferences on this issue.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:09, variant number 37 </head>
+<label lang=grc> HRWDES </>
+  <item> A W Y &Pi; &aleph;	NA26 </>
+<label lang=grc> O HRWDES </>
+  <item> B L 892	TR </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Mark 6:16, where the Alexandrians and most Byzantines have the article.
+<p>Cf. Matt 14:1-2, which does not match.
+<p>The article would be expected in this context, since Herod
+has already been introduced.  Since NA26 forsakes its favored text type
+here, its editors probably agree that internal evidence favors gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:09, variant number 38 </head>
+<label lang=grc> EGW AKOUW </>
+  <item> A W Y &Pi; </>
+<label lang=grc> AKOUW </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>One finds <q lang=grc> EGW</q> in preceding clauses as the subject.
+Was the word pruned here as excessive, or introduced as an echo?
+See variant number 23 for the general reasoning of Kilpatrick.
+<!-- should L justify changing to gA? -->
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:10, variant number 39 </head>
+<label lang=grc> BHQSAIDAN </>
+  <item> A W Y </>
+<label lang=grc> BHQSAIDA </>
+  <item> &aleph;* B 892 &Pi; </>
+<label lang=grc> BIQSAIDAN </>
+  <item> L </>
+<label lang=grc> BIQSAIDA </>
+  <item> &Psi; 047 </>
+<label lang=grc> BHDSAIDA </>
+  <item> &aleph;C p75 N </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 6:45, which provides no cogent parallel.
+<p>Bauer says that this name is indeclinable.
+Accusative usage with -<q lang=grc>AN</q> can however be found.
+Luke uses <q lang=grc>KALOUMENOS</q> with the following noun
+generally in the same case,
+like an appositive, e.g. <q lang=grc>NAIN</q>.
+This probably would not differ from the usage expected by a copyist.
+Generally, the gA preceding context is <q lang=grc>KALOUMENOS</q>,
+and for gB <q lang=grc>KALOUMENHN</q>.
+Either could cause a correction depending on the original text in
+the preceding context, which is badly split.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:11, variant number 40 </head>
+<label lang=grc> DECAMENOS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> APODECAMENOS </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gB
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 6:34-35, Matt 14:14 which provide no parallel
+relevant for harmonization.
+<p>The gB reading is a little more Lukan and slightly less common.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:12, variant number 41 </head>
+<label lang=grc> APELQONTES </>
+  <item> W Y &Pi; </>
+<label lang=grc> POREUQENTES </>
+  <item> &aleph; B L 892 A </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 14:15 and Mark 6:36, which are loosely parallel to gA,
+synoptic harmonization being a possibility.
+After <q lang=grc>APOLUSON</q> and before
+<q lang=grc>EIS TAS KUKLW KWMAS</q>, the prefix <q lang=grc>APO-</q>
+might be seen as pleonastic.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:13, variant number 42 </head>
+<label lang=grc> EIPON OUK </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EIPAN OUK </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Cf. John 6:8, Matt 14:7, and Mark 6:38, which provide no relevant match.
+<p>Reading gA has better Attic spelling, but neither is uncommon.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:14, variant number 43 </head>
+<label lang=grc> KLISIAS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> KLISIAS WSEI </>
+  <item> &aleph; B L 892	[NA26] </>
+</list>
+
+<p>Preference: none
+<p>Cf. Mark 6:39, which loosely resembles gA more than gB.
+<p>Cf. John 6:10, which is not relevant.
+<p>gB <q lang=grc>WSEI</q> may have been added based on the context
+at the start of the verse.
+Softening exactness of the count might have been desired
+in view of Mark's mention of 100's and 50's.
+The word <q lang=grc>WSEI</q> is somewhat Lukan.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:15, variant number 44 </head>
+<label lang=grc> ANEKLINAN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> KATEKLINAN </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 14:19a, Mark 6:39, which have slight relevance.
+<p>Cf. John 6:10, which is not relevant.
+<p>The gB reading harmonizes to the immediately preceding context
+of Jesus' directions.
+Besides, Luke would likely vary the verb form
+when he repeats the concept of reclining.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:15, variant number 45 </head>
+<label lang=grc> APANTAS 9:16 </>
+  <item> A W Y &Pi; B	NA26 </>
+<label lang=grc> PANTAS 9:16 </>
+  <item> &aleph; L 892 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Mark 6:39, which is not relevant.
+<p>The word <q lang=grc>APAS</q> is quite Lukan.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:18, variant number 46 </head>
+<label lang=grc> LEGOUSIN OI OXLOI </>
+  <item> W Y &Pi;	NA26 </>
+<label lang=grc> OI OXLOI LEGOUSIN </>
+  <item> &aleph;* B L 892 </>
+<label lang=grc> LEGOUSIN OI ANQRWPOI </>
+  <item> A 0211 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 16:13, Mark 8:27, which resemble A&plus;0211 closely,
+so gA is less likely to be a synoptic harmonization than those MSS are.
+<p>Why did the editors of NA26 change the text here from NA25?
+Because of p75?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:27, variant number 47 </head>
+<label lang=grc> TWN WDE </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> TWN AUTOU </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 16:28 and Mark 9:1 <q lang=grc>WDE</q>, but in various word orders.
+<p>gA might be a synoptic harmonization.
+Birdsall said (ref??) <q>The locative <mentioned lang=grc>AUTOU</>
+is glossed in the lexicon of Hesychius, although the
+interpretation is not <mentioned lang=grc>WDE</>.</q>
+Fitzmyer p. 789 says that <q lang=grc>AUTOU</q> usually means
+<q rend=quoted>there</q>
+instead of <q rend=quoted>here</q>,
+which seems less imminent.
+A copyist could have introduced <q lang=grc>AUTOU</q>
+to relieve a theological difficulty
+due to the delayed coming of the kingdom.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:27, variant number 48 </head>
+<label lang=grc> ECTWTWN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> ECTHKOTWN </>
+  <item> &aleph; B L 892?	TR </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 16:28 where the Byzantines read <q lang=grc>ESTWTES</q>
+and the Alexandrians read <q lang=grc>ESTWTON</q>.
+<p>Cf. Mark 9:1 <q lang=grc>ESTHKOTWN</q> with variants.
+<p>gA might have borrowed from an Alexandrian text of Matt,
+or gB could have borrowed from any text of Mark.
+Might reading gB be the commoner form?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:27, variant number 49 </head>
+<label lang=grc> OITINES </>
+  <item> A Y &Pi; </>
+<label lang=grc> OI </>
+  <item> &aleph; B L 892 W	TR </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 9:1, Matt 16:28, both of which read <q lang=grc>OITINES</q>.
+Synoptic harmonization is possible here.
+<p>Bauer on p587 says that this usage of <q lang=grc>OSTIS</q>
+instead of <q lang=grc>OS</q> is later Greek,
+rarely classic.  gB could be an Attic correction.
+<p>The evidence is in conflict.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:33, variant number 50 </head>
+<label lang=grc> PETROS </>
+  <item> A W Y </>
+<label lang=grc> O PETROS </>
+  <item> &aleph; B L 892 &Pi;	TR </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Mark 9:5 and Matt 17:4, both of which read <q lang=grc>O PETROS</q>.
+Peter was introduced without the article in verse 28,
+and referred to again in verse 32 with the article.
+Reading gB either harmonizes to the Synoptics or conforms the text
+to more consistent usage of the article with known entities.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:34, variant number 51 </head>
+<label lang=grc> EPECKIASEN </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EPECKIAZEN </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Matt 17:5 <q lang=grc>EPESKIASEN</q>, and
+cf. Mark 9:7 <q lang=grc>EPESKIAZOUSA</q>.
+gA could have been assimilated to match Matthew.
+<p>Birdsall (ref??) suggests that <q lang=grc>EPESKIASEN</q>
+was perhaps harmonized to match the tense of <q lang=grc>EGENETO</q>,
+and that the imperfect <q lang=grc>EPESKIAZEN</q>
+is more subtle than the aorist,
+<q rend=quoted>began to overshadow</q> coinciding with
+<q rend=quoted>as they entered the cloud</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:34, variant number 52 </head>
+<label lang=grc> EKEINOUS EISELQEIN </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EISELQEIN AUTOUS </>
+  <item> &aleph; B L </>
+<label lang=grc> EISELQEIN </>
+  <item> p75 </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 17:5 and Mark 9:7, which do not have this clause.
+Reading gA <q lang=grc>EKEINOUS</q> sounds almost as if
+the heavenly beings are the subject of the sentence.
+A reading of <q lang=grc>EKEINOUS</q> is hard to understand,
+gB <q lang=grc>AUTOUS</q> is easier.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:35, variant number 53 </head>
+<label lang=grc> AGAPHTOS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EKLELEGMENOS </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> AGAPHTOS MOU </>
+  <item> Sc Ephr </>
+<label lang=grc> EKLEKTOS </>
+  <item> &Theta; 1 </>
+<label lang=grc> AGAPHTOS EN W HUDOKHSA/EUDOKHSA </>
+  <item> CC3 D &Psi; </>
+</list>
+
+<p>Preference: gB
+<p>Cf. 2 Pe 1:17 <q lang=grc>AGAPHTOS</q>.
+<p>Cf. Mark 1:11 <q lang=grc>AGAPHTOS</q>.
+<p>Cf. Matt 3:17 and 12:18 <q lang=grc>AGAPHTOS</q>.
+<p>Cf. Ps 2:7, which does not seem relevant.
+<p>Cf. Isaiah 42:1, which has <q lang=grc>O EKLEKTOS MOU</q> in the LXX,
+the referent being Israel.  The relevance is tenuous.
+<p>Metzger on p. 148 says that the gB reading
+is used in a quasi-technical sense, only here in the NT.
+The other readings are more usual -- assimilation of:
+&Theta; to Luke 23:35, gA to Mark 9:7 or Luke 3:22, D to Matt 17:5.
+I would say &Theta; is not a harmonization to such a distant parallel.
+Harmonization to parallels is the most likely explanation for gA.
+Ehrman [Ehr] comments on this verse on pp. 65-68.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:37, variant number 54 </head>
+<label lang=grc> EN TH ECHS HMERA </>
+  <item> A Y &Pi; </>
+<label lang=grc> TH ECHS HMERA </>
+  <item> &aleph; B L 892 W </>
+<label lang=grc> DIA THS HMERAS </>
+  <item> D it Ss Sc </>
+<label lang=grc> THS HMERAS </>
+  <item> p45 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Other Lukan uses of <q lang=grc>ECHS</q> leave the noun implied.
+In 7:11 the implicit noun was confusing and caused textual variation.
+Attic usage of <q lang=grc>ECHS</q> is adverbial, not adjectival.
+NT usage of the word seems to be adjectival.
+Three instances in Acts have no preposition,
+one instance in Luke is with a preposition.
+The <q lang=grc>EN</q> is not needed but may be helpful in the sentence,
+and Lukan usage is divided.
+
+<p>Hort, Notes p. 59, says that the creation of the D reading was
+<q rend=quoted>due to a desire to keep the two incidents
+connected in time, no interval being expressed in Matthew and Mark.</q>
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:38, variant number 55 </head>
+<label lang=grc> ANEBOHSE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EBOHSE </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 17:14 and Mark 9:17, neither of which are relevant to the variant.
+According to Bauer on p. 51,
+<q lang=grc>ANABOEW</q> is rare and causes variant readings, (e.g. Mark 15:8)
+The alternative <q lang=grc>BOAW</q> is common and not strongly Lukan.
+Reading gB is a scribal correction of an uncommon to a more common term.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:38, variant number 56 </head>
+<label lang=grc> ECTI MOI </>
+  <item> W Y &Pi; </>
+<label lang=grc> MOI ESTI </>
+  <item> &aleph; B L 892 A </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 17:15 and Mark 9:17, which do not match closely enough
+to bear on this word order issue.
+<p>This dative construction is less common.<!-- than what -->
+Reading gA is a little plainer, but there is little difference.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:41, variant number 57 </head>
+<label lang=grc> TON UION SOU WDE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> WDE TON UION SOU </>
+  <item> &aleph; B L 892	TR </>
+<label lang=grc> TON UION SOU </>
+  <item> D </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 17:17, which bears a slight resemblance to gA in word order.
+<p>Cf. Mark 9:19, which does not match the text in question.
+<p>Reading gA is a little plainer, but there is little difference.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:43, variant number 58 </head>
+<label lang=grc> EPOIHSEN </>
+  <item> W Y &Pi; </>
+<label lang=grc> EPOIEI </>
+  <item> &aleph; B L 892 A </>
+</list>
+
+<p>Preference: gA?
+<p>No relevant synoptic parallel.
+<p>The imperfect tense is more suitable to the context than aorist,
+but this might be a scribal correction.  The context has both tenses nearby.
+If a correction occurred, gB is more likely it,
+because of <q lang=grc>PASIN</q> suggesting repetition or generality.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:48, variant number 59 </head>
+<label lang=grc> ECTAI </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> ECTI </>
+  <item> &aleph; B L </>
+<label lang=grc> ECTE </>
+  <item> D 0211 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 18:4, which has the present tense, but a slight resemblance only.
+<p>Mark 9:37 is not a match.
+<p>The gB present tense might be a harmonization to the present
+tense apodoses in the preceding clauses.
+<p>The gA future tense might relieve the superficial contradiction
+of <q lang=grc>MIKROTEROS</q> and <q lang=grc>MEGAS</q>.
+<p>The evidence is in conflict.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:49, variant number 60 </head>
+<label lang=grc> EPI TW </>
+  <item> A W &Pi; </>
+<label lang=grc> EN TW </>
+  <item> &aleph; B L 892 Y </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Mark 9:38, where the Byzantines have a bare dative,
+and the Alexandrians have <q lang=grc>EN TW ONOMATI</q>.
+<p>The gB <q lang=grc>EN TW</q> is more common usage in NT and elsewhere.
+On this, see Bauer pp. 572-3.
+In the NT, <q lang=grc>EPI TW ONOMATI</q> occurs only in Matt/Mark/Luke/Acts.
+gB may well be a synoptic harmonization and/or correction to common usage.
+<p>The gA reading might have been affected by the similar phrase
+in the preceding verse,
+although the topic of casting out daemons is rather distant from
+that of receiving children.
+Fitzmyer on p. 820 says that the collocation of the two stories here,
+of the little child and of the exorcist, was due to the repeated
+catch-phrase "in the name of".  This suggests the preposition ought
+to be the same in Luke's original composition.
+<p>I am unsure whether Luke's tendency to repeat words with variation
+applies here.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:49, variant number 61 </head>
+<label lang=grc> EKWLUSAMEN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EKWLUOMEN </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Mark 9:38, which has the same split of readings between
+the Alexandrians and Byzantines.
+<p>The context seems to demand the aorist, both in the mind of Luke and
+the mind of a copyist.
+Reading gB is slightly harder.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:50, variant number 62 </head>
+<label lang=grc> KAI EIPE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EIPEN DE </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 9:39 <q lang=grc>O DE IHSOUS EIPE</q>, which would not
+occasion synoptic assimilation.
+See the discussion under variant 36 on the different Greek expressions meaning
+<q rend=quoted>and he said</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:52, variant number 63 </head>
+<label lang=grc> EAUTOU </>
+  <item> A W Y </>
+<label lang=grc> AUTOU </>
+  <item> &aleph; B L 892 &Pi;	TR </>
+<label> omit </>
+  <item> p45 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>No synoptic parallels are relevant.
+Reading <q lang=grc>AUTOU</q> might be a little ambiguous.
+Reading <q lang=grc>EAUTOU</q> might seem too much, especially as "his face"
+was just mentioned in the preceding verse.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:54, variant number 64 </head>
+<label lang=grc> EIPON KURIE </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EIPAN KURIE </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Synoptic parallels are not relevant.
+<p>Reading gA has better Attic spelling, but neither is uncommon.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:54, variant number 65 </head>
+<label lang=grc> AUTOUS WS KAI HLIAS EPOIHSE </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> AUTOUS </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: none
+<p>Metzger p148 says that the additions here and in verses 55-56
+are possibly glosses from some external source, oral or written.
+Fitzmyer agrees, saying that a copyist noted the allusion to 2Kg 1:10,12
+and glossed it in this verse.
+
+<p>J M Ross (Ross 1972) definitely supports the authenticity of the
+words in verses 55-56 omitted by NA26, and I find his arguments persuasive.
+This casts some doubt on Metzger's attribution of all the additions
+in these three verses to glossing from some external source.
+
+<p>Ross brings out the following arguments relative to vs. 54,
+but finds the evidence rather evenly balanced.
+Zahn (Intro to the NT III 24) thought that all the suspected words in
+verses 54-56 were struck out to prevent the Marcionites from
+using them as a weapon against Orthodox Christianity.
+Easton and Manson thought this improbable.
+It appears from Tertullian's comments that Marcion could have
+made his point without the additional words.
+Hort said the words <q rend=quoted>were just the gloss for a Marcionite
+exegete to have made, since it kept before the reader's mind
+one of the main points of the system of Marcion.</q>
+Plummer, Lagrange, and others agreed with Hort.
+Loisy said of these words, <q lang=fra>Elles semblent
+&ecirc;tre en surcharge dans la strophe.</q>
+Such poetical considerations have not been accorded much weight by others.
+Van Osterzee, Bond, and Lowther Clark say that the words in question
+were felt to reflect unnecessarily on the great prophet Elijah.
+Van Osterzee thought the disciples felt it necessary to invoke
+the support of Elijah for an otherwise preposterous request.
+
+<p>Bover (Bover 1953) discusses the four pieces of text in verses 54-56
+which are questionable, but which are added or omitted in at least
+eight different combinations found in the witnesses.
+He agrees with Lagrange that these pieces of text are homogeneous,
+of common origin, and of identical <q lang=esp>tendencia</>.
+Bover thought that the most likely explanation for the diverse
+combinations of additions/omissions here is that the full text
+was frequently seen as giving too much support to the Marcionites,
+and that different copyists relieved this problem by omitting
+different parts of or even all of the offending material.
+
+<p>Even though I tend to agree with Bover and Ross, the conflicting
+opinions published regarding the phrase about Elijah force me
+to enter a <q rend=quoted>no preference</q> judgement, on account of
+divided evidence.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:57, variant number 66 </head>
+<label lang=grc> EGENETO DE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> KAI </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> KAI EGENETO </>
+  <item> D f13 e a c d r1 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 8:19, which is not relevant to the variation.
+<p>The gA reading is a prominent Lukan LXXism.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:57, variant number 67 </head>
+<label lang=grc> APERXH KURIE </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> APERXH </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 8:19, which matches gB closely.
+<p>Devotional expansion might add the honorific.
+Synoptic harmonization might delete it.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:60, variant number 68 </head>
+<label lang=grc> AUTW O IHSOUS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> AUTW </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 8:22 <q lang=grc>O DE IHSOUS EIPEN</q> or <q lang=grc>LEGEI</q>
+has Jesus as the subject,
+but the wording difference makes synoptic harmonization unlikely.
+<p>An explicit subject might have been added for clarity
+or deleted as superfluous.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 9:62, variant number 69 </head>
+<label lang=grc> EIS THN BASILEIAN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> TH BASILEIA </>
+  <item> &aleph;* B L 892 </>
+<label lang=grc> EN TH BASILEIA </>
+  <item> &aleph;C2 p75 1241 </>
+</list>
+
+<p>Preference: gA?
+<p>No synoptic parallel.
+<p>From Bauer on p. 320: <q lang=grc>EUQETOS</q>,
+meant originally <q rend=quoted>well-placed</q>, later <q rend=quoted>fit</q>,
+or <q rend=quoted>suitable</q>.
+The other use of <q lang=grc>EUQETOS</q> in Luke
+is followed by <q lang=grc>EIS</q>.
+The use in Hebrews and the first dictionary entry employs a bare dative.
+Bauer records both usages.  gA is possibly more Lukan than gB.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:01, variant number 70 </head>
+<label lang=grc> KAI ETEROUS </>
+  <item> A W Y &Pi; &aleph; </>
+<label lang=grc> ETEROUS </>
+  <item> B L 892 </>
+</list>
+
+<p>Preference: none
+<p><q lang=grc>KAI</q> might seem superfluous with <q lang=grc>ETEROUS</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:02, variant number 71 </head>
+<label lang=grc> ELEGEN OUN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> ELEGEN DE </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> EIPE DE </>
+  <item> f1 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Luke 9:3 and Matt 9:37, to which no assimilation occurred.
+<p>Reading gB <q lang=grc>ELEGEN DE</q> might be more Lukan than
+<q lang=grc>ELEGEN OUN</q>, except see Bauer p593, 2a.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:04, variant number 72 </head>
+<label lang=grc> MHDE UPODHMATA </>
+  <item> A W Y &Pi; </>
+<label lang=grc> MH UPODHMATA </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> MHTE UPODHMATA </>
+  <item> M 13 </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 10:10 <q lang=grc>MHDE UPODHMATA</q> addressed to the 12.
+<p>Cf. Mark 6:8-9 all <q lang=grc>MH</q>, but no <q lang=grc>UPODHMATA</q>.
+<p>Cf. Luke 9:3 <q lang=grc>MHTE</q> but no <q lang=grc>UPODHMATA</q>.
+<p>The f13 reading appears similar to the Luke 9 conjunctions, but is more
+likely just a misspelling of the gA reading.
+The gB conjunction is as in Mark,
+except <q lang=grc>UPODHMATA</q> is missing there.
+Reading gA might be a harmonization to Matthew 10,
+but the order of items differs there,
+and different attributes are attached.
+None of these are convincingly synoptic harmonizations.
+<p>The gA reading seems to break the pattern
+that <q lang=grc>MHDE</q> be used in
+all but the first of terms in a series (sometimes the first also).
+Here only the third term has <q lang=grc>MHDE</q>;,
+which might get corrected to the gB reading for consistency.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:07, variant number 73 </head>
+<label lang=grc> AUTOU ESTI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> AUTOU </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. 1Tim 5:18, which matches gB throughout the clause,
+except for <q lang=grc>GAR</q>.
+<p>Cf. Matt 10:10, which has the same gA/gB variation,
+and using <q lang=grc>TROFAS</q> instead of <q lang=grc>MISQOU</q>.
+Reading gB is more likely a harmonization to the parallels than is gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:08, variant number 74 </head>
+<label lang=grc> D AN </>
+  <item> A Y &Pi; L </>
+<label lang=grc> AN </>
+  <item> &aleph; B 892 W </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 6:10-11, without a relevant match.
+<p>Cf. Matt 10:11  <q lang=grc>HN D'AN</q> without <q lang=grc>KAI</q>.
+<p>Cf. Luke 9:4 <q lang=grc>KAI EIS HN AN OIKIAN</q>
+<p>Cf. Luke 10:5  <q lang=grc>EIS HN D'AN</q> without <q lang=grc>KAI</q>
+<p>Cf. Luke 10:10  <q lang=grc>EIS HN D'AN</q> without <q lang=grc>KAI</q>
+<p>Either gA added <q lang=grc>D</q>' by harmonization to
+Matthew or verse 5 or verse 15,
+or gB deleted <q lang=grc>D'</q> as redundant after the <q lang=grc>KAI</q>.
+Luke 9:4 suggests gB is a Lukan expression.
+Harmonization in gA is the more likely explanation of the variation.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:10, variant number 75 </head>
+<label lang=grc> EISERXHSQE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EISELQHTE </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> EISERXESQE </>
+  <item> 047* 66* </>
+<label lang=grc> EISERXESAI </>
+  <item> &Theta; 2 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 10:11 <q lang=grc>POLIN H KWMHN EISELQHTE</q>.
+<p>Cf. Mark 6:10 <q lang=grc>EISELQHTE EIS OIKIAN</q>.
+<p>Cf. Luke 9:4 <q lang=grc>OIKIAN EISELQHTE</q>.
+<p>Cf. Luke 10:5, relative to <q lang=grc>OIKIAN</q>,
+with a similar split between
+<q lang=grc>EISERXHSQE</q> and <q lang=grc>EISELQHTE</q>.
+<p>Cf. Luke 10:8 <q lang=grc>EISERXHSQE</q>.
+<p>gB could have been harmonized to
+Matt&plus;Mark&plus;Luke 9&plus;maybe Luke 10:5,
+while gA could be harmonized to Luke 10:8.
+The immediacy of verse 8 balances the large number of more distant parallels.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:11, variant number 76 </head>
+<label lang=grc> UMWN EIS TOUS PODAS HMWN </>
+  <item> A W &Pi; L </>
+<label lang=grc> UMWN EIS TOUS PODAS </>
+  <item> &aleph; B 892 </>
+<label lang=grc> UMWN </>
+  <item> Y	Maj(NA) Maj(HF) TR </>
+<label lang=grc> UMWN EIS TOUS PODAS UMWN </>
+  <item> 6 205 Go OS </>
+</list>
+
+<p>Preference: none
+<p>Cf. Mark 6:11, Matt 10:14, and Luke 9:5, where the words do not match,
+but the same thought is there.
+The pronoun <q lang=grc>HMIN</q> is already expressed
+and makes the possessive look a little redundant.
+The Y&plus;TR reading was caused by homoioteleuton.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:11, variant number 77 </head>
+<label lang=grc> HGGIKEN EF UMAS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> HGGIKEN </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Matt 10:7, which is slightly similar, without <q lang=grc>EF UMAS</q>.
+<p>The gA reading is a quote from the requirement in verse 9.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:13, variant number 78 </head>
+<label lang=grc> EGENONTO </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EGENHQHSAN </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> EGENNHQHSAN </>
+  <item> p75 579 </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Matt 11:21, which is like gA.
+<p>The gA imperfect could be a synoptic harmonization,
+or the gB aorist could be a correction
+to match the tense of <q lang=grc>METENOHSAN</q>.
+The form <mentioned lang=grc>EGENHQHN</> is a first aorist passive which
+is not Attic, but was common in later writers.
+What about <mentioned lang=grc>EGENHQHSAN</>??
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:13, variant number 79 </head>
+<label lang=grc> KAQHMENAI </>
+  <item> W Y &Pi; </>
+<label lang=grc> KAQHMENOI </>
+  <item> &aleph; B L 892 A </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 11:21, with no relevant parallel word.
+<p>Chorazin and Bethsaida are feminine.
+The cities, not their inhabitants, are being directly addressed,
+although the inhabitants would be the ones to repent.
+Some attraction from the feminine <q lang=grc>GENOMENAI</q> may be felt.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:15, variant number 80 </head>
+<label lang=grc> H EWS [TOU] OURANOU UYWQEISA </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> MH EWS [TOU] OURANOU UYWQHSH; </>
+  <item> &aleph; B* L </>
+<label lang=grc> H EWS [TOU] OURANOU UYWQHSEI </>
+  <item> BC2 579 </>
+<label lang=grc> H EWS [TOU] OURANOU UYWQHS </>
+  <item> 1582C Chry1/2 </>
+<label lang=grc> H EWS [TOU] OURANOU UYWQHSA </>
+  <item> K &Theta; 047 </>
+</list>
+<!-- the braces are not found in the uncial font -->
+
+<p>Preference: none
+<p>Cf. Isaiah 14:13,15, where there is no relevant match.
+<p>Cf. Matt 11:23, where there are many complex variants,
+with similar but not the same attestation.
+Witnesses C, D, 1, Lvg differ between Matt and Luke.  Did harmonization occur?
+
+<q lang=grc> MH</q> requires a finite verb, <q lang=grc>H</q> a participle
+if <q lang=grc>H</q> is an article,
+or a finite verb if <q lang=grc>H</q> is a relative pronoun.
+Let us assume the variation of adding/deleting
+<q lang=grc>TOU</q> was independent of the variation above.
+The finite verb in gB&plus;f1
+parallels the apodosis of <q lang=grc>KATAB[IBASQ]HSE</q>.
+Metzger says in reference to the Matthew passage that
+<q lang=grc>MH</q> after <q lang=grc>KAFARNAOUM</q>
+accidentally lost its initial M, then different corrections to the verb
+attempted to repair the sense.
+Was dittography or haplography more probable here?
+Reading gA is more difficult because <q lang=grc>KAFARNAOUM</q>
+was never actually glorified to the heights.
+The relevant issue is the future reward the city will receive in the judgement.
+Was itacism in the verb an issue? or the ambiguity of <q lang=grc>H</q>?
+
+<p>Burgon (Burgon B-12,13) thought the question in gB meaningless, and that
+Jesus was clearly announcing a fact, not raising a rhetorical question.
+He attributes the variation to dittography of <q lang=grc>M</>,
+followed by corresponding adjustments to the verb making the phrase a question.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:19, variant number 81 </head>
+<label lang=grc> DIDWMI </>
+  <item> A Y &Pi; </>
+<label lang=grc> DEDWKA </>
+  <item> &aleph; B L 892 W </>
+</list>
+
+<p>Preference: gA
+<p>Reading gA was more difficult.
+The topic is the Seventy's past experience of authority given.
+The present tense is hard to fit in, except perhaps as a promise to
+future missionaries.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:21, variant number 82 </head>
+<label lang=grc> PNEUMATI </>
+  <item> A W Y 892 </>
+<label lang=grc> PNEUMATI TW AGIW </>
+  <item> &aleph; B L &Pi; </>
+</list>
+
+<p>Preference: none
+<p>Metzger on p. 152 says the gB reading is a strange, unparalleled expression,
+which led to its omission.
+Bauer on p. 675 under <q lang=grc>PNEUMA</q> (3b) has examples,
+mostly from Luke&plus;John&plus;Paul,
+of constructions analogous to gA.
+It seems Luke localizes inner life in the <q lang=grc>PNEUMA</q>
+and he tends to identify whose spirit or which spirit he refers to.
+Reading gB may be an effort to disambiguate between the Holy Spirit
+and Jesus' own spirit.
+Is gB really that strange?  Not in concept, but perhaps in expression.
+<p>
+Comfort (p. 139-140) says scribes tended to add <q lang=grc>AGIW</q>
+after <q lang=grc>PNEUMATI</q> in general, and in this case they
+may have wanted to distinguish this mention of spirit from
+that in the previous verse, which referred to evil spirits.
+The (which??) expression is not found in the Gospels referring to Jesus.
+<p>
+Birdsall (ref??) said that there is a tendency to add
+<q lang=grc>AGION</q> to <q lang=grc>PNEUMA</q>,
+as variants at 3:16 and 12:10 show, so that gA is more likely original.
+<p>The conflicing evidence and opinions prevent a verdict.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:21, variant number 83 </head>
+<label lang=grc> EGENETO EUDOKIA </>
+  <item> A W Y &Pi; &aleph; </>
+<label lang=grc> EUDOKIA EGENETO </>
+  <item> B L 892 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 11:26, with an identical context, exhibiting the same textual variation.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:21, variant number 84 </head>
+<label lang=grc> SOU KAI STRAFEIS PROS TOUS MAQHTAS EIPE </>
+  <item> A W Y </>
+<label lang=grc> SOU </>
+  <item> &aleph; B L 892 &Pi; </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 11:26, which is a close match to reading gB.
+<p>Metzger on p. 152 says that the gA reading
+was derived from verse 23
+to smooth an abrupt transition from prayer to instruction,
+and says that mechanical repetition is not Lukan style
+-- one does not turn to the same person twice.
+<p>Was <q lang=grc>KAT IDIAN</q> there taken with <q lang=grc>EIPEN</q>?
+Double <q lang=grc>STRAFEIS</q> would seem harder to a redactor/copyist.
+Three miniscules ameliorate this difficulty by adding <q lang=grc>PALIN</q>
+to the second <q lang=grc>STRAFEIS</q>.
+If the gA reading were derived from verse 23, why duplicate
+the transition, instead of moving it?
+This repetition is not mechanical, with the second turning distinguished as
+<q lang=grc>KAT IDIAN</q>,
+(except in some Western witnesses).
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:25, variant number 85 </head>
+<label lang=grc> AUTON KAI </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> AUTON </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA
+<p>The variant is unmentioned in NA26.
+<p>gA <q lang=grc>KAI</q> may seem superfluous by Attic standards, but it
+is Koine, cf. Bauer under <q lang=grc>KAI</q>.
+Cf. Matt 22:35 variant, not a synoptic parallel, but similar.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:27, variant number 86 </head>
+<label lang=grc> EC OLHS THS YUXHS SOU KAI EC OLHS THS ISXUOS SOU KAI EC OLHS THS DIANOIAS </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EN OLH TH YUXH SOU KAI EN OLH TH ISXUI SOU KAI EN OLH TH DIANOIA </>
+  <item> &aleph; B L </>
+<label lang=grc> EN OLH YUXH SOU KAI EN OLH ISXUI SOU KAI EN OLH TH DIANOIA </>
+  <item> f1 </>
+<label lang=grc> EN OLH TH YUXH SOU KAI EC OLHS THS ISXUOS SOU KAI EN OLH TH DIANOIA </>
+  <item> 1241 </>
+<label lang=grc> EN OLH TH YUXH SOU KAI EC OLHS THS ISXUI SOU KAI EN OLH THS DIANOIAS </>
+  <item> 0124 </>
+</list>
+
+<p>Preference: gB
+<p>Many other variants caused by scribal leap, haplography, dittography, etc.
+Cf. Deu 6:5, 10:12, Jos 22:5, all have only <q lang=grc>EC OLHS</q>,
+objects and pronouns vary.
+Cf. Matt 22:37 all <q lang=grc>EN OLH [TH]</q>, lacking <q lang=grc>ISXUI</q>.
+Cf. Mark 12:30 all <q lang=grc>EC OLHS THS</q>.
+All witnesses in Luke but f1&plus;D&plus;lat have <q lang=grc>EC OLHS THS KARDIAS</q>
+in first clause.
+gA could be harmonization to LXX or Mark, gB to Matt.
+gA likely to be harmonization to context, making all the prepositions equal.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:29, variant number 87 </head>
+<label lang=grc> DIKAIOUN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> DIKAIWSAI </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>Both tenses can follow <q lang=grc>QELW</q> in Bauer.
+Is one tense classically correct?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:30, variant number 88 </head>
+<label lang=grc> HMIQANH TUGXANONTA </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> HMIQANH </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA
+<p><q lang=grc> TUGXANW</q> is very Lukan.
+The word may have seemed superfluous before <q lang=grc>KATA SUGKURIAN</q>(?).
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:32, variant number 89 </head>
+<label lang=grc> GENOMENOS KATA TON TOPON ELQWN </>
+  <item> A W Y </>
+<label lang=grc> KATA TON TOPON ELQWN </>
+  <item> &aleph;C2 B L 892 </>
+<label lang=grc> GENOMENOS KATA TON TOPON </>
+  <item> p45 D &Pi; </>
+<label> omit verse </>
+  <item> &aleph;* 1247* </>
+</list>
+
+<p>Preference: gA
+<p>Metzger p152-3 says that either the text with two participles
+is redundant and caused shortening, or else the longer text is conflated.
+Cf. Acts 27:7 <q lang=grc>GENESQAI KATA</q> is acceptably Lukan.
+gB reading by homoioteleuton of 1 letter?  not strong likelihood.
+Conflation is unlikely because the combination is clumsy, not smooth.
+gB and D&plus;&Pi; are two ameliorations of gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:32, variant number 90 </head>
+<label lang=grc> IDWN AUTON </>
+  <item> A Y &Pi; 892 </>
+<label lang=grc> IDWN </>
+  <item> &aleph; B L W	TR </>
+</list>
+
+<p>Preference: gB
+<p>Pronoun added to harmonize with verse 31 repeated.
+Many pronouns used in this story.
+A scribal leap from N to N is not a strong likelihood.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:33, variant number 91 </head>
+<label lang=grc> IDWN AUTON </>
+  <item> A W Y &Pi; </>
+<label lang=grc> IDWN </>
+  <item> &aleph; B L 892 </>
+<label> omit </>
+  <item> Cs(mss) Cb(mss) </>
+</list>
+
+<p>Preference: gB
+<p>Pronoun added to harmonize with verse 31 repeated.
+Many pronouns used in this story.
+Scribal leap from N to N not strong likelihood.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:35, variant number 92 </head>
+<label lang=grc> AURION ECELQWN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> AURION </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> AURION ECELQWN KAI </>
+  <item> C* 60 349 954 </>
+</list>
+
+<p>Preference: gA
+<p>Homoioteleuton or homoioarchon both possible here.
+Reading of C* and 60 suggests the neighboring participles gave some difficulty.
+<q lang=grc> ECELQWN</q> helps make sense of the context,
+but not required by the context.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:35, variant number 93 </head>
+<label lang=grc> EIPEN AUTW </>
+  <item> A W Y &Pi; &aleph; </>
+<label lang=grc> EIPEN </>
+  <item> B L 892 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Right after <q lang=grc>PANDOXEI</q> the <q lang=grc>AUTW</q> seems superfluous.
+See variant 23 for Birdsall's comment about
+Koine using more pronouns than Attic.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:36, variant number 94 </head>
+<label lang=grc> TIS OUN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> TIS </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p><q lang=grc> OUN</q> seems needed for smooth reading and reduced assonance.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:37, variant number 95 </head>
+<label lang=grc> EIPEN OUN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EIPEN DE </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p><q lang=grc> OUN</q> seems a little more effective in summarizing.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:38, variant number 96 </head>
+<label lang=grc> EGENETO DE EN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EN DE </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA
+<p>Acc. to Fitzmyer p119, introductory
+<q lang=grc>EGENETO</q>&plus;<q lang=grc>EN</q>&plus;infinitive is very Lukan.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:38, variant number 97 </head>
+<label lang=grc> KAI AUTOS </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> AUTOS </>
+  <item> &aleph; B L </>
+<label> omit </>
+  <item> D d syr diatess </>
+</list>
+
+<p>Preference: gA
+<p><q lang=grc> KAI AUTOS</q> in this construction very Lukan,
+according to Fitzmyer p120.
+many MSS and correctors add <q lang=grc>O IHSOUS</q> after
+<q lang=grc>EISELQEN</q>, in case the
+referent of <q lang=grc>AUTOS</q> is unclear.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:39, variant number 98 </head>
+<label lang=grc> PARAKAQISASA </>
+  <item> W Y &Pi; 892 </>
+<label lang=grc> PARAKAQESQEISA </>
+  <item> (&aleph;) B L A </>
+<label lang=grc> PARAKAQHSASA </>
+  <item> &Gamma; &Theta; &Omega; 047 0211 </>
+</list>
+
+<p>Preference: none
+<p>Many other spellings also seen.
+<q lang=grc> PARAKAQESQEIS</q>=1aor pass part, have seated oneself beside.
+<q lang=grc> PARAKAQIZW</q>=sit down beside, in aor act part.
+<q lang=grc> PARAKAQHMAI</q>=sit beside
+The third form is least common, the other two are not rare.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:39, variant number 99 </head>
+<label lang=grc> IHSOU </>
+  <item> A W Y &Pi; B*(NA26) </>
+<label lang=grc> KURIOU </>
+  <item> &aleph; B L 892 BC2(NA26) </>
+<label lang=grc> KURIOU HMWN </>
+  <item> Diatess Et(Bodl.40) </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Luke 7:13, 13:15, John 4:1, which are places
+where <q lang=grc>KURIOS</q> was changed by D N &Theta; f1 f13 etc.
+to <q lang=grc>IHSOUS</q>.
+Narrator using <q lang=grc>KURIOS</q> of Jesus is very Lukan,
+according to Bauer p459.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:41, variant number 100 </head>
+<label lang=grc> IHSOUS </>
+  <item> A W Y &Pi; BC B*(NA26) </>
+<label lang=grc> KURIOS </>
+  <item> &aleph; B* L 892 BC2(NA26) </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Luke 7:13, 13:15, John 4:1,
+places where <q lang=grc>KURIOS</q> changed by D N &Theta; f1 f13 etc.
+to <q lang=grc>IHSOUS</q>.
+Narrator using <q lang=grc>KURIOS</q> of Jesus is very Lukan,
+according to Bauer p459.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:41, variant number 101 </head>
+<label lang=grc> TURBAZH </>
+  <item> A Y &Pi; 892 </>
+<label lang=grc> QORUBAZH </>
+  <item> &aleph; B L W </>
+<label lang=grc> TURBAZEI </>
+  <item> &Gamma; &Lambda; </>
+</list>
+
+<p>Preference: none
+<p>According to Metzger, <q lang=grc>QORUBAZH</q> is a rare verb, corrected to
+the more common <q lang=grc>TURBAZH</q>.
+Based on the entries in Bauer and LSJM,
+<q lang=grc>QORUBAZW</q> and related words
+get five times the column space that <q lang=grc>TURBAZW</q> gets,
+they being found several times in the NT, mostly in Mark and Acts.
+Is <q lang=grc>QORUBAZW</q> Lukan, or just more common than
+<q lang=grc>TURBAZW</q>?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:42, variant number 102 </head>
+<label lang=grc> ENOS DE ESTIN XREIA </>
+  <item> A W Y &Pi; 892	NA26 </>
+<label lang=grc> OLIGWN DE ESTIN XREIA H ENOS </>
+  <item> (&aleph;) (B) L </>
+<label> omit </>
+  <item> D e a b c d ff2 i l r1 Ss </>
+<label lang=grc> OLIGWN DE ESTI XREIA </>
+  <item> 38 Sj Ar </>
+</list>
+
+<p>Preference: gA
+<p>Metzger says that <q lang=grc>ENOS</q> was taken as referring to
+meal provisions only, softened to <q lang=grc>OLIGWN</q>,
+and these two readings were combined/conflated
+in gB "with disastrous results as to sense".
+The omission of an incomprehensible passage by D might also
+be due to a scribal leap from <q lang=grc>MARQA</q> to <q lang=grc>MARIA</q>.
+For a dissenting opinion see:  Fee, G D, "One Thing is Needful? Luke 10:42",
+New Testament Textual Criticism, its significance for exegesis:
+Essays in Honour of Bruce M. Metzger, Oxford, Clarendon Press, 1981.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:42, variant number 103 </head>
+<label lang=grc> DE THN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> GAR THN </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> THN </>
+  <item> D it vg Ss </>
+</list>
+
+<p>Preference: gA?
+<p>Metzger says that the omission in D was connected to the loss of two
+clauses for other reasons.
+Is this conjunction variant related to the <q lang=grc>ENOS</q> variant?
+<q lang=grc> GAR</q> chosen for variety after the preceding <q lang=grc>DE</q>?
+<q lang=grc> GAR</q> a bit puzzling: how is Mary's choosing
+an explanation for one thing being necessary?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 10:42, variant number 104 </head>
+<label lang=grc> AP AUTHS </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> AUTHS </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA
+<p>Homoioarchon from A to A not a strong consideration.
+According to Bauer, <q lang=grc>AFAIRW TI APO TINOS</q>
+is more usual syntax in Koine.
+A bare genitive <q lang=grc>TINOS</q> occurs less commonly.
+But in Attic usage (LS) bare genitive or accusative is always used,
+never a preposition or dative.
+gB is Atticized.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:01, variant number 105 </head>
+<label lang=grc> MAQHTAS AUTOU </>
+  <item> A W &Pi; (Y lacuna) 892 </>
+<label lang=grc> MAQHTAS </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA
+<p>Kilpatrick says that an identifying genitive after <q lang=grc>MAQHTAS</q>
+was needed in the first century, Jesus not being the only person
+with disciples, but later on the genitive was seen as redundant/superfluous.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:06, variant number 106 </head>
+<label lang=grc> TO GRAMMA </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> TA GRAMMATA </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA?
+<p><q lang=grc> GRAMMA[TA]</q> in verses 6 and 7 connected, but attestation of the
+variants is not identical, R&plus;f1 differing at least.
+What if Lukan original had differing numbers in these verses?
+Attic and Koine both use <q lang=grc>GRAMMATA</q> usually,
+infrequently <q lang=grc>GRAMMA</q>.
+gB is possibly a correction to more common usage.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:07, variant number 107 </head>
+<label lang=grc> TO GRAMMA </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> TA GRAMMATA </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA?
+<p>as in verse 6.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:09, variant number 108 </head>
+<label lang=grc> KAGW </>
+  <item> A W Y &Pi; </>
+<label lang=grc> KAI EGW </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p><q lang=grc> KAGW</q> form is Lukan, cf. 11:9, but much more in John.
+There might be a concern that Jesus aligns himself with
+the unjust by "<q lang=grc>KAGW</q>", but emphatic <q lang=grc>KAI EGW</q>
+emphasizes his distinct teaching.
+"Me too" is prominent meaning, but "I for my part" as in 11:9
+is possible and Lukan.
+<q lang=grc> KAI</q> as a conjunction is hard to understand in this context.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:09, variant number 109 </head>
+<label lang=grc> POIHSATE EAUTOIS </>
+  <item> A W Y &aleph;C 892 </>
+<label lang=grc> EAUTOIS POIHSATE </>
+  <item> &aleph;* B L </>
+<label lang=grc> POIHSATE EAUTOUS </>
+  <item> &Pi; H &Omega; </>
+<label lang=grc> POIHSATE UMIN </>
+  <item> 1215 1295 Chry </>
+<label lang=grc> POIHSATE </>
+  <item> 1220* Apoll </>
+</list>
+
+<p>Preference: gB
+<p>Cf. 12:33 which is similar to gA, but not synoptic parallel.
+gA is both more Lukan and an easier reading.
+gB order of words is ambiguous as to which verb
+<q lang=grc>EAUTOIS</q> is attached to.
+Placing it before its verb, first in the clause, is a bit strange,
+more difficult.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:12, variant number 110 </head>
+<label lang=grc> UMIN DWSEI </>
+  <item> A W Y &Pi; B	NA26 </>
+<label lang=grc> DWSEI UMIN </>
+  <item> &aleph; L 892 </>
+</list>
+
+<p>Preference: gB
+<p>gA matches parallel wording in v11.  Harmonization to context suspected.
+Parallel form seems like better composition, expected.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:14, variant number 111 </head>
+<label lang=grc> KAI OI </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> OI </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>Metzger says that the Pharisees were not mentioned since 15:2,
+and <q lang=grc>KAI</q> was added to ameliorate the abrupt introduction
+of Pharisees.
+gB doesn't seem very abrupt.  <q lang=grc>KAI</q> slightly confusing as adverb or conjunction.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:16, variant number 112 </head>
+<label lang=grc> EWS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> MEXRI </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 11:12-13, a harmonization?
+In Matt <q lang=grc>PROFHTAI</q>/<q lang=grc>NOMOS</q> reversed
+and <q lang=grc>EPROFHTEUSAN</q> added.
+In Luke, D&plus;&Theta;&plus;pc add <q lang=grc>EPROFHTEUSAN</q> by harmonization.
+The phrase cries out for a verb, but few added one;
+did many switch prepositions without a need, just to harmonize to Matt?  No.
+Acc. to Bauer, <q lang=grc>EWS</q> as an improper preposition is more Lukan
+and Koine.
+<q lang=grc> MEXRIS</q> is a scribal improvement to a proper preposition.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:20, variant number 113 </head>
+<label lang=grc> TIS HN ONOMATI LAZAROS OS </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> TIS ONOMATI LAZAROS </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: none
+<p>Three main possibilities: <list type=ordered>
+<item n=1> <q lang=grc>OS</q> omitted by haplography,
+then <q lang=grc>HN</q> dropped to compensate,</item>
+<item n=2> or <q lang=grc>OS</q> and <q lang=grc>HN</q> added to harmonize
+to the not quite parallel context in v19.</item>
+<item n=3> <q lang=grc>OS</q> and <q lang=grc>HN</q> omitted as clumsy/prolix.</item>
+</list>
+Balanced probabilities.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:20, variant number 114 </head>
+<label lang=grc> HLKWMENOS </>
+  <item> W Y &Pi; </>
+<label lang=grc> EILKWMENOS </>
+  <item> &aleph; B L 892 A </>
+<label lang=grc> EILKOMENOS </>
+  <item> H &Lambda; 1009 </>
+<label lang=grc> ELKOMENOS </>
+  <item> 063 179 230 346 </>
+<label> omit </>
+  <item> Ss </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Bauer p251 says: see Bl.D. sec. 68, Rob. 364 on the reduplication.
+gB spelling is given in Bauer for perf. pass. part.
+Reading of 063 is "dragged", others "ulcerated".
+Unless the grammars say something important is happening, call it spelling.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:21, variant number 115 </head>
+<label lang=grc> APO TWN YIXIWN TWN </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> APO TWN </>
+  <item> &aleph;* B L </>
+<label lang=grc> APO TWN YIXWN TWN </>
+  <item> D </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 15:27.  According to Metzger this phrase closely parallels
+that from the Syrophoenician woman about dogs eating crumbs from the table,
+so gA could be a harmonization to a similar phrase, but no synoptic parallel.
+gB could very easily arise from a scribal leap.
+This is the opinion of Burgon (p. B-19,20).
+gA is also a harder reading.
+In Matt we have <q lang=grc>KUNARIA ESQIEI APO TWN YIXIWN TWN PIPTONTWN</q>,
+puppies eating some crumbs falling,
+but here Lazarus was <q lang=grc>EPIQUMWN XORTASQHNAI</q>,
+desiring to fill up, be satisfied by the little crumbs.
+This incongruous image was ameliorated in D to read <q lang=grc>YIXWN</q>
+instead of the diminutive <q lang=grc>YIXIWN</q>,
+and likely ameliorated in gB by deleting
+<q lang=grc> YIWIWN TWN</q>.
+Any relation to 15:16??
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:21, variant number 116 </head>
+<label lang=grc> APELEIXON </>
+  <item> W(APELIKAN) Y &Pi; 892 </>
+<label lang=grc> EPELEIXON </>
+  <item> &aleph; B L A </>
+<label lang=grc> ELEIXON </>
+  <item> D f1 vg </>
+<label lang=grc> PERIELEIXON </>
+  <item> 157 pc </>
+</list>
+
+<p>Preference: gA?
+<p>These forms are in Bauer, but with short entries.
+<q lang=grc> APOL-</q>. is lick or lick off or lick away.
+<q lang=grc> EPIL-</q>. is lick (or lick on?).
+<q lang=grc> PERIL-</q>. is lick around.
+The context of dogs licking sores makes licking a sore off
+seem medically impossible, the sores wouldn't go away.
+Different copyists ameliorated <q lang=grc>APELEIXON</q>
+with various forms of the verb.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:23, variant number 117 </head>
+<label lang=grc> TON ABRAAM </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> ABRAAM </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Possibly add an article to avoid case ambiguity, so that Abraham
+is not the subject of the sentence.
+Most of the context has no article for the name Abraham.
+Luke generally uses an article on Abraham to mark case more clearly.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:26, variant number 118 </head>
+<label lang=grc> EPI PASI </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EN PASI </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p><q lang=grc> EPI</q> in the sense of "in addition to" makes perfect sense
+in the context.
+<q lang=grc> EN</q> is hard to understand, perhaps too hard to be anything but a blunder.
+Could <q lang=grc>EN</q> mean "among all these problems"?  Yuk.
+Fitzmyer p1133 refers to Sirach 48:15 and Job 12:9 claiming
+that <q lang=grc>EN</q> there means "in addition".
+I and the REB translators disagree.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 16:29, variant number 119 </head>
+<label lang=grc> AYTW ABRAAM </>
+  <item> A (W) Y &Pi; </>
+<label lang=grc> ABRAAM </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>Homoioarchon of one letter is unlikely.
+The pronoun is superfluous and has no effect.
+No reason to add or delete it but style.
+See variant 23 for Birdsall's comment about
+Koine using more pronouns than Attic.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:01, variant number 120 </head>
+<label lang=grc> MAQHTAS </>
+  <item> W Y &Pi; </>
+<label lang=grc> MAQHTAS AUTOU </>
+  <item> &aleph; B L 892 A </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Homoioarchon of one letter is unlikely.
+No synoptic parallels.
+In Acts, <q lang=grc>MAQHTAI</q> usually without genitive, but in Luke and
+the other gospels usage is mixed, mostly with a genitive.
+Kilpatrick thought that mentioning "the disciples" without
+specifying whose disciples they were was later, scribal usage,
+because by then only Jesus' disciples were important.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:01, variant number 121 </head>
+<label lang=grc> MH ELQEIN TA SKANDALA </>
+  <item> A W Y &Pi; </>
+<label lang=grc> TA SKANDALA MH ELQEIN </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 18:7 has order of gA, but context quite distant.
+Synoptic harmonization unlikely.
+What is the more usual place of the subject of an infinitive with article?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:01, variant number 122 </head>
+<label lang=grc> OUAI DE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> PLHN OUAI </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> PLHN OUAI EKEINW </>
+  <item> it(8x) Marcion </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 18:7 like gB, possible synoptic harmonization.
+The reading of Marcion is even more harmonized.
+<q lang=grc> PLHN</q> seems demanded by the context, an improvement,
+but <q lang=grc>DE</q> works.
+<q lang=grc> PLHN</q> quite Lukan (and Matthean), 19/31 of NT usages.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:02, variant number 123 </head>
+<label lang=grc> MULOS ONIKOS </>
+  <item> A Y &Pi; </>
+<label lang=grc> LIQOS MULIKOS </>
+  <item> &aleph; B L* 892 </>
+<label lang=grc> LIQOS ONIKOS </>
+  <item> W 157 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 18:6 has <q lang=grc>MULOS ONIKOS</q>, like gA,
+but context heavily paraphrased.
+Cf. Mark 9:42, where gA and gB readings are reversed.  Something other than
+synoptic harmonization seems to be afoot, here.
+<q lang=grc> LIQOS ONIKOS</q> variant could not be a correction of
+<q lang=grc>LIQOS MULIKOS</q>,
+which is perfectly clear.
+Perhaps <q lang=grc>MULOS ONIKOS</q> was a hard to understand
+idiom, at least to non-millers who did not know what a "donkey millstone" was.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:02, variant number 124 </head>
+<label lang=grc> ENA TWN MIKRWN TOUTWN </>
+  <item> A W Y &Pi; &aleph;C2 </>
+<label lang=grc> TWN MIKRWN TOUTWN ENA </>
+  <item> &aleph;* B L 892 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 18:6 and Mark 9:42, where verb and phrase match gA,
+except for the additional <q lang=grc>TWN PISTEUONTWN</q>....
+Synoptic harmonization possible.
+gA order plainer, but gB may have moved the <q lang=grc>ENA</q> last
+for emphasis.
+If the transposition occurred as Colwell suggested transpositions often did,
+something short was accidentally omitted, then restored later on
+in the sentence when it was noticed.  This would make gB secondary.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:03, variant number 125 </head>
+<label lang=grc> DE AMARTH </>
+  <item> A W Y L </>
+<label lang=grc> AMARTH </>
+  <item> &aleph; B 892 &Pi; </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 18:15, where <q lang=grc>DE</q> is present,
+but the sentence and paragraph structure
+differs from that in Luke.  Small likelihood of synoptic harmonization.
+<q lang=grc> DE</q> seems extraneous in the first of a series of clauses
+structured as <q lang=grc>EAN... KAI EAN... KAI EAN</q>.
+It also obscures the paragraph break
+that is needed after <q lang=grc>PROSEXETE EAUTOIS</q>.
+Polished by deleting <q lang=grc>DE</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:04, variant number 126 </head>
+<label lang=grc> KAI EPTAKIS THS HMERAS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> KAI EPTAKIS </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gB?
+<p>No relevant synoptic parallel.
+Homoioteleuton of one letter not too likely.
+Repeated <q lang=grc>THS HMERAS</q> seems prolix.
+Harmonization to context of preceding <q lang=grc>EPTAKIS THS HMERAS</q>
+is most likely.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:04, variant number 127 </head>
+<label lang=grc> EPISTREYH </>
+  <item> W Y &Pi; </>
+<label lang=grc> EPISTREYH PROS SE </>
+  <item> &aleph; B L 892 A </>
+<label lang=grc> EPISTREYH EPI SE </>
+  <item> f1	TR </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 18:15, which has <q lang=grc>AMARTHSH [EIS SE]</q>,
+shortened by gB there.
+The several prepositions suggest that synoptic harmonization is not happening.
+<q lang=grc> EPISTREFW</q> normally takes <q lang=grc>EIS</q>
+or <q lang=grc>PROS</q> or <q lang=grc>EPI</q> for the destination,
+but occasionally an adverb or just an implied destination.
+In the context of repentance, bare <q lang=grc>EPISTREYH</q> is ambiguous,
+meaning either turning to God or turning to apologize to the brother.
+Then gB and f1 are two different attempts to clarify the verb.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:05, variant number 128 </head>
+<label lang=grc> EIPON </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EIPAN </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>gA has better Attic spelling, but neither uncommon.
+No relevant parallel.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:07, variant number 129 </head>
+<label lang=grc> EREI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EREI AUTW </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>No relevant parallel.
+<q lang=grc> AUTW</q> desired to clarify the ambiguity of who
+is the subject of <q lang=grc>EREI</q>: <q lang=grc>TIS</q>,
+the master or <q lang=grc>OS</q>, the slave?
+This can be figured out eventually as one reads along,
+but it presents a superficial difficulty.
+Also, see variant 23 for Birdsall's comment about
+Koine using more pronouns than Attic.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:08, variant number 130 </head>
+<label lang=grc> EWS AN </>
+  <item> A Y &Pi; L </>
+<label lang=grc> EWS </>
+  <item> &aleph; B 892 W	TR </>
+</list>
+
+<p>Preference: gB
+<p>The variant is unmentioned in NA26.
+<p>No relevant parallel.
+<q lang=grc> FAGW</q> and <q lang=grc>PIW</q> being aorist subjunctive,
+the grammar rule mentioned
+in Bauer under <q lang=grc>EWS</q> (with listed exceptions)
+would require <q lang=grc>EWS AN</q>.
+gA is a grammar improvement.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:09, variant number 131 </head>
+<label lang=grc> XARIN EXEI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EXEI XARIN </>
+  <item> &aleph; B LC 892 </>
+<label lang=grc> EXEIN XARIN </>
+  <item> L* </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>The more natural order of words would possibly associate
+<q lang=grc>TW DOULW</q>
+more closely to <q lang=grc>XARIN</q> than <q lang=grc>EXEI</q>,
+but no big difference is visible.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:09, variant number 132 </head>
+<label lang=grc> TW DOULW EKEINW </>
+  <item> W Y &Pi; </>
+<label lang=grc> TW DOULW </>
+  <item> &aleph;C B L 892* A </>
+<label> omit </>
+  <item> &aleph;* </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Homoioteleuton of one letter not strongly likely.
+<q lang=grc> EKEINW</q> might seem superfluous since no other slave is involved.
+&aleph;* did not even need to mention the slave at all.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:09, variant number 133 </head>
+<label lang=grc> DIATAXQENTA OU DOKW </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> DIATAXQENTA </>
+  <item> &aleph; B L </>
+<label lang=grc> DIATAXQENTA AUTW </>
+  <item> X a Ss Sc Cs Cb Cyprian </>
+<label lang=grc> DIATAXQENTA AUTW OU DOKW </>
+  <item> D f13 it Diatessaron </>
+</list>
+
+<p>Preference: gA
+<p>Metzger on p166 saw no reason to delete <q lang=grc>OU DOKW</q>,
+and he said that
+the words seem to be a marginal comment slunk into the Western text.
+Jesus' question <q lang=grc>MH EXEI</q> is just rhetorical, no answer needed.  Why make a
+dull-witted comment in the margin?
+gB and the coptic seem to have suffered a scribal leap
+from <q lang=grc>OU</q> to <q lang=grc>OUTWS</q>.
+<q lang=grc> DIATAXQENTA</q> does call out for a dative object, and it was added in the Westerns.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:10, variant number 134 </head>
+<label lang=grc> LEGETE </>
+  <item> A W &Pi; </>
+<label lang=grc> LEGETE OTI </>
+  <item> &aleph; B L 892 Y	TR </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>No relevant parallel.
+Nothing distinct to observe, except that this variant may relate
+to the next one.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:10, variant number 135 </head>
+<label lang=grc> OTI O </>
+  <item> W Y &Pi; </>
+<label lang=grc> O </>
+  <item> &aleph; B L 892 A </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Homoioteleuton of one letter not too likely.
+This second <q lang=grc>OTI</q> is problematic, because if it is recitative,
+it is superfluous, since the quotation started back at <q lang=grc>DOULOI</q>,
+while if it means "because", it implies the slave was unworthy
+<emph>because</> of his obedience, not in spite of his obedience.
+In either case it invited deletion.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:11, variant number 136 </head>
+<label lang=grc> AUTON EIS </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EIS </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Luke 9:51, 13:22 similar but not parallel.
+The gA reading is a classic example of the Lukanisms described in
+Fitzmyer pp 118-121, although the presence of the pronoun subject
+is not explicitly described as part of the syndrome.
+Still the examples look like gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:11, variant number 137 </head>
+<label lang=grc> DIA MESOU </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> DIA MESON </>
+  <item> &aleph; B L </>
+<label lang=grc> ANA MESON </>
+  <item> f1 f13 Tit </>
+<label lang=grc> MESON </>
+  <item> D </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Luke 9:52, John 4:4 no relevant match.
+See Bauer p507 for <q lang=grc>DIA</q> and Lukan usage of <q lang=grc>MESOS</q>.
+Luke often says <q lang=grc>EN MESW</q>.
+gA reading is normal usage in Koine, OK in Attic.
+gB reading is rare, but a little more common in Attic than Koine.
+<q lang=grc> DIA MESON</q> may have a problem in suggesting a trip through
+Samaria and Galilee in the wrong order from north to south.
+Correction to common usage more likely here than Atticistic correction.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:12, variant number 138 </head>
+<label lang=grc> APHNTHSAN </>
+  <item> A W Y &Pi; B	NA26 </>
+<label lang=grc> YPHNTNSAN </>
+  <item> &aleph; L 892 </>
+</list>
+
+<p>Preference: none
+<p>Bauer says these are two near synonyms which are often interchanged
+by manuscripts,
+and he lists examples where gA usually had <q lang=grc>APANTAW</q>
+and gB usually had <q lang=grc>UPANTAW</q>.
+Both mean "meet", but <q lang=grc>APANTAW</q> could also
+mean "happen to" in other contexts.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:21, variant number 139 </head>
+<label lang=grc> IDOU EKEI </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EKEI </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Mark 13:21 has <q lang=grc>IDOU</q> (<q lang=grc>IDE</q>) twice.
+Cf. Luke 17:23 very complex variants, but <q lang=grc>IDOU</q> repeated.
+Harmonized to Mark or v23.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:24, variant number 140 </head>
+<label lang=grc> H ASTRAPTOUSA </>
+  <item> A Y &Pi; </>
+<label lang=grc> ASTRAPTOUSA </>
+  <item> &aleph; B L 892 W </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 24:27, has no participle.
+After <q lang=grc>ASTRAPH</q> haplography or dittography possible.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:27, variant number 141 </head>
+<label lang=grc> ECEGAMIZONTO </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EGAMIZONTO </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 24:38 has participles not finite verbs,
+but gB has no <q lang=grc>EK-</q> prefix there.
+See Bauer p238.  The forms with or without <q lang=grc>EK-</q>
+and with an <q lang=grc>-IZ-</q> or <q lang=grc>-ISK-</q>
+suffix vary between the manuscripts in all locations where they occur.
+<q lang=grc> GAMIZW</q> is preferred by Alexandrian witnesses,
+<q lang=grc>EKGAMIZW</q> by the Byzantines.
+Both are present in Attic and uncommon in Koine outside the NT.  A stylistic or
+dialectal choice.
+Luke likes preposition prefixes on verbs.
+Many verbs in the neighborhood start with E.  This repetition of augments
+makes a scribal leap which omits <q lang=grc>EC-</q> not unreasonable.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:27, variant number 142 </head>
+<label lang=grc> APANTAS </>
+  <item> A W Y &Pi; &aleph; </>
+<label lang=grc> PANTAS </>
+  <item> B L 892 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Gen 7:21-23 and Matt 24:39, no relevant match.
+<q lang=grc> APAS</q> is very Lukan as an alternative to <q lang=grc>PAS</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:28, variant number 143 </head>
+<label lang=grc> KAI WS </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> KAQWS </>
+  <item> &aleph; B L </>
+<label lang=grc> WS </>
+  <item> it(8x) vg </>
+<label lang=grc> KAI KAQWS </>
+  <item> Eus </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Gen 18:20-22 no match.
+Cf. Matt 24:38-39 different wording.
+Fitzmyer says <q lang=grc>KAQWS</q> is a word favored by Luke.
+A random scribal blunder is likely here.
+<q lang=grc> KAI</q> is often associated in use with <q lang=grc>OMOIWS</q>.
+Bauer p391 says Phrynicus strongly opposed the use of <q lang=grc>KAQWS</q>.
+Did that mean fastidious Atticist scribes corrected <q lang=grc>KAQWS</q>?
+Perhaps, but not so likely to <q lang=grc>KAI WS</q> as to <q lang=grc>WS</q>.
+Harmonization to the context of v26 could produce gB, but
+especially the reading of Eus.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:29, variant number 144 </head>
+<label lang=grc> QEION KAI PUR </>
+  <item> A W &Pi; </>
+<label lang=grc> PUR KAI QEION </>
+  <item> &aleph; B L 892 Y	Maj(NA) TR </>
+<label lang=grc> PUR </>
+  <item> 475* Sc Eus IR </>
+<label lang=grc> PUR QEION </>
+  <item> 1005 1365 2372 </>
+<label lang=grc> QEION PUR </>
+  <item> 1012 1630 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Gen 19:24 ff. matches gA order, but match is loose in other respects.
+The gB order is well known from many usages in the Apocalypse,
+from which we get the English fixed phrase "fire and brimstone".
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:29, variant number 145 </head>
+<label lang=grc> APWLESEN APANTAS </>
+  <item> A W Y &Pi; &aleph; </>
+<label lang=grc> APWLESEN PANTAS </>
+  <item> B L 892 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Gen 19:24-25 no match for wording.
+Cf. vs. 27 is a refrain.
+Cf. Matt 24:39 no match for Lot.
+Citations in Bauer show <q lang=grc>APAS</q> is Lukan.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:31, variant number 146 </head>
+<label lang=grc> TW AGRW </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> AGRW </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 24:18 matches gA.
+Cf. Mark 13:16 <q lang=grc>O EIS TON AGRON [WN]</q>.
+Harmonization to synoptic parallels and to immediate context likely.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:33, variant number 147 </head>
+<label lang=grc> KAI OS EAN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> OS D AN </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> OS EAN </>
+  <item> 2096 </>
+<label lang=grc> OSA AN </>
+  <item> 579 </>
+<label lang=grc> OS GAR AN </>
+  <item> Lvt(l) </>
+<label lang=grc> KAI OS AN </>
+  <item> D 063 </>
+<label lang=grc> KAI OS D AN </>
+  <item> 13 543 2096 </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 10:39 and John 12:25 no close match.
+Cf. Matt 16:25 <q lang=grc>OS D AN</q>
+Cf. Mark 8:35 <q lang=grc>OS D AN</q>
+Cf. Luke 9:24 <q lang=grc>OS D AN</q>
+Synoptic harmonization likely.
+The contrasts drawn in v23 make <q lang=grc>DE</q> seem more appropriate
+than <q lang=grc>KAI</q>,
+while <q lang=grc>KAI</q> has a rougher KOINE flavor here.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:33, variant number 148 </head>
+<label lang=grc> AUTHN ZWOGONHSEI </>
+  <item> A W Y &Pi; L </>
+<label lang=grc> ZWOGONHSEI </>
+  <item> &aleph; B 892 </>
+<label lang=grc> THN YUXHN AUTOU ZWOGONHSEI </>
+  <item> f13 syr </>
+<label lang=grc> AUTHN ENEKEN EMOU ZWOGONHSEI </>
+  <item> &Lambda; f1216 Go </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Cf. John 12:25 not relevant.
+Cf. Matt 10:39, Matt 16:25, Mark 8:35, Luke 9:24 like f13 or Go or both.
+gA/gB did not seem to harmonize to a parallel.
+Lack of an object in gA seems like a hard reading which was
+ameliorated by the various objects introduced.
+The overabundance of <q lang=grc>AUTHN</q> usage in the verse
+may have displeased a copyist who omitted an unnecessary instance.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:34, variant number 149 </head>
+<label lang=grc> DUO ESONTAI </>
+  <item> A W &Pi; </>
+<label lang=grc> ESONTAI DUO </>
+  <item> &aleph; B L Y	TR </>
+<label lang=grc> DUO <foreign lang=lat>post</> MIAS </>
+  <item> D 1215 1351 d </>
+<label lang=grc> ESONTAI </>
+  <item> 892 </>
+<label lang=grc> DUO EUREQHSONTAI </>
+  <item> Thdt </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 24:40 phrase like gA, but context varies widely.
+Cf. verse 35 matches gB, and is in the immediate context.
+The reading that would explain the others is D&plus;1215,
+where the unusual placement of <q lang=grc>DUO</q> would be regularized
+in different ways by gA and gB.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:34, variant number 150 </head>
+<label lang=grc> EIS </>
+  <item> A W Y &Pi; L </>
+<label lang=grc> O EIS </>
+  <item> &aleph; B 892	TR </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 24:40 with <q lang=grc>O EIS... KAI O EIS</q> in gA,
+<q lang=grc>EIS... KAI EIS</q> in gB.
+Harmonization to Matt was not happening.
+gB seems to have harmonized to the <q lang=grc>O ETEROS</q> in the same verse.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:35, variant number 151 </head>
+<label lang=grc> DUO ESONTAI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> ESONTAI DUO </>
+  <item> &aleph;C B L 892 </>
+<label lang=grc> KAI DUO ESONTAI </>
+  <item> Ar Et AU HI MAX </>
+<label lang=grc> DUO </>
+  <item> 2487 2757 Lvt(6x) Bas </>
+<label> omit verse </>
+  <item> &aleph;* 123 1352 Dtp </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Cf. verse 34 split similarly.  Might have caused harmonization here.
+Cf. Matt 24:40 <q lang=grc>DUO ALHQOUSAI</q>.
+Reading of 2487 may be harmonization to Matt or homoioteleuton.
+If 2487 were original, that explains how <q lang=grc>ESONTAI</q> was added
+in more than one location.
+A homoioteleuton deleting <q lang=grc>ESONTAI</q> before <q lang=grc>DUO</q>,
+which was caught immediately by the scribe,
+might be corrected so as to produce gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:35, variant number 152 </head>
+<label lang=grc> KAI H ETERA </>
+  <item> A W Y &Pi; </>
+<label lang=grc> H DE ETERA </>
+  <item> &aleph;C1 B L 892 </>
+<label lang=grc> H ETERA </>
+  <item> 1241 </>
+<label lang=grc> KAI ETERA </>
+  <item> 028 063 </>
+<label lang=grc> KAI O ETEROS </>
+  <item> 579 1216 1338 AM </>
+<label lang=grc> KAI MIA </>
+  <item> 179 2487 Ss Sc </>
+<label lang=grc> KAI ALLH </>
+  <item> Lvt(4x) Lvg(1 ms) HI </>
+<label>
+omit verse by hom
+</label><item>
+	&aleph;* pc
+</item></list>
+
+<p>Preference: gB?
+<p>Cf. Matt 24:41 no <q lang=grc>ETERA</q> to match.
+gA matches the structure of verse 34, except for gender,
+and could be a result of harmonization to immediate context.
+The <q lang=grc>DE</q> form for this contrast-drawing would be better Greek,
+and might be a scribal improvement.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 17:36, variant number 153 </head>
+<label lang=grc> EKEI SUNAXQHSONTAI OI AETOI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EKEI KAI OI AETOI EPISUNAXQHSONTAI </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> EKEI OI AETOI SUNAXQHSONTAI </>
+  <item> f13 Ar Gg </>
+<label lang=grc> EKEI EPISUNAXQHSONTAI OI AETOI </>
+  <item> 7 Lect </>
+<label lang=grc> EKEI SUNAXQHSONTAI KAI OI AETOI </>
+  <item> U 2 Bas Eus Kr </>
+<label lang=grc> EKEI KAI OI AETOI SUNAXQHSONTAI </>
+  <item> 69 579 1346 </>
+<label lang=grc> EKEI KAI OI AETOI </>
+  <item> &Lambda; </>
+</list>
+<!-- Does Q read with A, B, or 7 here? -->
+
+<p>Preference: gB?
+<p>Adding <q lang=grc>KAI</q> seems like an easy enhancement called
+for by <q lang=grc>OPOU...EKEI</q>.
+This seems to have happened in U 2, if derived from gA, and in
+69 1346, if derived from their relatives, f13.
+
+<p>Cf. Matt 24:28, a verbal parallel from a different historical circumstance,
+which reads like gA.
+Tischendorf and Swanson list a variant in this clause in Matthew where
+<q lang=grc>KAI</> is added before <q lang=grc>OI</>
+by 565, 1424, and eight or more other miniscules,
+Lvt(l), Lvg(ed), Hipp(anti), Chr, and Ir(int).
+This also suggests that <q lang=grc>KAI</> was easy to add.
+
+<p>Burgon says that <q lang=grc>EKEI KAI</q> is dittography
+for <q lang=grc>EKEI</q>.
+I think deletion by parablepsis is more likely than dittography,
+seeing that <q lang=grc>KAI</q> is not a duplicate of <q lang=grc>KEI</q>.
+And stylistic variation is even more likely.
+
+The readings of f13, 7, et al, if derived from gA, which seems plausible,
+supply evidence that some scribes wanted to transpose <q lang=grc>OI AETOI</>
+earlier in the clause and wanted to add the <q lang=grc>EPI</q> prefix
+for stylistic reasons.
+
+<p>Luke likes prefixed verbs, such as gB has here.
+<p>??Make the preference be none??
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:01, variant number 154 </head>
+<label lang=grc> KAI PARABOLHN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> PARABOLHN </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gA?
+<p>cf. 18:9 variation.
+Plummer says <q lang=grc>DE KAI</q> is Lukan.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:04, variant number 155 </head>
+<label lang=grc> DE TAUTA </>
+  <item> A W Y &Pi; &aleph;	NA26 </>
+<label lang=grc> TAUTA DE </>
+  <item> B L 892 </>
+<label lang=grc> TAUTA </>
+  <item> b c d L Dtp Cs(1ms) </>
+</list>
+
+<p>Preference: gB?
+<p>The <q lang=grc>DE</q> in third position makes gB seem like
+a really hard reading,
+but why do NA26 and several other editions read with gA?
+Is gB too hard, i.e. impossible?  No comprendo.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:04, variant number 156 </head>
+<label lang=grc> KAI ANQRWPON OUK </>
+  <item> A W Y &Pi; </>
+<label lang=grc> OUDE ANQRWPON </>
+  <item> &aleph; B L 892 </>
+</list>
+
+<p>Preference: gB
+<p>gA is harmonization to immediate context of preceding clause.
+Is <q lang=grc>KAI OU... KAI OU</q> a permissible Greek both...and structure?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:07, variant number 157 </head>
+<label lang=grc> POIHSEI </>
+  <item> A W Y L </>
+<label lang=grc> POIHSH </>
+  <item> &aleph; B 892 &Pi; </>
+</list>
+
+<p>Preference: gA
+<p>The variant is unmentioned in NA26.
+<p>See Bauer p517 under <q lang=grc>ME</q> for the usage of <q lang=grc>OU MH</q>,
+after which the subjunctive is expected.
+Essentially all the verses listed by Bauer reading
+<q lang=grc> OU MH</q> &plus; fut. ind. had variant readings, with the Alexandrians
+reading fut. ind. and the Byzantines aor. subj.
+Many uncontested readings had the subjunctive.
+gB is a grammatical improvement of gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:07, variant number 158 </head>
+<label lang=grc> BOWNTWN PROS AUTON </>
+  <item> A W Y &Pi; </>
+<label lang=grc> BOWNTWN AYTW </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> BOWNTWN AUTWN </>
+  <item> D </>
+<label lang=grc> BOWNTWN </>
+  <item> L1761 Lvt(7x) AMst </>
+</list>
+
+<p>Preference: gA
+<p>The variant is unmentioned in NA26.
+<p><q lang=grc> BOAW PROS AUTON</q> is very Lukan.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:09, variant number 159 </head>
+<label lang=grc> DE </>
+  <item> A W Y &Pi; </>
+<label lang=grc> DE KAI </>
+  <item> &aleph; B L 892	TR </>
+</list>
+
+<p>Preference: gB?
+<p>The variant is unmentioned in NA26.
+<p>Plummer says <q lang=grc>DE KAI</q> is very Lukan.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:11, variant number 160 </head>
+<label lang=grc> STAQEIS PROS EAUTON TAUTA </>
+  <item> A W Y &Pi;	NA26 </>
+<label lang=grc> STAQEIS TAUTA PROS EAUTON </>
+  <item> &aleph;C2 B (L AUTON) 892 </>
+<label lang=grc> STAQEIS TAUTA </>
+  <item> &aleph;* 828C L1761 Cs Gg </>
+<label lang=grc> STAQEIS </>
+  <item> 828* 1071 RUF </>
+<label lang=grc> STAQEIS OUTWS </>
+  <item> Lvt(8x) </>
+<label lang=grc> STAQEIS KAQ EAUTON TAUTA </>
+  <item> D 2542 </>
+<label lang=grc> STAQEIS PROS EAUTON OUTWS </>
+  <item> Dta Dtp </>
+<label lang=grc> STAQEIS PROS EAUTON </>
+  <item> Ss </>
+</list>
+
+<p>Preference: gA?
+<p>Metzger p168 says that the gA reading is harder and
+D is an amelioration;  <q lang=grc>STAQEIS PROS EAUTON</q> was hard to construe,
+so <q lang=grc>PROS EAUTON</q> was altered or omitted or moved
+in various ways to relieve the problem.
+&aleph;* could also arise from a scribal leap from <q lang=grc>PROSE</q>
+to <q lang=grc>PROSE</q>.
+From examples in Bauer <q lang=grc>STAQEIS PROS EAUTON</q> seems acceptable
+as a Lukan usage, though not distinctively Lukan.
+Comfort (p 141), agrees gA is most difficult but prefers gB
+on the basis of external attestation and <q rend=quoted>clearer expression</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:13, variant number 161 </head>
+<label lang=grc> KAI O TELWNES </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> O DE TELWNES </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gA?
+<p>The variant is unmentioned in NA26.
+<p>Bauer says <q lang=grc>KAI</q> used much more in Koine than Attic.
+This context, which is adversative, makes <q lang=grc>DE</q>
+a better, more refined, conjunction than <q lang=grc>KAI</q>.
+gB is a refinement on gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:13, variant number 162 </head>
+<label lang=grc> EIS TON OURANON EPARAI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> EPARAI EIS TON OURANON </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> EPARAI </>
+  <item> 047 i l </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>stylistic variation.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:13, variant number 163 </head>
+<label lang=grc> ETUPTEN EIS </>
+  <item> A W Y </>
+<label lang=grc> ETUPTEN </>
+  <item> &aleph; B L 892 &Pi; </>
+</list>
+
+<p>Preference: gA?
+<p><q lang=grc> TUPTW</q> in the NT always takes the accusative,
+except once in Matthew,
+and possibly here, where <q lang=grc>TYPTW EIS</q> occurs.
+gB is a correction towards more common usage.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:14, variant number 164 </head>
+<label lang=grc> H GAR EKEINOS </>
+  <item> A Y &Pi; 892 </>
+<label lang=grc> PAR EKEINON </>
+  <item> &aleph; B L </>
+<label lang=grc> H EKEINOS </>
+  <item> W Chry1/2 &Theta;	TR </>
+<label lang=grc> HPER EKEINOS </>
+  <item> 157 Bas Chry1/2 </>
+<label lang=grc> PAR EKEINON TON FARISAION </>
+  <item> D a d Sp Dta </>
+</list>
+
+<p>Preference: gA?
+<p>Perhaps even preference gA.
+Bauer suggests <q lang=grc>H PAR</q> became <q lang=grc>H GAR</q>,
+but the former is not attested.
+<q lang=grc>H GAR</q> is hard to parse and understand in this clause.
+The readings of W and 157 make this text easier,
+gB may also be a clarification of <q lang=grc>H GAR</q>
+or <q lang=grc>H PAR</q>.
+
+<p>Ref. Burgon p. A-96. A conjectural emendation to a hard reading??
+<p>
+Cortes in [Cor] presents the following....??from the article...
+<q lang=grc>H GAR EKEINOS</q> is much more difficult than
+<q lang=grc>PAR EKEINON</q>,
+because <q lang=grc>H</q> can be ...?, comparative, or negative exclusive,
+but not explanatory.
+<q lang=grc>H GAR</q> not found in the NT elsewhere.
+A comparative <q lang=grc>H</q> after an adjective in the positive degree
+is a LXXism, appropriate to Luke's habits.
+<q lang=grc>P</q> and <q lang=grc>G</q> can be visually confounded,
+but this does not explain the introduction of
+<q lang=grc>H</q> before <q lang=grc>GAR</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:15, variant number 165 </head>
+<label lang=grc> EPETIMHSAN </>
+  <item> A W Y &Pi; BC </>
+<label lang=grc> EPETIMWN </>
+  <item> &aleph; B* L 892 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 19:13 <q lang=grc>EPETIMHSAN</q>, but without <q lang=grc>IDONTES</q>.
+Cf. Mark 10:13 <q lang=grc>EPETIMWN</q> Byzantine,
+<q lang=grc>EPETIMHSAN</q> Alexandrian.
+The variation in Mark suggests something other than synoptic
+harmonization could be having an effect.
+An imperfect tense here could be harmonizing to <q lang=grc>PROSEFERON</q>,
+but the aorist might come from the influence of <q lang=grc>IDONTES</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:16, variant number 166 </head>
+<label lang=grc> PROSKALESAMENOS AUTA EIPEN </>
+  <item> A W Y &Pi; </>
+<label lang=grc> PROSKALESATO AUTA LEGWN </>
+  <item> &aleph; (B omit AUTA) L 892 </>
+<label lang=grc> PROSEKALEITO AUTA LEGWN </>
+  <item> D G f1 </>
+<label lang=grc> AUTA EIPEN </>
+  <item> Ss Sc </>
+<label lang=grc> PROSKALESAMENOS AUTA ELEGEN </>
+  <item> 13 69C </>
+<label lang=grc> PROSKALESAMENOS AUTA LEGEI </>
+  <item> 69* 157 </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Matt 19:14 no match, except uses <q lang=grc>EIPEN</q>.
+Cf. Mark 10:14 no match, except uses <q lang=grc>EIPEN</q>.
+Examples of <q lang=grc>PROSKALEW</q> in Bauer, including Lukan, are
+mostly circumstantial participles.
+gA looks like a conformation to more common usage.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:17, variant number 167 </head>
+<label lang=grc> EAN </>
+  <item> A Y &Pi; </>
+<label lang=grc> AN </>
+  <item> &aleph; B L 892 W </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Mark 10:15 same split in the matching clause.
+Bauer says the manuscripts vary greatly between
+<q lang=grc> EAN</q> and <q lang=grc>AN</q> after relative pronouns.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:22, variant number 168 </head>
+<label lang=grc> DE TAUTA </>
+  <item> A W Y &Pi; </>
+<label lang=grc> DE </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> DE AUTA </>
+  <item> 1542 </>
+<label lang=grc> DE AUTOU </>
+  <item> 157 </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 19:21 and Mark 10:21, no match.
+Is there an identifiable Lukan usage preference for such
+introductory formulas with <q lang=grc>AKOUSAS</q>?
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:22, variant number 169 </head>
+<label lang=grc> EN OURANW </>
+  <item> W Y &Pi; </>
+<label lang=grc> EN OURANOIS </>
+  <item> &aleph; L 892 A </>
+<label lang=grc> EN TOIS OURANOIS </>
+  <item> B D	[NA26] </>
+<label lang=grc> EN OURANON </>
+  <item> 1319 </>
+<label lang=grc> EC OURANOU </>
+  <item> 1604 </>
+</list>
+
+<p>Preference: none
+<p>The variant is unmentioned in NA26.
+<p>Cf. Matt 19:21 parallel split of Byzantine/Alexandrian,
+but not involving precisely the same manuscripts.
+Cf. Mark 10:21 <q lang=grc>EN OURANW</q>.
+Cf. Matt 6:20, a distant parallel, <q lang=grc>QESAUROUS EN OURANW</q>.
+gA might have harmonized to Matt or Mark.
+Lukan usage is elsewhere never <q lang=grc>EN OURANOIS</q>,
+but outside Luke&plus;Acts&plus;Apocalypse the NT much prefers the plural.
+gB might have conformed the phrase to common usage.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:23, variant number 170 </head>
+<label lang=grc> EGENETO </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EGENHQH </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Matt 19:22 and Mark 10:22, no match.
+<q lang=grc> EGENHQH</q> is not pure Attic, according to Goodwin and little Liddel.
+<q lang=grc> EGENETO</q> is more common and approved.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:24, variant number 171 </head>
+<label lang=grc> O IHSOUS PERILUPON GENOMENON EIPE </>
+  <item> A W Y &Pi; 892	[NA26] </>
+<label lang=grc> O IHSOUS EIPE </>
+  <item> &aleph; B L </>
+<label lang=grc> O IHSOUS PERILOIPON GENOMENON EIPE </>
+  <item> K min(3x) </>
+<label lang=grc> O IHSOUS PERILEIPON GENOMENON EIPE </>
+  <item> L950 </>
+<label lang=grc> PERILUPON GENOMENON EIPE O IHSOUS </>
+  <item> D Lvt(7x) </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 19:23 and Mark 10:23, no match.
+Metzger p168-9 says that <q lang=grc>PERILUPON GENOMENON</q>
+is placed variously,
+perhaps introduced from verse 23, and that Luke often repeats a
+word in adjacent passages.
+The IGNTP apparatus shows that <q lang=grc>O IHSOUS</q>
+and <q lang=grc>AUTON</q> are placed variously,
+but not <q lang=grc>PERILUPON GENOMENON</q>.
+Perhaps scribes were bothered/confused by the interleaved order of
+<q lang=grc> IDWN... AUTON... IHSOUS PERILUPON</q> and attempted
+to clarify/alleviate it by moving or deleting one element or the other.
+The idea that P.G. was introduced from v23 is little more than a supposition,
+not an explanation.  Why introduce it?
+The readings of K and L950 are likely to be itacisms.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:25, variant number 172 </head>
+<label lang=grc> RAFIDOS </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> BELONHS </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Matt 19:24 <q lang=grc>TRUPHMATOS/TRUMALIAS/TRHMATOS RAFIDOS</q>
+Cf. Mark 10:25 <q lang=grc>TRUMALIAS/(TRUPHMATOS)/(TRHMATOS) [THS] RAFIDOS/(BELONHS)</q>
+Synoptic harmonization in gA quite possible.
+Fitzmyer p1205 says that <q lang=grc>BELONHS</q> is particularly Attic.
+Elliott p133 says that the neo-Atticist grammarian Phrynicus,
+of the second century, recommended the classical <mentioned lang=grc>BELONH</>
+as preferable to <mentioned lang=grc>RAFIS</>.
+Elliott concludes that the <mentioned lang=grc>BELONH</> variant
+reading in both Mark and Luke should be rejected as a stylistic alteration,
+and he goes on: <q rend=quoted>This conclusion is reinforced when we
+consider that the only other occurrence of <mentioned lang=grc>RAFIS</>
+in the New Testament is at Matt 19:24, which is without variant,
+thus showing that this is the normal Koine word used by the
+New Testament authors.  There is no firm example of
+<mentioned lang=grc>BELONH</> in the New Testament.</q>
+(Perhaps change preference to none??)
+
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:27, variant number 173 </head>
+<label lang=grc> ESTI PARA TW QEW </>
+  <item> A Y &Pi; </>
+<label lang=grc> PARA TW QEW ESTI </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> PARA QEW ESTI </>
+  <item> W D 157 </>
+<label lang=grc> ESTI PARA QEW </>
+  <item> P &Omega; </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 19:26 no verb. no close match.
+Cf. Mark 10:27 Alexandrians have no <q lang=grc>ESTI</q>,
+Byzantines do as gA in Luke.
+Cf. Job 42:12 no match.
+gB may harmonize to the immediate context:
+<q lang=grc>ADUNATA PARA... DUNATA PARA....</q>
+gA may be synoptic harmonization.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:28, variant number 174 </head>
+<label lang=grc> PETROS </>
+  <item> A W Y &Pi; </>
+<label lang=grc> O PETROS </>
+  <item> &aleph; B L 892	TR </>
+</list>
+
+<p>Preference: gA?
+<p>Cf. Matt 19:27 <q lang=grc>APOKRIQEIS O PETROS EIPEN</q>
+Cf. Mark 10:28 <q lang=grc>HRCATO O PETROS LEGEIN</q>
+Both Matt and Mark use the article.
+Peter not previously mentioned by name, only as <q lang=grc>OI AKOUSANTES</q>.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:28, variant number 175 </head>
+<label lang=grc> AFHKAMEN PANTA KAI </>
+  <item> A W Y &Pi; &aleph;* </>
+<label lang=grc> AFENTES TA IDIA </>
+  <item> &aleph;C B L 892 </>
+<label lang=grc> TA IDIA AFENTES </>
+  <item> D 2542 </>
+<label lang=grc> PANTA TA IDIA AFENTES </>
+  <item> f1 </>
+<label lang=grc> AFENTES PANTA TA IDIA KAI </>
+  <item> &Theta; f13 syr </>
+</list>
+
+<p>Preference: none
+<p>Cf. Matt 19:27 as gA.
+Cf. Mark 10:28 as gA.
+&Theta; looks like a conflation.  Perhaps also f1.
+Nine manuscripts harmonized to a synoptic by
+adding <q lang=grc>TI ARA ESTAI HMIN</q> here.
+It is quite possible gA is another synoptic harmonization.
+The tense difference between <q lang=grc>AFHKAMEN</q> and
+<q lang=grc>HKOLOUQHSAMEN</q> was smoothed
+out by some witnesses in Mark, and by uncial R in Luke, so there was a
+perceived problem for some copyists.
+Bauer says that the use of <q lang=grc>KAI</q>
+to coordinate clauses when more refined usage would subordinate one
+as a participle is colloquial/Koine.  gB appear to be a grammatical
+refinement of gA.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:29, variant number 176 </head>
+<label lang=grc> GONEIS H ADELFOUS H GUNAIKA </>
+  <item> A W Y &Pi; </>
+<label lang=grc> GUNAIKA H ADELFOUS H GONEIS </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> GONEIS H ADELFOUS H ADELFAS H GUNAIKA </>
+  <item> D X &Psi; &Delta; </>
+<label lang=grc> ADELFOUS H ADELFAS H GONEIS </>
+  <item> 1241 </>
+<label lang=grc> ADELFOUS H GONEIS H GUNAIKA </>
+  <item> 131 </>
+</list>
+
+<p>Preference: none
+<p>The manuscripts present more variants similar to the above.
+Cf. Matt 19:29 and Mark 10:29-30, similar lists with synonyms substituted
+and in a different order.  Neither gA nor gB are synoptic harmonizations,
+although several of the minor variants are.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:30, variant number 177 </head>
+<label lang=grc> OS OU </>
+  <item> A W Y &Pi; </>
+<label lang=grc> OS OUXI </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> KAI OU </>
+  <item> Q 16 1338 Sp </>
+<label lang=grc> OS </>
+  <item> 161 174 </>
+<label lang=grc> OS EAN </>
+  <item> Lvt(5x) Ar </>
+<label lang=grc> EAN </>
+  <item> D d </>
+</list>
+
+<p>Preference: gB?
+<p>Cf. Matt 19:29 no match.
+Cf. Mark 10:30 <q lang=grc>EAN MH</q>.
+No synoptic harmonization in gA or gB.
+<q lang=grc> OUXI MH</q> is unusual, <q lang=grc>OU MH</q> common.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:35, variant number 178 </head>
+<label lang=grc> PROSAITWN </>
+  <item> A W Y &Pi; 892 </>
+<label lang=grc> EPAITWN </>
+  <item> &aleph; B L </>
+</list>
+
+<p>Preference: gB
+<p>Cf. Matt 20:30, where there is no similar verb.
+<p>Cf. Mark 10:46 <q lang=grc>PROSAITWN</q>, where the word order is different.
+NA26 says gA is due to the synoptic parallel.
+<q lang=grc> PROSAITWN</q> is the common and Attic word,
+<q lang=grc>EPAITWN</q> less common.
+
+<!-- ==================================================================== -->
+<p><list type=gloss><head> Luke 18:41, variant number 179 </head>
+<label lang=grc> LEGWN TI </>
+  <item> A W Y &Pi; </>
+<label lang=grc> TI </>
+  <item> &aleph; B L 892 </>
+<label lang=grc> EIPWN TI </>
+  <item> Orig </>
+<label lang=grc> LEGWN AUTW TI </>
+  <item> Ss Sc Gg </>
+</list>
+
+<p>Preference: gA
+<p>Cf. Matt 20:32 <q lang=grc>EFWNHSEN AUTOUS KAI EIPE</q>.
+<p>Cf. Mark 10:51 <q lang=grc>APOKRIQEIS LEGEI</q>.
+<p>No synoptic harmonization here.
+The extra <q lang=grc>LEGWN</q> after <q lang=grc>EPHRWTHSEN</q>
+is superfluous, a semitism/LXXism, and so is Lukan.
+
+<!-- ==================================================================== -->
+</div>
+<div type=section><head> Overall Results </>
+
+<p>
+Here are the counts of readings falling into the
+five categories discussed above, out of a total of 179.
+<list type=gloss>
+<label>36</><item>definitely favoring gA</>
+<label>33</><item>slightly favoring gA</>
+<label>63</><item>favoring neither</>
+<label>28</><item>slightly favoring gB</>
+<label>19</><item>definitely favoring gB</>
+</list>
+
+<p>
+Depending on how much weight is given to the "slightly" category,
+The score for gA varies from 36 to 69 and for gB from 19 to 47.
+Such an election result, which mildly favors the Byzantines instead
+of giving a landslide victory to the Alexandrians, is a hefty
+nonconfirmation of Hort's claims.  Something is definitely wrong:
+either in the current consensus, or in my analysis of the readings.
+
+<p>
+If you don't like these results, the way to contest them would
+be to advance arguments regarding the internal evidence found
+in many of the readings discussed below, and convince me and others
+that a good number of the verdicts should be modified or reversed.
+Remember to avoid the shorter reading prejudice which tends
+to soak into one's bones.  Such reversals of verdicts will
+surely happen in a few cases, but probably not in many cases.
+An argument that the variants analyzed below are not representative
+of the text type issue would be a surprise to me.
+
+<p>
+One way not to contest these results would be to say:  We just KNOW
+that the Byzantines are a late development, so don't try to confuse
+me with internal evidences!
+
+<p>
+The wide difference between my results in this paper and the results
+published by Hort are possibly due to three main causes.
+
+<p>
+<list type=ordered>
+<item n=1> The inapplicability of the <term lang=lat>lectio brevior</>
+canon to the early
+transmission of the New Testament text was not demonstrated until
+pre-fourth-century manuscript evidence was available, something that
+had to wait for the twentieth century.
+It has long been noticed that the readings of the Alexandrian witnesses 
+tend to be shorter than those of the Byzantines.
+</item>
+
+<item n=2> The modern understanding of the difference between the Attic and Koine
+dialects of Greek came about after the famous papyri finds of the turn
+of the century and afterward in Egypt.  These provided a corpus of Koine
+texts which forms a background context for understanding the NT and its
+language.  Hort was raised on classical Attic Greek.
+</item>
+
+<item n=3> Because of the meager attestation of the earliest forms of
+the Byzantine text type, Hort's opinion about the "Syrian" witnesses
+was probably focused mostly on the late medieval Syrian witnesses,
+not on a fourth century form of the text.
+</item></list>
+
+<p>
+The significance of the <term lang=lat>lectio brevior</>
+issue can be quantified in the framework of this study
+by reevaluating the readings so as to favor short ones.
+If <term lang=lat>lectio brevior</>
+were made supreme over all other considerations,
+so that any reading with fewer words and fewer letters was automatically
+favored, then our scoreboard of 36/33/63/28/19 (from gA to gB)
+would as a result become 31/15/42/17/74, a landslide victory for gB.
+<p>
+To be specific, the preference would shift from gA to gB in variants
+1, 23, 24, 31, 66, 85, 89, 92, 96, 97, 104, 105, 115, 133, 158, 164, and 179.
+A shift from gA? to gB would occur in variants
+11, 32, 69, 73, 84, 125, 132, 135, 136, 154, 163, and 171.
+Variants 9, 16, 17, 20, 22, 38, 54, 65, 67, 68, 70, 76, 93, 113, 119, 140,
+and 168 would change from a preference of none to gB.
+And an upgrade from gB? to gB would be given to variants
+18, 27, 74, 94, 111, 117, 126, and 148.
+On the other hand a reevaluation from gA? to gA would be awarded
+to variants 8, 37, 127, 129, and 174.
+A preference of none with respect to variants 43, 82, 108, and 134
+would shift to gA.
+A preference of gB? would become gA only for variants 120, 153, and 159,
+and no variants at all would change from gB to gA, if shorter readings
+were for the moment automatically preferred.
+This is clearly a substantial issue.
+
+</div>
+<div type=section><head> Other Sampling Approaches </>
+
+<p>
+Instead of representing each text type by four leading MSS,
+one may consider using more or fewer representative MSS.
+???.
+
+</div>
+<div type=section><head> Related Studies </>
+
+<p>
+Elliott (Elliott 1988) did a study in Acts of the internal evidence
+supporting variant readings of the different text types,
+discussing individual cases arranged topically, and found
+that the correct text survives in different places in each
+of the major text types, with none holding a monopoly.
+He admits, however, that his subjective sampling method did not support making
+a general assessment of the worthiness of each text type.
+
+<p>
+Kilpatrick is rumored to have performed a study roughly similar to this one,
+which I have not been able to locate,
+which however examined Byzantine readings taken from Sturz'es list
+in (Sturz 1984) of papyrus-supported Byzantine readings unsupported
+by Alexandrian or Western witnesses.  He also found a roughly equal
+balance of internal evidence for and against the Byzantines.
+
+<p>
+Metzger (Metzger 1968), pp. 137-138, summarizes some work of
+Bernhard Weiss which I have not yet been able to track down.
+According to Metzger,
+Weiss was an exegete who worked through the NT, considering
+important textual variants, and selecting in each case
+those readings which seemed to him to be justified by intrinsic probability,
+adopting the variants which he regarded as most appropriate
+to the author's style and theology.
+No transcriptional considerations were examined, except possibly
+that of synoptic harmonization.
+After reconstructing the best text by these standards,
+he assessed the degree to which some Greek manuscripts
+conformed or failed to conform to his text,
+and he judged Vaticanus to be the best witness.
+
+<p>
+Before undertaking this quite careful study of Luke, I did a
+similar study of Acts 1-6 with less formality, which I never formally wrote up.
+This was a comparison of the Hodges-Farstad Majority text against an
+Alexandrian text reconstructed from the apparatus of NA26.
+The rules defining each text were less clearly defined,
+and there was no way to separate out the issue of age from
+text type,
+because essentially all the Byzantine manuscripts in Acts are rather late,
+but, again, the balance of internal evidence seemed roughly equal on each side.
+
+<p>
+A future confirmatory study might be undertaken on the last chapters
+of Matthew where Alexandrinus is extant, in order to check whether
+Luke-Acts formed a special case.  The apparatus of Swanson [Swa]
+would likely be sufficient to supply the readings.
+The 6th or 7th century uncials available would likely replace Y in Matthew.
+A similar study in the epistles would be difficult because the
+earliest extant greek manuscripts of the Byzantine text type date
+several centuries after the fragmentary 4th-6th century evidence
+found in the Gothic and the patristic citations.
+
+<p>
+Even though Hort's concept of "distinctively Syrian" readings has some
+logical problems, it might pay to classify the 179 variants examined here
+as either distinctively Syrian vs. Neutral&plus;Western, or as Syrian&plus;Western
+vs. Neutral, or as a borderline situation between these two.  This
+classification would support responding directly to some of Hort's predictions.
+
+</div>
+</body>
+<back> 
+  <div type=bibliography>
+    <head> Bibliography </>
+    <listBibl>
+
+<bibl n='Ala'>
+<author>Aland, K, and Aland, B,</> <title>"The Text of the New Testament",</>
+translated by <editor role=translator>Rhodes, E F,</> from the second edition,
+<publisher>Eerdmans,</> <pubPlace>Grand Rapids,</> <date>1989</>.
+</bibl>
+
+<bibl n='NA26'>
+Aland, K, et al, "Novum Testamentum Graece et Latine", 26th. edition,
+Deutsche Bibelgesellschaft, Stuttgart, 1979.
+</bibl>
+
+<bibl n='IGNTP1'>
+Ed: the American and British Committees of the IGNTP, "The Gospel
+according to Luke", Part one, Chapters 1-12, Clarendon Press, Oxford, 1984.
+</bibl>
+<bibl n='IGNTP2'>
+Ed: the American and British Committees of the IGNTP, "The Gospel
+according to Luke", Part two, Chapters 13-24, Clarendon Press, Oxford, 1987.
+</bibl>
+
+<bibl n='Bau'>
+Bauer, W, "A Greek-English Lexicon of the New Testament and Other
+Early Christian Literature", translated from the fifth edition
+by Arndt, W F, and Gingrich, F W, U of Chicago Press, Chicago, 1979.
+</bibl>
+
+<bibl n='Bov'>
+Bover, J, "Autenticidad de Lc 9:54-56",
+Estudios Eclesiasticos 27 (1953) 347-349.
+</bibl>
+
+<bibl n='Bur'>
+Burgon, J W, "Unholy Hands on the Bible, Volume I",
+Sovereign Grace Trust Fund, Lafayette, 1990.
+</bibl>
+
+<bibl n='Cad'>
+Cadbury, H J, "Four Features of Lukan Style",
+pp. 87-102 in "Studies in Luke-Acts", ed. L E Keck and J L Martyn,
+Abingdon Press, Nashville, 1966.
+</bibl>
+
+<bibl n='Col'>
+Colwell, E C, "Method in evaluating scribal habits: a study of p45, p66, p75",
+pp. 106-124 in "Studies in Methodology in Textual Criticism of the New Testament",
+New Testament Tools and Studies vol. 9, Brill, Leiden, 1969.
+</bibl>
+
+<bibl n='Com'>
+Comfort, P, "The Quest for the Original Text of the New Testament",
+????.
+
+<bibl n='Cor'>
+Cortes, J B, "The Greek text of Luke 18:14a :
+A contribution to the method of reasoned eclecticism",
+CBQ 46 (1984) pp 255-273.
+</bibl>
+
+<bibl n='Ehr'>
+Ehrman, B D, "The Orthodox Corruption of Scripture:
+The Effect of Early Christological Controversies on
+the Text of the New Testament",
+Oxford U Press, New York, 1993.
+</bibl>
+
+<bibl n='Ell72'>
+Elliott, J K, "Phrynicus' influence on the textual
+tradition of the New Testament",
+Zeitschrift f&uuml;r die Neutestamentliche Wissenschaft
+and die Kunde der &auml;lteren Kirche 63 (1972) 133-138.
+</bibl>
+
+<bibl n='Ell88'>
+Elliott, J K, "The Text of Acts in the Light of Two Recent Studies",
+NTS 34 (1988) 250-258.
+</bibl>
+
+<bibl n='Fee79'>
+Fee, G D, "A Critique of W. N. Pickering's, 'The Identity of the New Testament
+Text' ", Westminster Theological Journal, 41:2 (Spring 1979), pp 397-423.
+</bibl>
+
+<bibl n='Fee95'>
+Fee, G D, "The Majority text and the original text of the New Testament",
+reprinted recently in Epp, E E and Fee, G D, "Studies in the theory and
+method of New Testament textual criticism", pp. 183-208, Eerdmans, 1995.
+</bibl>
+
+<bibl n='Fit81'>
+Fitzmyer, J A, "The Gospel according to Luke (I-IX)", vol. 1,
+in the Anchor Bible, Doubleday, NY, 1981.
+</bibl>
+
+<bibl n='Fit85'>
+Fitzmyer, J A, "The Gospel according to Luke (X-XXIX)", vol. 2,
+in the Anchor Bible, Doubleday, NY, 1985.
+</bibl>
+
+<bibl n='Hoo'>
+Hood, Peter, "Observations on early papyri of the Synoptic Gospels,
+especially on the 'Scribal Habits'", Bib 7 (1990) pp. 240-247.
+</bibl>
+
+<bibl n='Kil'>
+Kilpatrick, G D, "Atticism and the Text of the Greek New Testament",
+Neutestamentliche Aufs&auml;tze, Festschrift f&uuml;r Prof. Josef Schmid.
+ed. by J. Blinzler, O. Kuss, and F. Mussner.  Regensburg: Pustet, 1963,
+pp. 125-137.
+</bibl>
+
+<bibl n='LSJM'>
+Liddel, Scott, Jones, McKenzie, "Greek Lexicon",
+Cambridge Press??.
+</bibl>
+
+<bibl n='Met68'>
+Metzger, B M, "The Text of the New Testament:
+Its Transmission, Corruption, and Restoration", second edition,
+Oxford U Press, New York, 1968.
+</bibl>
+
+<bibl n='Met75'>
+Metzger, B M, "A Textual Commentary on the Greek New Testament",
+United Bible Societies, New York, 1975.
+</bibl>
+
+<bibl n='Rob'>
+Robinson, M A, "...scribal habits...Apocalypse", ??
+Ph.D. dissertation....
+</bibl>
+
+<bibl n='Ross'>
+Ross, J M, "The Rejected Words in Luke 9:54-56",
+Exp. Tim. 84 (1972-73) 85-88.
+</bibl>
+
+<bibl n='Roy81'>
+Royce, J R, "Scribal Habits in early Greek New Testament Papyri",
+ThD dissertation, Graduate Theological Union, 1981.
+</bibl>
+
+<bibl n='Roy95'>
+Royce, J R, "Scribal tendencies in the transmission of the text of
+the New Testament" collected in Ehrman, B D and Holmes, M W,
+"The text of the New Testament in contemporary research", Eerdmans, 1995.
+</bibl>
+
+<bibl n='Stu'>
+Sturz, H A, "The Byzantine Text-Type and New Testament Textual Criticism",
+Thomas Nelson, Nashville, 1984.
+</bibl>
+
+<bibl n='Swa'>
+ed. Swanson, R J, "New Testament Greek Manuscripts:  Variant Readings
+arranged in Horizontal Lines against Codex Vaticanus:  Matthew",
+William Carey International Univ. Press, Pasadena, 1995.
+</bibl>
+
+<bibl n='W-H'>
+Westcott, B F, and Hort, F J A, "The New Testament
+in the Original Greek: Introduction and Appendix by the editors",
+Harper and Brothers, New York, 1882.
+</bibl>
+
+<bibl n='Wis'>
+Wisse, F, "The Profile Method for the Classification and Evaluation
+of Manuscript Evidence", Eerdmans, Grand Rapids, 1982.
+</bibl>
+
+    </listBibl>
+  </div>
+</back> 
+</text> 
+</tei.2> 

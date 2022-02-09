@@ -1,0 +1,976 @@
+# These are helpful responses, most substantially from E. Hobbs, sent to
+# the b-greek email list on questions about what lexicon or grammar to use
+# in studying greek for the greek bible.  I have pruned irrelevancies and
+# checked spelling, but made no material alterations.          broman@nosc.mil
+
+Date: Tue, 26 Sep 1995 13:45:10 -0500 (EST)
+From: Edward Hobbs <EHOBBS@wellesley.edu>
+Subject: Comments on Greek lexicons, updated
+To: b-greek@virginia.edu
+
+                      EDWARD C. HOBBS on GREEK LEXICA
+
+     ( I'm a long-time lexicon addict, owning every kind and type and
+example, studying them assiduously, and criticizing them constantly.  I own
+two, or even three, of almost all of these, so I'll be sure to have one
+whether I'm in either of my offices or in my study.)
+
+                           ---Classical Greek---
+
+     The (financially) bad news is that really there is no choice for 
+Classical Greek except the *only* current one: "New (9th) Edition" of
+Liddell-Scott-Jones-McKenzie.
+
+          _A Greek-English Lexicon_ compiled by Henry George Liddell
+     and Robert Scott.  Revised and augmented throughout by Sir Henry
+     Stuart Jones, with the assistance of Roderick McKenzie and with
+     the co-operation of many scholars.  With a supplement, 1968,
+     edited by E. A. Barber.  Oxford, at the Clarendon Press, 1968.
+          [List price, $135]
+
+     Oxford has announced a partially-new version of the 9th Edition with a
+completely revised supplement (2378 total pp.)  The revised supplement by
+Glare will also be available separately (288 pp.)  The new printing was
+promised for June 1995; as of October 1995, it has been re-scheduled for
+publication in March 1996.  The good news is that the price has been
+dropped $10, to $125; even better news is that they have reinstated the
+pre-publication offer-- order before January 31, 1996, and it will cost
+only $100!  (All prices plus $3.50 shipping.)  The new version:
+
+          _A Greek-English Lexicon: Ninth Edition with Revised
+     Supplement_ compiled by Henry George Liddell and Robert Scott. 
+     Revised and augmented throughout by Sir Henry Stuart Jones, with
+     the assistance of Roderick McKenzie and with the co-operation of
+     many scholars.  Supplement edited by P. G. W. Glare.  Oxford, at
+     the Clarendon Press, 1996.
+          [List price, $125]       [Supplement separately, $65]
+
+     WARNING:  Since both Liddell and Scott died over a century ago, the
+"Intermediate" [$35] and the "Abridged" [$30] Liddell-Scott, which fit in a
+book-bag, are in fact not based on the L-S-J-M, but are over a century old
+(1888 or 1889), based on the 7th ed. published in 1883 (usually and
+incorrectly cited as 1882, based on the Preface date).  Since there is no
+choice, one takes what one can get.  So either you shell out $135/$125 and
+be happy, or you pay $35 (Intermediate, 914 pp.) or $30 (Abridged, 808 pp.)
+and curse yourself every time you encounter the inadequacies AND the
+antiquities of the latter.  (Incidentally, "Liddell" is pronounced
+"LID-'l", as though spelled "Liddle", never Lid-DELL.  He was quite
+insistent on it!  His daughter Alice was the Alice of "Alice in
+Wonderland.")
+
+     There is a Langenscheidt "pocket" edition, commended by Carl Conrad. 
+I do not possess it myself, but I trust Carl's judgment.
+
+
+                         ---New Testament Greek---
+
+     There is still only one adequate choice:
+
+     Walter Bauer, _A Greek-English Lexicon of the New Testament and Other
+Early Christian Literature_; translated into English by William F. Arndt
+and F. Wilbur Gingrich from 4th edition; "Second Edition [1979], revised
+and augmented by F. Wilbur Gingrich and Frederick W. Danker from Walter
+Bauer's 5th edition, 1958."  University of Chicago Press; also available
+from Zondervan.     [About $55]
+
+     Unhappily, all three translators (Arndt, Gingrich, and Danker, the
+latter two being friends of mine) chose to "revise" and to "augment" in
+addition to translating; they are none of them any match for Bauer in
+lexicography, with the consequences quite evident.  Often they simply
+attack Bauer's entries, instead of translating them!  (See, as a really
+hilarious example, "skenepoios".)  The absurd "causal eis," invented by J.
+R. Mantey to support his fundamentalist-Baptist doctrine of John's baptism
+(a matter of "translation driven by theology", as Gary Brower called it in
+one of his postings!), was given a full five-line special entry in the 1st
+ed. by Arndt & Gingrich; at least it was reduced in the 2nd ed. to three
+lines, and credited solely to Julius Mantey (who obviously couldn't read
+non-biblical Greek very well, as the great Greek scholar Ralph Marcus
+carefully pointed out in two separate articles, despite Mantey's co-writing
+a "grammar").  The result is that, although it is the best lexicon of the
+Greek New Testament available in English, it still suffers from the
+additions of its three translators.
+
+     The more recent (6th) edition of Bauer (edited by Kurt and Barbara
+Aland, 1988) is better; but it is in German, with no English translation
+available for non-readers of German.
+
+     [Footnote on Bauer-in-German:]  Even Bauer was guilty of "translation
+driven by male-chauvinism" at times, the most incredible example being the
+entry for "Junias".  This completely non-existent name is listed by Bauer
+with the fanciful guess that it must have been a nickname for `Junianus',
+and a statement that the purely theoretical possibility that the name is
+`Junia' (a very common woman's name) is rendered impossible by the context! 
+The "impossible" is that Paul's remarkable lady-relative Junia was an
+apostle!  Horrors!  SURELY Phoebe was no deacon (a term Paul applies to
+himself), and Junia was no apostle (a term Paul applies to himself)!  How
+can a WOMAN have been chosen by God for REAL ministry?  Thank God, the NRSV
+and a few other recent translations have now restored Junia to her place in
+the apostolate, where even the King James Version had her.
+     Even the great Bauer had his blindnesses!
+
+-------
+     	[Additional comments by Edgar Krentz concerning forthcoming revision
+                    by Danker of the A-G-D translation of Bauer:]
+
+     Fred Danker delivered the completed manuscript of the third edition to
+     the University of Chicago Press in early April. (Can one call
+     something on a hard disk a manuscript?)  I called Fred Danker about
+     it; he tells me the target date for its appearance in print is the
+     Society of Biblical Literature meeting in 1996, i.e. approximately
+     Thanksgiving of that year.  I no longer have students purchase the 2nd
+     edition because that date is close.  If you want more accurate
+     information, you might drop a note to Prof. Frederick W. Danker, 3438
+     Russell Ave., St. Louis, MO 63104. Tel.: 314-772-5757.
+-------
+
+     Wilbur Gingrich once prepared a small edition (_Shorter Lexicon of the
+Greek New Testament_); a 2nd edition, with Fred Danker, came out in 1983,
+and costs $30 for 221 pp.  It is SO small and costs so much that I consider
+it not worth the bother.   Some like it for portability.  I tried using it
+with students for a few years after it came out, but it was SO brief, had
+so few "helps", and cost such a high proportion of the complete B-AG, that
+I switched to requiring B-AG (later B-AGD).
+
+     If I were to recommend a "portable" lexicon for New Testament Greek,
+I'd try for Abbott-Smith, should it be still available and at a reasonable
+price.  _A Manual Greek Lexicon of the New Testament_ by G. Abbott-Smith (a
+Canadian!).  This came out in 1921, 1923, and 1937 (editions 1 through 3),
+and has been reprinted frequently since then, by T. & T. Clark (Edinburgh). 
+I'm not sure if it is still in print, nor at what price.  But it was beyond
+question the lexicon of choice prior to the appearance of Bauer in English;
+I used it with my classes in those pre-1957 years.  It includes quite a bit
+of information from the papyri, it gives many references to use of words in
+LXX with the original Hebrew word (even pointed!) behind the Greek term or
+word or usage, and includes a plethora of passages cited.  It also gives
+etymologies (dangerous though that is?).
+
+     To supplement Carl Conrad's brief warning on the Newman lexicon
+published by the United Bible Societies:  The English-speaking Bible
+Societies decided to have a small English lexicon bound with some printings
+of UBS's _The Greek New Testament_, and Barclay M. Newman, Jr., got the job
+(with the advice of, among others, my old roommate Erroll Rhodes).  This
+lexicon is deceptive, misleading the very persons who use it -- beginners. 
+It gives, in the main, the RSV translations of each Greek word.  If one
+wants that, one can read an English New Testament, to wit, the RSV!.  It
+isn't frightful, but since it is a poor lexicon on the whole, it is largely
+useless.  Too bad that it's the only one bound with the UBS _Greek New
+Testament_.
+
+     The Louw & Nida lexicon is often mentioned.
+          _Greek-English Lexicon of the New Testament based on
+     Semantic Domains_ edited by Johannes P. Louw and Eugene A. Nida,
+     2 volumes; United Bible Societies [available through American
+     Bible Society].  First Edition 1988; Second Edition, 1989.  Price
+     is $35 for two-volume set-- would probably be $80-100 from any
+     other publisher.
+          While it does not replace the need for Liddell-Scott-Jones nor
+for Bauer, it fills a real gap among lexica.  It has a rather specialized
+use.  Not only is it organized "semantically," which requires using the
+index volume constantly to discover where the desired word is to be found,
+but it is primarily written for the use of translators of the New Testament
+into languages not yet having Bibles in the vernacular.  It is very
+"translation-oriented," which isn't usually what a researcher wants or
+needs (unless one is a translator).
+     (Incidentally, and happily, they ALWAYS refer to Bauer's lexicon
+     as "Bauer's lexicon" or "Bauer's dictionary"; they initially
+     mention it "as translated and revised by Gingrich and Danker". 
+     Since no one refers to _Crime and Punishment_ as written by
+     Constance Garnett, I don't understand why Americans like to refer
+     to Bauer's lexicon as though it were written by its translators.)
+The quickest way to see its virtues is to read their "Introduction" (pp.
+vi-xx, same in both 1st and 2nd editions), and then to sample one article
+in Vol. 1 and one in Vol. 2.
+
+-------
+     [Additional comments by Edgar Krentz concerning Louw & Nida:]
+
+     Louw & Nida is difficult for a beginning student to use. The more
+     acquaintance one has with ancient Greek literature beyond the Greek
+     Bible, the more intelligently one can use it. It is *no substitute*
+     for a traditional, alphabetically arranged lexicon. I would probably
+     elect to have students use the old Abbott-Smith lexicon (T & T Clark)
+     as a first lexicon, and send them to the library to use B-AGD, 2nd ed.
+-------
+
+
+                           ---Patristic Greek---
+
+     Even when you have paid a small fortune for the LSJM, you will not
+have a lexicon for the Church Fathers (Patristics), since that body of
+literature was deliberately excluded from it.  
+
+     The only serious option is: G. W. H. Lampe, _A Patristic Greek
+Lexicon_, Oxford, at the Clarendon Press, 1961-1968.  No longer listed in
+Oxford's catalogs, but still in print.  It is hideously expensive at $285,
+hence is the only important lexicon of ancient Greek which I do not own;
+I jog to the library when I need it.
+
+
+                         ---"Septuagint" Greek---
+
+     In LSJM, the LXX is given fairly short shrift, with the result that
+many students find the older 8th edition (1897) better for LXX.  But, in
+fact, there is NO really good lexicon yet for the LXX.  The reason is
+pretty obvious: It is a translated collection, and one is often left
+wondering whether to give the meaning of the Hebrew (or Aramaic) original
+behind a word, or to give the (supposed) meaning in the head(s) of the
+translator(s) based on other Hellenistic usage.  The Deutsche
+Bibelgesellschaft has such a lexicon under way, though it is somewhat
+sketchy, doing little of what such a lexicon should do (perhaps for the
+reasons I outlined above).  The A-I volume (paperback), which came out in
+1992, is $24 plus handling charge and tax.  It has 217 pages, plus
+introduction.  The rest is planned for release by Christmas of 1995.
+          _A Greek-English Lexicon of the Septuagint_,
+     compiled by J. Lust, E. Eynikel, and K. Hauspie, with the
+     collaboration of G. Chamberlain.
+
+                         ---"Parsing Lexicons"---
+
+     Concerning inflected-forms dictionaries:  The antique Liddell-Scott
+Abridged  (over a century old, which should have been replaced decades ago
+but hasn't been) parses forms which an English schoolboy reading Xenophon
+et alia in "Public" School might have trouble with.  It covers few of the
+forms New Testament readers are likely to find daunting.
+     The old "Analytical Greek Lexicon" covered almost all forms in the New
+Testament, but was filled with so many hundreds of errors that it was worse
+than nothing, since the novice cannot spot these errors.  However, FEAR
+NOT!  The dreadful 1852 Analytical Lexicon (1852, despite "1970" in
+reprint!) was "corrected and revised" by Harold K. Moulton, published by
+Bagster [original publisher of 1852 edition!] in 1977, in London, and in
+1978 in the USA by Zondervan. Title: _The Analytical Greek Lexicon
+Revised_: 1978 Edition.  Harold is the son of James Hope Moulton, and
+grandson of W. F. Moulton, two great Greek grammarians.  This edition works
+from photos of the early printing, with errors and misprints corrected, and
+then has an addendum giving the forms which were omitted from the original
+Bagster's Lexicon.  Wesley J. Perschbacher has also edited a corrected and
+revised version of the 1852 edition: _The New Analytical Greek Lexicon_,
+published by Hendrickson in 1990.  This version is newly type-set, with a
+slightly better appearance on the page.
+     Max Zerwick, S.J., of the Biblicum in Rome published his _Analysis
+Philologica Novi Testamenti Graeci_ at the Pontifical Biblical Institute in
+1953; I have the 3rd ed., 1966.  It goes through the New Testament verse by
+verse, parsing odd forms, explaining the grammatical structures, solving
+puzzles (Zerwick's solutions, of course), with references to his useful but
+brief grammar.  It's in Latin, but for those who read only English and want
+to learn Greek, Mary Grosvenor made a translation (also "revised and
+adapted") in two volumes, 1974 (through Acts) and 1979 (Romans through
+Apocalypse), titled _An Analysis of the Greek New Testament_.  Later came
+out in a single volume; very handy, small format.
+     A similar help, though much more "written down" to the beginner, a bit
+patronizing, and uncomfortably protestant-conservative, is the Cleon Rogers
+translation of Fritz Rienecker's _Sprachlicher Schluessel zum Greek New
+Testament_: _Linguistic Key to the Greek New Testament_ (1976, 1980;
+perhaps later editions), issued by Zondervan.  Also small, handy format.
+     Sakae Kubo produced a nifty vocabulary guide for rapid reading of the
+Greek New Testament: _A Reader's Greek-English Lexicon of the New
+Testament_ (1967 through 1975, when a "beginner's guide" was added). 
+Zondervan. It gives many helpful frequency tables, verb charts, inflection
+charts, in addition to its main job: Going through the Greek New Testament
+chapter by chapter, listing every word which occurs fewer than 5 times in
+that book.  He assumes you know the 301 words occurring more than 50 times
+in the Greek New Testament (he gives a list), then lists all words in the
+book-in-hand (e.g., Romans) occurring more than 5 times in that book but
+less than 50 in the whole New Testament.  One needs to know these to use
+the volume for rapid-reading.  Then the infrequent words are given, with
+quickie translations, verse by verse.  A VERY helpful tool for novices.  He
+also gives a list of unusual or hard-to-spot forms, actually an abridgement
+of the long list in Abbott-Smith's Manual Greek Lexicon.
+     Finally, a book doing the same thing as the Analytical Lexicon, except
+that it is arranged in the order the words occur in the New Testament
+(i.e., one starts reading Matthew, and it parses every word in order (with
+some high-frequency exceptions):  Nathan E. Han, _A Parsing Guide to the
+Greek New Testament_, Herald Press, 1971.  It was printed from typed copy,
+tolerably readable (but could be better).  
+
+--Edward Hobbs
+
+
+
+
+Date: Wed, 18 Sep 1991 19:03 EDT
+From: Edward Hobbs <EHOBBS@lucy.wellesley.edu>
+Subject: CBD catalog, & lexica
+To: NT-GREEK@Virginia.EDU
+
+Responding to Jeffery Condit's citation of the CBD catalog:
+	I deal with CBD often; I spend two hours driving to attend their
+quarterly Saturday-super-sales.  But be wary of their PRICE CLAIMS, and
+their descriptions.  A nice fellow writes the catalog descriptions, but
+he knows little about real scholarship.  So he writes the kind of
+nonsense quoted about BAGD (i.e., B, by AG/GD); Oliver Phillips is of
+course correct, that Liddell-Scott-Jones is the ONLY comprehensive
+lexicon of ancient Greek, to be supplemented by Bauer (preferably the
+latest [I think 6th--my copy isn't in this room], but the AG, rev. GD,
+translation of the 5th if necessary) for N.T. + other early Xn lit,
+and by Lampe for patristic Greek.  PRICE CLAIMS: I haven't the latest
+Chicago catalog handy, but CBD has always said the list is about $5 to $10 
+more than it is.  Chicago and Zondervan both sell the AG/GD translation
+of Bauer, at short discount.  I've always found that this lexicon is
+cheaper at Harvard Divinity School Bookstore than at CBD, and often
+also at Divinitas.   CBD software prices are HIGH; lower prices by mail
+are easy to find, for what they carry.  But better stuff is usually
+available elsewhere for MUCH less.  See Bob Kraft's early lists on this
+LIST, available from U Penn; for Greek & Hebrew & Arabic, ChiWriter is
+cheaper than anything else, from Horstmann (even better buy through
+Paul Miller at Gramcord (see new address on early posting on this LIST).
+Parsons Technology in Cedar Rapids, IA, has incredibly cheap English
+translations with a fast-access program (many translations, including
+NRSV [CORRECTED! -- it has the missing clause in Revelation!], in
+the $50 range -- far lower than any CBD carries (CBD told me they
+can't get Parsons programs [called QUICKVERSE -- be sure to get
+version 2.0], probably because they are so low priced to begin with).
+	LEXICON:  The Louw & Nida lexicon has been mentioned a couple of
+times, and recently quoted on this LIST.  I would like to give it a
+strong plug. (My qualifications for plugging it:  I'm a long-time
+lexicon addict, owning every kind and type and example, studying them
+assiduously, and criticizing them constantly.)  While the Louw & Nida
+does not replace the need for Liddell-Scott-Jones nor for Bauer, it
+fills a real gap among lexica.  (Incidentally, they ALWAYS refer to
+Bauer's lexicon as "Bauer's lexicon" or "Bauer's dictionary"; they
+initially mention "as translated and revised by Gingrich and Danker".)
+The quickest way to see its virtues is to read their "Introduction"
+(pp. vi-xx, same in both 1st and 2nd editions), and then to sample
+one article in Vol. 1 and one in Vol. 2.  United Bible Societies,
+available through American Bible Society.  Price is $20 for both
+volumes in my last-spring catalog!  Would be $80-100 from anywhere
+else.  Have your library get it if you can't afford $20.
+	Too long already -- sorry for my loquacity.
+--Edward Hobbs
+
+
+Date:         Wed, 4 Dec 91  16:32:48 CST
+From: Oliver Phillips <PHILLIPS@ukanvm.bitnet>
+Subject:      lexical matters
+To: New Testament Greek <NT-GREEK@Virginia.EDU>
+
+
+Cindy Smith asks for recommendations on Classical Greek Lexica, and I send
+her the following two references downloaded from our on-line library
+catalogue, and I follow this by some comments on the "philosophy"
+question also raised by someone else recently.
+
+There are effectively only two choices for Classical Greek lexica in
+print and of any real use.  The first is preferable but big and ex-
+pensive--though perhaps not outrageously so as the world goes now.  It's
+not what you'd lug off to class in the morning.  The second is an abridge-
+ment of the first.  One abridges a book by leaving out things you really
+need to know, but for basic reading purposes, it's the one.  Anything
+smaller would be useless, even misleading.
+
+         AUTHOR:  Liddell, Henry George, 1811-1898.
+          TITLE:  A Greek-English lexicon, compiled by Henry George Liddell and
+                    Robert Scott.  Rev. and augm. throughout by Sir Henry
+                    Stuart Jones, with the assistance of Roderick McKenzie and
+                    with the co-operation of many scholars.  With a supplement,
+                    1968.
+      PUBLISHER:  Oxford, Clarendon Press <1968>, 1978 printing.
+        SUBJECT:  Greek language--Dictionaries--English.
+  OTHER ENTRIES:  - Scott, Robert, 1811-1887.
+                  - Jones, Henry Stuart, 1867-1939.
+                  - McKenzie, Roderick, 1887-1937.
+
+
+         AUTHOR:  Liddell, Henry George, 1811-1898.
+          TITLE:  A lexicon. Abridged from Liddell and Scott's Greek-English
+                    lexicon.
+        EDITION:  Completely rev. and considerably enlarged.
+      PUBLISHER:  Oxford, New York, Clarendon Press <1984 printing>
+        SUBJECT:  Greek language--Dictionaries--English.
+  OTHER ENTRIES:  - Scott, Robert, 1811-1887.
+                  - Greek-English lexicon. <title>
+    DESCRIPTION:  804 p. 19 cm.
+
+There may be later printings of one or both of these.
+
+
+Oliver Phillips
+Classics, U. of Kansas
+PHILLIPS@UKANVM.BITNET
+
+
+
+Date: Fri, 23 Oct 1992 11:51 EDT
+From: Edward Hobbs <EHOBBS@lucy.wellesley.edu>
+Subject: Classical Greek textbooks
+To: NT-GREEK@Virginia.EDU
+
+In response to Gary Collier's inquiry about introductory textbooks for
+Classical Greek:
+	The nearest thing to a "standard" these days (and the best one
+to my personal knowledge) is GREEK: AN INTENSIVE COURSE, by Hardy Hansen and
+Gerald M. Quinn (New York: Fordham Univ. Press).  Be sure to look at the 
+Second Revised Edition (1992) rather than the Revised Edition (1987).
+Quinn was killed in an auto accident last year, but this edition was
+already at the Press when he died.  The text was modeled (more or less)
+on the wonderful LATIN: AN INTENSIVE COURSE, which I'm sure all of
+you know.
+
+--Edward Hobbs
+ P.S.:  If I have time, I'll comment on the NT Greek texts and grammars
+later.  That, my friends, is a quagmire!
+
+
+Return-Path: <nt-greek-request@virginia.edu>
+Date: 05 Apr 94 14:39:28 EDT
+From: David John Marotta <djm5g@virginia.edu>
+To: New Testament Greek Mailing List <NT-Greek@virginia.edu>
+Subject: Survey of New Testament Textbooks being used... (results)
+
+As promised, here are the results of what NT Greek textbooks are being
+used by those on this list.  Not everyone answered (or not everyone
+is teaching NT Greek) but I thought this list might spark further
+survey responses!
+
+NT Greek: Frequently Asked Questions #0:
+
+Index of questions:
+   1. What New Testament textbooks are institutions using?
+
+1. What New Testament textbooks are institutions using?
+
+Alphabetically by Institution:
+
+1994: INSTITUTION:    Calvin College
+      1ST YEAR:       Alpha to Omega by Anne Groton (not NT Greek)
+      2ND YEAR:       Greek New Testament from American Bible Society
+                      Gingrich: Shorter Lexicon of the Greek NT.
+      CONTACT:        Richard F. Wevers <weve@ursa.calvin.edu>
+
+1994: INSTITUTION:    Christian Theological Seminary (Indianapolis)
+      1ST YEAR:       A Grammar for New Testament Greek by James M. Efird
+      CONTACT:        Calvin L. Porter <CPorter@butler.edu>
+      TEACHER (1994): J. Gerald Janzen <Janzen@Butler.edu>
+
+1994: INSTITUTION:    Emory University/Candler School of Theology
+      1ST YEAR:       New Testament Greek for Beginners
+                         by J. Gresham Machen
+                      Note:  I have not taught this course before, but
+                      this is the text I've decided to go with for next
+                      year.  The course has been taught in the past with
+                      the same text by Clayton Croy, who is not on the
+                      net.
+      CONTACT:        Philip Graber <pgraber@unix.cc.emory.edu>
+
+1994: INSTITUTION:    Mid-America Baptist Theological Seminary
+                         (Memphis, Tennessee)
+      1ST YEAR:       Basics of Biblical Greek by William Mounce
+      CONTACT:         Steve Waechter <swaechter@utmem1.utmem.edu>
+                                      <swaechter@utmem1> (bitnet)
+
+1994: INSTITUTION:    Ontario Theological Seminary
+      1ST YEAR:       The Elements of New Testament Greek by J.W. Wenham
+      CONTACT:        Harry Hahne <hahne@epas.utoronto.ca>
+
+1994: INSTITUTION:    Randolph-Macon College, Ashland, VA 23005-5505
+      1ST YEAR:       Reading Greek for three semesters by Jact
+                      (Cambridge Univ Press)
+                      In 4th semester I do a NT gospel (mark or luke) and
+                      an epistle if there is time. I do my own
+                      transition. I serve both pre-min and pagans.
+      CONTACT:        Gregory N. Daugherty <gdaugher@cscsun.rmc.edu>
+
+1994: INSTITUTION:    Smith College
+      2ND YEAR:       Fundamental Greek Grammar by James Voelz
+                      (Classical Greek is a prerequisite)
+      CONTACT:        Karl P. Donfried <KDONFRIED@Smith.smith.edu>
+
+1994: INSTITUTION:    University of Edinburgh
+      1ST YEAR:       by Wenham
+      CONTACT:        D Mealand <ewnt05@castle.ed.ac.uk>
+
+1994: INSTITUTION:    Wellesley College
+      1ST YEAR:       Greek: An Intensive Course by Hansen & Quinn
+                      (Classical--we don't begin with NT)
+      2ND YEAR:       Transformational-Generative Grammar of Hellenistic
+                      Greek by Edward C. Hobbs  (Berkeley 1977)
+                      (Used it 1st year in Berkeley)
+      CONTACT:        Edward Hobbs <ehobbs@lucy.wellesley.edu>
+
+The year (e.g. 1994) represents when the information was given to me.
+If you wish to add or update this information for your institution,
+please send me <djm5g@virginia.edu> a note.
+
+David John Marotta, Medical Center Computing, Stacey Hall
+Univ of Virginia (804) 982-3718 wrk INTERNET: djm5g@virginia.edu
+Box 512 Med Cntr (804) 924-5261 msg   BITNET: djm5g@virginia
+C'ville VA 22908 (804) 296-7209 fax   IBM US: usuvarg8
+
+
+Return-Path: <owner-b-greek@virginia.edu>
+Date: Tue, 05 Jul 1994 10:24:56 -0400 (EDT)
+From: YOUNG@cstcc.cc.tn.us
+Subject: New Intermediate Grammar Announcement
+To: B-Greek@virginia.edu
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+Hello,  Friends,
+
+Intermediate-level grammars of the Greek NT are few and far between.  
+Subscribers to B-Greek may be interested in the forthcoming release from
+Broadman & Holman called _Intermediate New Testament Greek: A Linguistic
+and Exegetical Approach_ by Richard A. Young.  The release date is
+August 12, 1994 in time for the Fall semester.
+
+The book is designed to help students in NT Greek classes better use their
+knowledge of Greek in the exegesis of the NT.  It accomplishes this goal
+by augmenting traditional grammar with insights from modern linguistics.
+The author takes students beyond the surface structure of the language by
+introducing them to a number of modern linguistic models, including a
+modified transformational grammar, propositional analysis, genre criticism,
+semantic structural analysis, pragmatics, speech act theory, and
+discourse analysis.
+
+The book is written with clarity and precision, being neither too simple
+nor overly cumbersome and pedantic.  Each chapter ends with exercises.
+An Answer Key will be provided *free* to instructors who adopt the text.
+
+Contents:  Introduction: Language Study and the Exegetical Task,
+(1) Nominative, Vocative, and Accusative, (2) The Genitive, (3) The
+Dative, (4) The Article, (5) Pronouns and Adjectives, (6) Prepositional
+Phrases, (7) Present, Imperfect, and Future, (8) Aorist, Perfect, and
+Pluperfect, (9) Voice and Mood, (10) Participles, (11) Infinitives,
+(12) Conjunctions, (13) Adverbs and Particles, (14) Sentence Structure,
+(15) Special Sentences and Clauses, (16) Figurative Language, (17)
+Discourse Analysis, (18) Diagraming.
+
+The book has a bibliography, subject and Scripture indices.  The 
+ISBN is 0-8054-1059-7, and it will sell for $21.99.
+
+Laura Young
+Librarian
+
+
+
+Return-Path: <owner-b-greek@virginia.edu>
+Date: Tue, 06 Sep 1994 18:39:13 -0500 (CDT)
+From: rod.j.decker@uwrf.edu
+Subject: Greek grammars
+To: b-greek@virginia.edu
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+> What about grammars?
+
+The standard reference grammars are Blass, DeBrunner, Funk, "A Greek Grammar
+of the NT and Other Early Christian Literature" and Moulton, Howard, Turner,
+"Grammar of NT Greek" (4 vols.). Both are pretty "heavy" for even intermediate
+students.
+
+Much more accessible to many is Stan Porter's recent "Idioms of the Greek NT"
+(Sheffield, 1992)--which is a full-fledged grammar, not just a treatment of
+idioms. For a bit over 300 pgs. this one is very well done.
+
+Coming next fall (95) from Dan Wallace is "Exegetical Syntax" (Zondervan) that
+will be somewhere between an intermediate grammar and the big reference tools
+(though it will be advertised as an intermediate). I'm working with 400+ pgs.
+in draft form as a pilot run this fall in 2d year Greek and though I've just
+received it this past week, my initial impressions are favorable..
+
+There are some others, but these are the bet in my judgment. Dana and Mantey
+was a standard in many circles for a long time, but is long outdated and I
+wouldn't regard it as the most reliable at present.
+
+Rodney J. Decker
+Assistant Professor of Greek and Theology
+Calvary Theological Seminary, Kansas City
+(94-95 sabbatical explains the Univ. of Wisc. address!)
+
+
+
+Return-Path: <owner-b-greek@virginia.edu>
+From: k.share@genie.geis.com
+Date: Sat,  1 Apr 95 21:49:00 UTC
+To: b-greek@virginia.edu
+Subject: Lexicons
+
+Additions to the many lexicon comments:
+ 
+ABS has a new LXX lexicon.  The first vol (A-I) is available now and they
+say the second will be available later this year.  I think the price of the
+first vol is about $20.  # 800-322-4253.
+ 
+Oxford lists a forthcoming printing of the 9th edition of L&S with a revised
+supplement (2378 total p.)  The supplement is supposed to be a complete
+replacement of the 1968 supplement.  Price is $100 until May 15.  The new
+supplement is available separately at $52 (288 p.)  # 800-451-7556.
+ 
+The Oxford sale also covers the 3 basic editions of L&S @ $108 for the big
+one, $28 for the Intermediate and $24 for the Abridged.
+ 
+ 
+Ken Share
+ 
+k.share@genie.geis.com
+
+
+
+Return-Path: <owner-b-greek@virginia.edu>
+Date: Sun, 02 Apr 1995 19:55:27 -0400 (EDT)
+From: Edward Hobbs <EHOBBS@wellesley.edu>
+Subject: Further ramblings on Lexica
+To: b-greek@virginia.edu
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+Several more comments and inquiries re: lexicons have come in, to which
+I think I should respond.
+
+(1) Ken Share has shared (!) his knowledge of a new Supplement to LSJ,
+replacing Barber's (1968).  (I missed this catalog, apparently; mine
+was Winter, and doesn't mention it.)  $100 for the whole LSJM, plus the
+new Supplement, sounds like a great deal.  (I don't really need a
+fourth copy of LSJM, do I?  But $52 for the 288 page Supplement alone
+seems steep, when all the rest [2,111 pages] costs only another $48.)
+     He also mentions the ABS publication of a Lexicon to the LXX.  I
+didn't mention this for two reasons.  It is only half finished, though
+the rest is due out before Christmas.  And it is a somewhat sketchy
+job, doing little of what such a lexicon should do (perhaps for the
+reasons I outlined in my previous post).  The A-I volume (paperback),
+which came out three years ago, is $24 plus handling charge and tax. 
+It has 217 pages, plus introduction.  Share is right -- I should have
+mentioned it, and didn't.
+
+(2) Perry Stepp touches on three matters:
+     He heard that a new edition of BAGD "is due out soon."  Two years
+ago, Fred Danker wrote that a revision is "due out before the year
+2000."  But when I talked with him at length eight or nine months later
+(Nov. 1993), he was really vague about it; he more or less blamed U. of
+Chicago Press for stalling, and when I pressed him on a number of
+aspects of the lexicon which desperately need correction, he again was
+a bit vague about when (even if) anything could be done about them,
+within any easily foreseeable time.  Thus, while I hope that Stepp's
+informant was right (if so, to whom do we send criticisms and
+revisions?), I do not think one should hold off on a purchase now in
+hopes of getting something better soon.
+     He likes the "Little BAG" for portability.  I tried using it with
+students for a few years after it came out, but it was SO brief, had so
+few "helps", and cost such a high proportion of the complete BAG, that
+I switched to requiring BAG (later BAGD).  To tell the truth, if I were
+pushed into a corner on recommending a "portable" lexicon for NT Greek,
+I think I'd try for Abbott-Smith, should it be still available and at a
+reasonable price.  (See below for more on Abbott-Smith.)
+     Finally, Stepp asks about the Schmoller Handkonkordanz.  We had
+quite a discussion of it a few years ago, when I spoke very negatively
+about the Schmoller--as too bulky, and too unhelpful in many ways.  But
+that is not the case with the Beate Koester revision of Schmoller,
+which is a lovely little volume ($24.50 + handling) with quite a few
+nice features.  I don't use it much at all, since I seem to know where
+most of the passages are which use the words in it (I was then accused
+of having memorized the Greek New Testament! --untrue); almost every
+time I try to find a usage in it, I can't find it there and have to use
+the Aland Computer Concordance or the (fine) old Moulton and Geden. 
+But for students and those not professionally into the New Testament,
+the Schmoller-Koester [no relation to Helmut Koester] is very good, and
+in a wonderful small format, nicely printed (neither was true of
+Schmoller before Koester).
+
+
+
+Your extensively brief colleague,
+
+Edward Hobbs
+
+
+
+Return-Path: <owner-b-greek@virginia.edu>
+Date: Fri, 28 Apr 1995 01:48:51 -0400
+From: Timster132@aol.com
+To: B-greek@virginia.edu
+Cc: kenneth@sybase.com
+Subject: Re: LXX, NT and Apostolic Fa....
+
+To: B-greek@virginia.edu
+cc: kenneth@sybase.com
+from: Timster132@aol.com
+
+  Ken said....
+> I don't know where to go to find a vocab list to memorize 
+>for low-frequency words in the NT, let alone the LXX or the 
+>Apos. Fathers.  Does anyone have any suggestions?  
+
+   There are several lists of special LXX vocab found in Part II, Chapter 4
+in the  _Introduction to the Old Testament in Greek_ by H.B. Swete. 
+
+   More striking than the vocab differences from the NT is the grammatical
+makeup of the LXX (esp. the syntax).  For a compact grammar of the LXX, you
+might want to check out _A Grammar of Septuagint Greek_ by F.C. Conybeare and
+St. George Stock (Zondervan [Acadamie Books], Grand Rapids, MI reprint 1980).
+
+   Another suggestion I might make as to extra-NT vocab is that you might
+take a look at the vocab appendix in _Hellenistic Greek Texts_ by Wikgren,
+Coldwell and R. Marcus. 
+
+  As for a list of most to least frequently used words, I was unable to find
+one for LXX Greek/Patristics.  I thought I had one for NT Greek, but couldn't
+find it.  But I did find _Lists of Words (Occurring Frequently in the Hebrew
+Bible), Seminary Edition_ by John D. W. Watts (Eerdmans, Grand Rapids, MI,
+1960. [It is based on Lexicon in Veteris Testementi Libros,
+Koeler-Baumgartner (Leiden, 1953)].
+   While this isn't what you were look for, I think it gives you a place to
+look, it you can't find a Greek list for freq. used words.  I am pretty sure
+Eerdmans had a Seminary Edition _List of Words_ for Greek.
+
+    Good luck.
+
+    Peace,
+
+   Tim Staker
+
+
+
+Return-Path: <owner-b-greek@virginia.edu>
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Date: Mon, 1 May 1995 22:20:11 -0600
+To: b-greek@virginia.edu
+From: "Edgar M. Krentz" <emkrentz@mcs.com>
+Subject: Re: LXX, NT and Apostolic Fa. Word lists
+Cc: Kenneth Litwak <kenneth@sybase.com>
+
+>   I have learned that I need to be able to sight read all the above
+>literature in Greek.  Unfortunately, I don't know where to go to find
+>a vocab list to memorize for low-frequency words in the NT, let alone
+>the LXX or the Apos. Fathers.  Does anyone have any suggestions? I almost
+>decided against my PhD program next Fall because of this requirement.
+>Thanks in advance.
+>
+>Ken Litwak
+>Emeryville, CA
+
+I am sorry it took me this long, but I have a few additional bibliographic
+items for learning NT Greek vocabulary. One cam choose from a number of
+books. The most complete is Trenchard, though its size makes it
+threatening. The most useful may be Robinson.
+
+Bruce M. Metzger. _Lexical Aids for Students of New Testament Greek._ New
+edition. Princeton, NJ: Theological Book Agency, 1983. Lists of all words
+occurring ten or more times in the NT in Part I;Part II contains lists of
+words based on stems. Study of this section will increase one's vocabulary
+geometrically. This was the standard for the first twenty years I taught
+Greek. It is now surpassed by the next three texts.
+
+Thomas A. Robinson. _Mastering Greek Vocabulary._ Peabody: Hendrickson,
+1990. A  very practical text. Robinson first gives a list of Greek terms
+that have become English vocabulary' then an extensive list of words
+arranged by roots (cognate words);  next comes a list of "derived" English
+words that will help one to learn Greek; fourth is an explanation of Greek
+prefixes and suffixes, i.e. principles of word formation. Careful and
+continued use of this work will increase vocabulary immensely. 176 pp.
+
+Warren C. Trenchard. _The Student's Complete Vocabulary Guide to the Greek
+New Testament Complete Frequency Lists, Cognate Groupings & Principal
+Parts._ Grand Rapids: Zondervan, 1992, 340 pp. Includes a complete
+frequency list of all words in the GNT.
+
+Robert E. Van Voorst. _Building Your New Testament Greek Vocabulary._ Grand
+Rapids: Wm. B. Eerdmans, 1990. 110 pp.
+
+A work that may give substantial help is
+
+Richard M. Krill. _Greek and Latin in English Today. Wauconda, IL:
+Bolchazy-Carducci, 1993. 250 pp., covering both Greek and Latin.
+
+Kurt Aland, ed. _Vollstaendige Konkordanz zum Griechischen Neuen Testament._
+ Vol. II: Spezialuebersichten. Berlin, New York: Walter de Gruyter, 1978,
+contains many useful lists: Complete statistical data for the text of NA26.
+Pp. 449-460 give a list of the words that are unique to each writing (HAPAX
+LEGOMENA). This is an extremely expensive set ($850.00) and so you will
+find it only in major theological or university libraries.
+
+There is no special list for the Apostolic Fathers. The closest one can
+come is the _Index Patristicus_, edited by Edgar John Goodspeed years ago.
+Alec Allenson reprinted it in the 1950s, I think, but it is long out of
+print.
+
+Finally, if one has the patience, one will also learn a great deal by
+working through a larger grammar's discussion of the formation of Greek
+words. For this I recommend Herbert Weir Smyth, _A Greek Grammar._
+Cambridge: Harvard University Press, reprint of a 1920 original with
+corrections. This is the best grammar of classical Greek available in
+English; it belongs on every NT scholar's shelves. Smyth also includes
+citations from the NT and the LXX at times. Pp. 225-254 treat the
+"Formation of Words." The section will not be exciting reading, but repays
+careful study.
+
+There are much more substantial works in German whose titles I can give to
+anyone interested.
+
+But finally, the very best way to learn vocabulary is to translate some
+Greek each day. Begin with the New Testament, add some texts from the
+Apostolic Fathers, mix in some Septuagint, and then move on to Greek
+authors of the early empire: Musonius Rufus, Epictetus, some Lucian, etc.
+Don't be afraid to guess--and then check yourself against a good lexicon,
+LSJ for the last group of authors. One learns by seeing the same term in
+many new contexts. We all began where you are, so don't despair.
+
+I may be carrying owls to Athens with this communication. If so, trash it.
+
+
+
+Edgar Krentz
+Lutheran School of Theology at Chicago
+emkrentz@mcs.com
+(Voice) Home: 312/947-8105; Off.: 312-753-0752
+
+
+
+
+Return-Path: <owner-b-greek@virginia.edu>
+Date: Sat, 29 Jul 1995 17:53:04 -0500 (EST)
+From: Edward Hobbs <EHOBBS@wellesley.edu>
+Subject: Moule's Idiom Book
+To: b-greek@virginia.edu
+Content-Type: TEXT/PLAIN; CHARSET=US-ASCII
+Content-Transfer-Encoding: 7BIT
+
+James Kuiper asks about Moule's Idiom Book.  I published a review of it
+when it first came out in 1953 (I've been teaching Greek since 1947), and
+consulted it from time to time, especially while preparing my own
+TRANSFORMATIONAL-GENERATIVE GRAMMAR OF HELLENISTIC GREEK back in the
+1970's.  But while it has good things in it, it is really much more
+like what any seasoned Greek scholar might write without being too
+systematic or exhaustive; it has his thoughts about those things he
+has thought about (very sensible, too), but in no way covers the
+field.  It's an "extra" worth dipping into; but not a basic grammar.
+(On the other hand, there are almost none of those worth using, when
+it comes to Hellenistic Greek.  Plenty of textbooks, of course, some
+by contributors to this List, whose books are high quality indeed.)
+
+	What we need is a Hellenistic (or even just NT) equivalent
+of Smyth-Messing.  And just that is probably under way to being
+prepared, by an outstanding group of young scholars, some of whom
+(again!) are on this very List.  But I suspect that is years away.
+The problem with Blass-Debrunner of course is that is presumes you
+already know Classical Greek, as the people it was written for did.
+(And for people like me, who only studied Classical Greek, and
+learned Hellenistic, then later NT, by reading thick, verbose
+grammars (like Robertson), over-concise ones (like Debrunner),
+and really bad ones (like Dana-Mantey), but above all by reading tons
+of Greek texts.   I suspect Carl did it the same way.
+
+
+Edward Hobbs
+
+Return-Path: <owner-b-greek@virginia.edu>
+Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 23 Aug 1995 09:50:11 -0600
+To: Eric Weiss <eweiss@acf.dhhs.gov>
+From: "Edgar M. Krentz" <emkrentz@mcs.com>
+Subject: re: Great Greek Books!
+Cc: b-greek@virginia.edu
+
+>2 questions:
+>
+>What is the status of the English edition of the revision to BAGD, i.e., when 
+>will it be available, what is the retail and discount mail-order price?
+>
+>Any opinions about Loew and Nida's Lexicon according to Semantic Domains?
+>
+>Thanks!
+
+Fred Danker delivered the completed manuscript of the third edition to the
+University of Chicago Press in early April. (Can one call something on a
+hard disk a manuscript?)
+
+I called Fred Danker about it; he tells me the target date for its
+appearance in print is the Society of Biblical Literature meeting in 1996,
+i.e. approximately Thanksgiving of that year.
+
+I no longer have students purchase the 2nd edition because that date is close.
+
+If you want more accurate information, you might drop a note to Prof.
+Frederick W. Danker, 3438 Russell Ave., St. Louis, MO 63104. Tel.:
+314-772-5757.
+
+As far as the Loew-Nida work is concerned, it is difficult for a beginning
+student to use. The more acquaintance one has with ancient Greek literature
+beyond the Greek Bible, the more intelligently one can use it. It is *no
+substitute* for a traditional, alphabetically arranged lexicon. I would
+probably elect to have student use the old Abbott-Smith lexicon (T & T
+Ckark) as a first lexicon, and send them to the library to use BAGD, 2nd
+ed.
+
+Hope this information helps. Peace,
+
+Edgar Krentz <emkrentz@mcs.com>
+New Testament, Lutheran School of Theology at Chicago
+Voice: 312-753-0752; FAX: 312-753-0782
+
+
+Date: Wed, 13 Sep 1995 15:03:19 -0400
+From: WINBROW@aol.com
+To: karen_pitts@maca.sarnoff.com
+Cc: b-greek@virginia.edu
+Subject: Re: RE > 1 John Commentaries an
+
+Karen Pitts wrote,
+> For my own personal study, I'm looking for a good grammar that's in between
+> introductory Greek (for which I already have three, Efrid, Voeltz, and "It's
+> Greek to Me") and Smythe....                                    I'm also
+> teaching introductory Greek, so I need something to answer my students'
+> questions.
+
+If you want to answer your student's questions, you should have Robert Funk, A
+Beginning-Intermediate Grammar of Hellenistic Greek.  Vol. I gives good
+discussions for the mastery of morphology with enough syntax to get started.
+Vol. II is Syntax and Vol. III is a very useful appendix and further
+explanation of Morphology.  Many people have found Brooks and Winbery, Syntax
+of NT Greek an easy introduction to syntax, but I have often disagreed with
+some of the examples selected by Brooks.
+
+Carlton Winbery
+La College, Pineville, La
+
+
+
+Date: Tue, 5 Sep 1995 14:44:01 -0400
+From: Greg Crane <gcrane@perseus.tufts.edu>
+To: classics@u.washington.edu
+Subject: viewing Greek texts and on-line LSJ with Netscape
+
+Some people have inquired about taking a look at the on-line LSJ in its 
+current, very *rough*, working form....
+
+My immediate impression is that the on-line LSJ is *much* easier to read than
+the print (no surprise). I suspect that it may even be easier for intermediate
+students to use than the Middle Liddell or Little Liddell -- after all,
+once you have an article, even a long one, you can use Netscape to find 
+"Aesch." or "Plat." We would be very interested in feedback both about the
+many rough edges remaining in the lexicon and about its usability. Reactions
+of both faculty and students would be appreciated.
+
+Most Perseus 2.0 texts are on-line. From the English translations you can
+get to the Greek. If you turn on the morphological links button, you can
+click on any word and gets its possible morphological analyses. From there,
+you can get to LSJ.
+
+
+Now, to see a sample of our working copy of the on-line LSJ, try, for
+example, the following URL:
+
+http://www.perseus.tufts.edu/cgi-bin/lexindex?entry=a)podi/dwmi
+
+
+If you want to see some Greek text with links first to morphological
+analyses of words and then to LSJ, check out the on-line Perseus texts
+at:
+
+http://www.perseus.tufts.edu/Texts/chunk_TOC.html
+
+If you are impatient, you can try, for example, the following URL:
+
+http://www.perseus.tufts.edu/cgi-bin/text?lookup=plut.+cim.+8.7&morph=morph&
+vers=greek
+
+*******************************
+
+If anyone tries it, I should like to hear reactions, know which fonts you
+used, etc.
+
+
+Greg Crane
+Editor in Chief
+Perseus Project
+Tufts University
+

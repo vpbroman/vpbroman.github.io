@@ -1,0 +1,249 @@
+The textual affinity of the scripture quotations of Titus of Bostra in Luke
+Vincent Broman				15 April 1992
+
+Copyright Vincent Broman 1992
+Permission granted to make verbatim (unaltered) copies
+of this article for any noncommercial purpose.
+
+
+This short article evaluates the textual affinities of the Gospel
+text used by Titus of Bostra, as revealed by his quotations from
+the Gospel of Luke.  Von Soden claimed that the Ka text family,
+exhibited by Codex Alexandrinus and Family Pi in the Gospels,
+was also attested by Titus of Bostra.  This study casts doubt on that
+claim.  The results below suggest that the Ka text family
+(identified as Pi-a below in Wisse's notation) is one of the
+textual groupings in Luke least related to the text read by Titus.
+The amount of data available is not great enough to prove
+that Titus of Bostra read a text of Luke significantly related to
+group 1685 or group L.
+
+All the citations of Titus of Bostra in the IGNTP Luke apparatus
+were examined, omitting the ADAPTed citatations, and every textual
+location identified where known MS groups had variant readings
+such that one or more groups matched Titus and one or more did not.
+These totalled 51 text locations in Luke.
+The table below displays one location in each column and one MS group
+in each row, marking an "x" where the two thirds of the group
+differ from Titus, a space where two thirds of the group agree with Titus,
+a "." where the group has no 2/3 majority, and a "3" where the group
+differs both from Titus and most of the other groups.  The score on the right
+is the ratio of the number of matches plus one to the number of misses
+plus one, and it indicates a degree of agreement with Titus.  The MS
+groups are sorted in the table in descending order of the agreement score.
+
+Following the table is the list of MS groups with the roster of MS
+witnesses assigned to the group by Wisse.  Last comes the list of
+51 readings with the reading of Titus first, then the variants
+differing from it.
+
+
+variant 000000000111111111122222222223333333333444444444455   (Matches+1)
+        123456789012345678901234567890123456789012345678901   /(Misses+1)
+1685      .  . xx   .      x                   .  xx    x     6.00
+L                x  x . .      x ..    x     x   . x    x.    4.88
+1675            ..x     . x     ..    .        3  xx    x x   4.88
+7              xx   x      x     x             x  xx    x     4.30
+1012      x     x   ..     x   ...         3   .  xx   .x x   4.11
+Pi-b      .  .  x   .. .   x      x   .   .      xx. x  x x   4.00
+Kr        x     x    x     x    x3                xx    x x   3.82
+Omega     .     x    x     x    x x   .           xx x  x x   3.64
+1                   x x x  .     .  .      x .x   xx x   xx   3.45
+Lambda    x     x    x     x    x .   .         x xx x  x x   3.25
+Kx        x     x    x     x    x.x            .  xx x  x x   3.25
+M106      x     x   .x  .  x   ..    xx  .    ..  x3 .  x x   3.09
+22b       x     3    x     x    x   4        x    xx x  xx    3.08
+827       x     .       x  x   x...   .     x xx  .x xx x     2.92
+TR        x     x    x  x  x    xx xx             xx    x x   2.79
+B        x      .x  x x        x 4     x     x     x x xxx    2.71
+22a     x x     x    x     x    x   x x      x    xx x xx     2.53
+M27       x .   x  x x .   x   x  . .         x   xx x 3x 3   2.50
+A        xx   . x   x      xx  x  x              xxx x  x x   2.47
+16        x     x    xx    x    x   x xx       xx xx    x x   2.31
+W        x    x x   xx     x  xx        x      x  xx x xx     2.31
+Pi-a         xx x   xx x   xx  x  x x            xxx x  x     2.12
+OldLat  ...  ..  x  .xx.  . x ...5. 3.  xx    x   .. .  xx3   1.85
+1216      x    xx    x. .  x x  x   x xx        .3xxx  3x x   1.78
+13         xx  xxx  xx   xxx  xx    4 x  x   xx.  xx x  x3x   1.17
+
+MS groups:
+1685    = 60 1685
+L       = L T 33 579 892 1241
+1675    = 517 954 1424 1675
+7       = 7 267 1654
+1012    = 1012 2096
+Pi-b    = Y 6 726 1200 1223 1319 1510
+Kr      = 66 83 480 1247 2322 2399
+Omega   = E V 028 045 123 461 1077 1080 1295 1691
+1       = 1 118 131 205 209 1582 2542
+Lambda  = 039 161 174 230 262 1187
+Kx      = G H 036 037 047 053 2 21 28 179 399 478
+          669 1010 1203 1215 1338 1347 1351 1352 1452
+M106    = 349 443 1195 1630 2613
+22b     = 22 1192 1210
+827     = 827 2766
+TR      = Oxford 1873
+B       = p3 p75 S B (D)
+22a     = 1005 1365 2372
+M27     = M 27 71 1194 1220 1458
+A       = A
+16      = 16
+W       = W
+Pi-a    = A K 041 265 489 1079 1219 1313 1355
+OldLat  = Lvt(*) Lvg
+1216    = 348 477 1216 1579
+13      = 13 69 124 346 543 788 826 828 983
+
+
+01:29  01
+POTAPOS -> PODAPOS
+
+05:05  02
+THS omit
+
+05:14  03
+MWSHS -> MWUSHS
+
+05:20  04
+IDWN + O IHSOUS
+
+05:31  05
+UGIAINONTES -> ISXUONTES
+
+06:11  06
+DIELALOUN -> ELALOUN
+
+08:05  07
+SPEIRWN - TOU
+
+08:08  08
+TAUTA ... AKOUETW omit
+
+08:20  09
+LEGONTWN -> OTI (3) omit
+
+08:36  10
+KAI omit
+
+08:36  11
+DAIMONISQEIS -> DAIMONIZOMENOS
+
+09:23  12
+OPISW MOU ELQEIN -> 3 1 2
+
+09:23  13
+ELQEIN -> ERXESQAI
+
+09:38  14
+ESTI MOI -> 2 1
+
+09:41  15
+WDE TON UION SOU -> 2 3 4 1
+
+10:02  16
+OPWS + AN
+
+10:02  17
+EKBALLH -> EKBALH
+
+10:05  18
+EIRHNH + EN
+
+10:06  19
+EF -> PROS
+
+10:11  20
+EF UMAS omit
+
+10:16  21
+AKOUWN UMWN -> 2 1
+
+10:22  22 acc. to Wisse #39
+TIS ESTIN O UIOS EI MH O PATHR KAI omit
+
+11:02  23
+ELQETW -> ELQATW
+
+11:15  24
+BEELZEBOUL + TW
+
+12:49  25
+EIS -> EPI
+
+12:58  26
+SE BALLH -> SE BALH (3) BALH SE (4) SE BALEI (5)BALLH SE
+
+12:59  27
+TO -> TON
+
+13:06  28
+KARPON ZHTWN -> 2 1
+
+13:08  29
+KOPRIAN -> KOPRIA (3) KOFINON KOPRIWN (4) KOPRON
+
+13:09  30
+KAN MEN -> KAI EI
+
+13:09  31
+POIHSH -> POIHSEI
+
+13:09  32
+EI DE MHGE EIS TO MELLON -> 4 5 6 1 2 3
+
+15:11  33
+EIXE -> ESXEN
+
+15:12  34
+EPIBALLON + MOI
+
+15:18  35
+ANASTAS + OUN
+
+18:18  36
+POIHSAS -> POIWN (3) POIHSW INA
+
+18:20  37
+ENTOLAS + AUTOU
+
+18:25  38
+RAFIDOS -> BELONHS
+
+18:25  39
+EISELQEIN -> DIELQEIN
+
+19:04  40
+PRODRAMWN -> PROSDRAMWN (3) DRAMWN
+
+19:05  41
+SPEUSAS -> SPEUSON
+
+19:30  42
+AUTON AGAGETE -> 2 1 (3) AGAGETE
+
+19:31  43
+AUTW omit
+
+20:25  44
+TOINUN omit (3) OUN
+
+21:31  45
+OTI + HDH
+
+22:03  46
+O omit
+
+22:03  47
+IOUDAN -> THN KARDIAN IOUDA
+
+22:03  48
+EPIKALOUMENON -> KALOUMENON (3) [EPI]LEGOMENON
+
+22:16  49
+OTOU -> OU
+
+22:16  50
+EC AUTOU -> AUTO (3) AP AUTOU
+
+22:53  51
+UMWN ESTIN H WRA -> 2 1 3 4 (3) 2 3 4 1
